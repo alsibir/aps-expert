@@ -56,7 +56,7 @@ const rows = [
   .aps-partners-pause:hover { border-color: var(--aps-accent); }
   .aps-partners-pause:focus-visible { outline: 2px solid var(--aps-accent); outline-offset: 4px; }
   .aps-partners-pause[hidden] { display: none; }
-  .aps-partners-panel { position: relative; left: 50%; width: 100vw; width: 100dvw; margin-left: -50vw; margin-left: -50dvw; display: grid; gap: 60px; padding: 32px 0; overflow: hidden; background: #fff; color-scheme: light; border: 1px solid #e4e8ed; border-radius: 8px; }
+  .aps-partners-panel { position: relative; left: 50%; width: calc(100vw - 2 * var(--partners-edge-inset, 24px)); width: calc(100dvw - 2 * var(--partners-edge-inset, 24px)); margin-left: calc(-50vw + var(--partners-edge-inset, 24px)); margin-left: calc(-50dvw + var(--partners-edge-inset, 24px)); display: grid; gap: 60px; padding: 32px 0; overflow: hidden; background: #fff; color-scheme: light; border: 1px solid #e4e8ed; border-radius: 8px; }
   .aps-partners-row { min-width: 0; overflow: hidden; }
   .aps-partners-track { display: flex; width: max-content; animation: aps-partners-scroll var(--duration, 45s) linear infinite; }
   .aps-partners-row-right .aps-partners-track { animation-direction: reverse; }
@@ -89,6 +89,19 @@ const rows = [
       const button = section.querySelector<HTMLButtonElement>('.aps-partners-pause');
       if (!button || button.dataset.initialized) return;
       button.dataset.initialized = 'true';
+      const updateEdgeInset = () => {
+        // Match the right-hand window inset of the header theme selector.
+        const themeControl = document.querySelector<HTMLElement>('starlight-theme-select')
+          ?? document.querySelector<HTMLElement>('[data-theme-select]')
+          ?? document.querySelector<HTMLElement>('header select[aria-label*="тем" i]');
+        if (!themeControl) return;
+        const rightGap = document.documentElement.clientWidth - themeControl.getBoundingClientRect().right;
+        if (Number.isFinite(rightGap) && rightGap >= 0) {
+          section.style.setProperty('--partners-edge-inset', `${Math.round(rightGap * 100) / 100}px`);
+        }
+      };
+      updateEdgeInset();
+      window.addEventListener('resize', updateEdgeInset, { passive: true });
       const refreshRows = () => {
         section.querySelectorAll<HTMLElement>('[data-partners-track]').forEach(track => {
           const original = track.querySelector<HTMLElement>('.aps-partners-group');
