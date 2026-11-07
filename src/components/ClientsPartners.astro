@@ -104,12 +104,15 @@ const rows = [
         const sectionRect = section.getBoundingClientRect();
         const contentWidth = sectionRect.width;
         const availableWidth = Math.max(0, viewportWidth - 2 * inset);
-        // In narrow layouts, preserve the exact width of the text column.
-        // Expand only after the content column becomes substantially narrower
-        // than the viewport, indicating a max-width-constrained layout.
-        const expand = contentWidth < availableWidth * 0.85;
-        const targetWidth = expand ? availableWidth : contentWidth;
-        const targetLeft = expand ? inset : sectionRect.left;
+        // Gradually blend between the text-column width and the full
+        // available viewport width; never switch geometry abruptly.
+        // The interpolation is zero on narrow screens and reaches one
+        // only after the main text column is clearly max-width constrained.
+        const ratio = availableWidth > 0 ? contentWidth / availableWidth : 1;
+        const progress = Math.max(0, Math.min(1, (0.95 - ratio) / 0.20));
+        const blend = progress * progress * (3 - 2 * progress);
+        const targetWidth = contentWidth + (availableWidth - contentWidth) * blend;
+        const targetLeft = sectionRect.left + (inset - sectionRect.left) * blend;
         panel.style.width = `${targetWidth}px`;
         panel.style.marginLeft = `${targetLeft - sectionRect.left}px`;
       };
