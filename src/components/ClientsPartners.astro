@@ -37,7 +37,7 @@ const rows = [
             <ul class="aps-partners-group" aria-label={duplicate ? undefined : row.label} aria-hidden={duplicate ? 'true' : undefined} role="list">
               {row.logos.map(([file, name]) => (
                 <li class="aps-partners-cell">
-                  <img src={`${base}/images/partners/${file}.${file === 'MSU_logo' ? 'svg' : 'png'}`} alt={duplicate ? '' : name} width="640" height="240" loading="eager" decoding="async" />
+                  <img src={`${base}/images/partners/${file}.${['MSU_logo', 'Gazprom_neft_logo'].includes(file) ? 'svg' : 'png'}`} alt={duplicate ? '' : name} width="640" height="240" loading="eager" decoding="async" />
                 </li>
               ))}
             </ul>
