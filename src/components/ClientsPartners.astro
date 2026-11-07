@@ -31,8 +31,8 @@ const rows = [
   </div>
   <div class="aps-partners-panel" id="clients-partners-rows">
     {rows.map(row => (
-      <div class:list={['aps-partners-row', `aps-partners-row-${row.direction}`]} style={`--duration: ${row.logos.length * 268 / 52.5}s; --duration-mobile: ${row.logos.length * 196 / 37.5}s`}>
-        <div class="aps-partners-track">
+      <div class:list={['aps-partners-row', `aps-partners-row-${row.direction}`]}>
+        <div class="aps-partners-track" data-partners-track>
           {[false, true].map(duplicate => (
             <ul class="aps-partners-group" aria-label={duplicate ? undefined : row.label} aria-hidden={duplicate ? 'true' : undefined} role="list">
               {row.logos.map(([file, name]) => (
@@ -56,23 +56,23 @@ const rows = [
   .aps-partners-pause:hover { border-color: var(--aps-accent); }
   .aps-partners-pause:focus-visible { outline: 2px solid var(--aps-accent); outline-offset: 4px; }
   .aps-partners-pause[hidden] { display: none; }
-  .aps-partners-panel { display: grid; gap: 60px; padding: 32px 0; overflow: hidden; background: #fff; color-scheme: light; border: 1px solid #e4e8ed; border-radius: 8px; }
+  .aps-partners-panel { position: relative; left: 50%; width: 100vw; width: 100dvw; margin-left: -50vw; margin-left: -50dvw; display: grid; gap: 60px; padding: 32px 0; overflow: hidden; background: #fff; color-scheme: light; border: 1px solid #e4e8ed; border-radius: 8px; }
   .aps-partners-row { min-width: 0; overflow: hidden; }
-  .aps-partners-track { display: flex; width: max-content; animation: aps-partners-scroll var(--duration) linear infinite; }
+  .aps-partners-track { display: flex; width: max-content; animation: aps-partners-scroll var(--duration, 45s) linear infinite; }
   .aps-partners-row-right .aps-partners-track { animation-direction: reverse; }
   .aps-partners-panel .aps-partners-group { display: flex; flex: 0 0 auto; align-items: center; gap: 0; list-style: none; padding: 0; margin: 0; }
   .aps-partners-panel .aps-partners-cell { display: flex; flex: 0 0 var(--partner-pitch); align-items: center; justify-content: center; width: var(--partner-pitch); height: 96px; padding: 0; margin: 0; }
-  .aps-partners-panel img { display: block; width: 256px; max-width: 100%; height: 96px; object-fit: contain; border: 0; border-radius: 0; margin: 0; filter: none; mix-blend-mode: normal; }
+  .aps-partners-panel img { display: block; width: 220px; max-width: 100%; height: 76px; object-fit: contain; border: 0; border-radius: 0; margin: 0; filter: none; mix-blend-mode: normal; }
   .aps-partners-panel:hover .aps-partners-track,
   .aps-partners[data-paused] .aps-partners-track { animation-play-state: paused; }
-  @keyframes aps-partners-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @keyframes aps-partners-scroll { from { transform: translateX(0); } to { transform: translateX(calc(-1 * var(--cycle-width, 50%))); } }
   @media (max-width: 640px) {
     .aps-partners { --partner-pitch: 196px; }
-    .aps-partners-track { animation-duration: var(--duration-mobile); }
+
     .aps-partners-heading { margin-bottom: 24px; }
     .aps-partners-panel { gap: 29px; padding: 24px 0; }
     .aps-partners-panel .aps-partners-cell { height: 72px; }
-    .aps-partners-panel img { width: 192px; height: 72px; }
+    .aps-partners-panel img { width: 166px; height: 58px; }
   }
   @media (prefers-reduced-motion: reduce) {
     .aps-partners-track { animation: none; transform: none; width: auto; }
@@ -89,6 +89,30 @@ const rows = [
       const button = section.querySelector<HTMLButtonElement>('.aps-partners-pause');
       if (!button || button.dataset.initialized) return;
       button.dataset.initialized = 'true';
+      const refreshRows = () => {
+        section.querySelectorAll<HTMLElement>('[data-partners-track]').forEach(track => {
+          const original = track.querySelector<HTMLElement>('.aps-partners-group');
+          if (!original) return;
+          Array.from(track.querySelectorAll<HTMLElement>('.aps-partners-group')).slice(2).forEach(group => group.remove());
+          const cycleWidth = original.getBoundingClientRect().width;
+          const viewportWidth = track.parentElement?.getBoundingClientRect().width ?? 0;
+          if (!cycleWidth || !viewportWidth) return;
+          const copies = Math.max(2, Math.ceil(viewportWidth / cycleWidth) + 2);
+          for (let i = 2; i < copies; i++) {
+            const clone = original.cloneNode(true) as HTMLElement;
+            clone.setAttribute('aria-hidden', 'true');
+            clone.removeAttribute('aria-label');
+            clone.querySelectorAll('img').forEach(img => { img.alt = ''; });
+            track.appendChild(clone);
+          }
+          track.style.setProperty('--cycle-width', `${cycleWidth}px`);
+          const mobile = window.matchMedia('(max-width: 640px)').matches;
+          track.style.setProperty('--duration', `${cycleWidth / (mobile ? 37.5 : 52.5)}s`);
+        });
+      };
+      refreshRows();
+      const observer = new ResizeObserver(refreshRows);
+      observer.observe(section.querySelector('.aps-partners-panel') ?? section);
       button.hidden = false;
       button.addEventListener('click', () => {
         const paused = section.toggleAttribute('data-paused');
