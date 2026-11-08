@@ -6,13 +6,29 @@ draft: false
 
 На странице объединены тематический каталог публикаций, нормативная база, примеры выполненных работ и авторские демонстрационные проекты. Подробные статьи и документы открываются непосредственно из соответствующих разделов.
 
-**Разделы страницы:** [Маршруты чтения](#с-чего-начать) · [Темы публикаций](#темы-публикаций) · [Нормативная база](#normative-base) · [Примеры работ](#work-examples) · [Демонстрационные проекты](#авторские-демонстрационные-проекты) · [Навигация](#другие-способы-поиска).
+**Разделы страницы:** [Тематические подборки](#тематические-подборки) · [Темы публикаций](#темы-публикаций) · [Нормативная база](#normative-base) · [Примеры работ](#work-examples) · [Демонстрационные проекты](#авторские-демонстрационные-проекты) · [Навигация](#другие-способы-поиска).
 
-## С чего начать
+## Тематические подборки
 
-- **Подготовить документацию:** [состав комплекта по ГОСТ 19](/alsibir-expert/blog/documentation/01_gost19_documents/) → [однозначное техническое задание](/alsibir-expert/blog/documentation/clear-technical-specification/) → [контроль качества](/alsibir-expert/blog/documentation/05_document_quality/).
-- **Разобраться в требованиях и диаграммах:** [сбор исходных данных](/alsibir-expert/blog/analytics/project-discovery-ai/) → [BPMN, UML и PlantUML](/alsibir-expert/blog/modeling/08_bpmn_uml_plantuml/) → [трассируемость до испытаний](/alsibir-expert/blog/analytics/06_requirements_to_tests/).
-- **Собрать регистрационное досье:** [реестр Минцифры](/alsibir-expert/blog/registries/01_mincifry_registry_software/) или [Минпромторг и ГИСП](/alsibir-expert/blog/registries/02_minpromtorg_registry_industry/) → [авторские комплекты документации](/alsibir-expert/wiki/pages/portfolio/#авторские-комплекты-документации).
+Материалы по основным направлениям профессиональной деятельности. Подборки объединяют публикации о взаимосвязанных аспектах системного анализа, технического документирования и подготовки регистрационных материалов.
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:1rem;margin:1.25rem 0 2rem;">
+  <section style="border:1px solid var(--sl-color-gray-5);border-radius:0.75rem;padding:1.15rem;background:var(--sl-color-gray-6);">
+    <h3 style="margin-top:0;font-size:1.1rem;">Техническая документация</h3>
+    <p>Состав документов по ГОСТ 19, формализация технического задания и контроль качества документации.</p>
+    <p style="margin-bottom:0;"><a href="/alsibir-expert/blog/documentation/01_gost19_documents/">Состав комплекта</a> · <a href="/alsibir-expert/blog/documentation/clear-technical-specification/">Техническое задание</a> · <a href="/alsibir-expert/blog/documentation/05_document_quality/">Контроль качества</a></p>
+  </section>
+  <section style="border:1px solid var(--sl-color-gray-5);border-radius:0.75rem;padding:1.15rem;background:var(--sl-color-gray-6);">
+    <h3 style="margin-top:0;font-size:1.1rem;">Системный анализ</h3>
+    <p>Сбор исходных данных, моделирование процессов и трассируемость требований до испытаний.</p>
+    <p style="margin-bottom:0;"><a href="/alsibir-expert/blog/analytics/project-discovery-ai/">Исходные данные</a> · <a href="/alsibir-expert/blog/modeling/08_bpmn_uml_plantuml/">BPMN, UML и PlantUML</a> · <a href="/alsibir-expert/blog/analytics/06_requirements_to_tests/">Трассируемость</a></p>
+  </section>
+  <section style="border:1px solid var(--sl-color-gray-5);border-radius:0.75rem;padding:1.15rem;background:var(--sl-color-gray-6);">
+    <h3 style="margin-top:0;font-size:1.1rem;">Регистрационные досье</h3>
+    <p>Подготовка материалов для реестров Минцифры России, Минпромторга и ГИСП, примеры комплектов.</p>
+    <p style="margin-bottom:0;"><a href="/alsibir-expert/blog/registries/01_mincifry_registry_software/">Реестр Минцифры</a> · <a href="/alsibir-expert/blog/registries/02_minpromtorg_registry_industry/">Минпромторг и ГИСП</a> · <a href="/alsibir-expert/wiki/pages/portfolio/#авторские-комплекты-документации">Примеры комплектов</a></p>
+  </section>
+</div>
 
 ## Темы публикаций
 
