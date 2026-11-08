@@ -3,11 +3,8 @@ title: 'Путеводитель по публикациям'
 draft: false
 ---
 
-Методические статьи и авторские комплекты документации собраны в [едином тематическом каталоге «Публикации»](/alsibir-expert/publications/). На странице представлены семь тем и три маршрута для начала работы.
+<meta http-equiv="refresh" content="0; url=/alsibir-expert/publications/" />
 
-- [Подготовка документации](/alsibir-expert/publications/#documentation).
-- [Требования и диаграммы](/alsibir-expert/publications/#analysis).
-- [Регистрационные досье](/alsibir-expert/publications/#registries).
-- [Демонстрационные проекты](/alsibir-expert/wiki/pages/portfolio/).
+Материалы этой страницы включены в единый каталог **«Публикации и примеры работ»**.
 
-Авторские комплекты документации содержат условные данные и не являются реальными заявками или доказательством соответствия продукции.
+[Перейти к актуальному разделу](/alsibir-expert/publications/).
