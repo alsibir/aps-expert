@@ -33,7 +33,9 @@ for (const [key, targets] of aliasesBySlug) {
   const target = path.join(root, 'blog/tags', key);
   const topics = [...targets];
   const urlFor = topic => base + '/blog/tags/' + tagSlug(topic) + '/';
-  const destination = topics.length === 1 ? urlFor(topics[0]) : base + '/tags/';
+  const preferred = topics.length === 1 ? urlFor(topics[0]) : base + '/tags/';
+  const publishedTarget = path.join(root, preferred.slice(base.length + 1), 'index.html');
+  const destination = preferred === base + '/tags/' || (await import('node:fs')).existsSync(publishedTarget) ? preferred : base + '/tags/';
   await mkdir(target, { recursive: true });
   await writeFile(path.join(target, 'index.html'), `<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta http-equiv="refresh" content="0;url=${destination}"><link rel="canonical" href="${origin}${destination}"><meta name="robots" content="noindex"><title>Темы публикаций</title></head><body><a href="${destination}">Открыть темы публикаций</a></body></html>`);
 
