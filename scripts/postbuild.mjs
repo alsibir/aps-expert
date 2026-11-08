@@ -39,25 +39,47 @@ for (const [key, targets] of aliasesBySlug) {
 
 }
 const all=await walk(root);const files=all.filter(p=>p.endsWith('.html'));
-// Internal navigation must point to active tag pages, never alias stubs.
-const aliasDestinations = new Map([...aliasesBySlug].map(([key, targets]) => [key,
-  targets.size === 1 ? base + '/blog/tags/' + tagSlug([...targets][0]) + '/' : base + '/tags/']));
+// Collect redirects from the actual build, including historical pages and tag aliases.
+const routeFor = file => base + '/' + path.relative(root, file).split(path.sep).join('/').replace(/index\.html$/, '');
+const routeKey = url => decodeURI(url.pathname).replace(/(?:index\.html)?\/?$/, '/');
+const redirects = new Map();
 for (const file of files) {
-  let html = await readFile(file, 'utf8');
-  html = html.replace(/href=(["'])([^"']+)\1/g, (match, quote, href) => {
-    const url = new URL(href, origin);
-    if (url.origin !== origin) return match;
-    const tag = decodeURIComponent(url.pathname).match(/^\/alsibir-expert\/blog\/tags\/([^/]+)\/$/);
-    const destination = tag && aliasDestinations.get(tag[1]);
-    return destination ? 'href=' + quote + destination + quote : match;
+  const html = await readFile(file, 'utf8');
+  const refresh = html.match(/<meta\b[^>]*http-equiv=["']refresh["'][^>]*content=["']\d+;\s*url=([^"']+)["']/i);
+  if (!refresh) continue;
+  const url = new URL(routeFor(file), origin);
+  redirects.set(routeKey(url), new URL(prefix(refresh[1]), url));
+}
+
+for (const file of files) {
+  const page = new URL(routeFor(file), origin);
+  if (redirects.has(routeKey(page))) continue;
+  const html = await readFile(file, 'utf8');
+  const updated = html.replace(/(<a\b[^>]*?\shref=)(["'])([^"']+)\2/gi, (match, attribute, quote, href) => {
+    if (href.startsWith('#')) return match;
+    let url = new URL(prefix(href), page);
+    const visited = new Set();
+    while (url.origin === origin && redirects.has(routeKey(url))) {
+      const key = routeKey(url);
+      if (visited.has(key)) throw new Error('Redirect loop at ' + url.pathname);
+      visited.add(key);
+      const destination = new URL(redirects.get(key));
+      destination.search ||= url.search;
+      destination.hash ||= url.hash;
+      url = destination;
+    }
+    if (!visited.size) return match;
+    const target = url.origin === origin ? url.pathname + url.search + url.hash : url.href;
+    return attribute + quote + escapeHtml(target) + quote;
   });
-  await writeFile(file, html);
+  if (updated !== html) await writeFile(file, updated);
 }
 
 for(const p of all){if(p.endsWith('.html')){let s=await readFile(p,'utf8');s=s.replace(/\b(href|src|action|poster)=(['"])(\/[^'"<>]*?)\2/g,(_,a,q,u)=>a+'='+q+prefix(u)+q);s=s.replace(/\bsrcset=(['"])(.*?)\1/g,(_,q,v)=>'srcset='+q+v.split(',').map(x=>{const m=x.trim().match(/^(\S+)(.*)$/);return m?prefix(m[1])+m[2]:x;}).join(', ')+q);await writeFile(p,s);}else if(p.endsWith('.css')){let s=await readFile(p,'utf8');s=s.replace(/url\((['"]?)(\/[^)'"\s]+)\1\)/g,(_,q,u)=>'url('+q+prefix(u)+q+')');await writeFile(p,s);}}
 // Normalize RSS plugin URLs when the plugin prepends base twice.
 for(const p of all.filter(p=>p.endsWith('.html')||p.endsWith('.xml'))){let s=await readFile(p,'utf8');while(s.includes(origin+base+base+'/'))s=s.replaceAll(origin+base+base+'/',origin+base+'/');if(p.endsWith('/rss.xml'))s=s.replaceAll('<link>'+origin+'/</link>','<link>'+origin+base+'/</link>');await writeFile(p,s);}
-const routes=files.filter(p=>!p.endsWith('/404.html')).map(p=>base+'/'+path.relative(root,p).split(path.sep).join('/').replace(/index\.html$/,'')).sort();
+const routes = files.map(routeFor).filter(route =>
+  !route.endsWith('/404.html') && !redirects.has(routeKey(new URL(route, origin)))).sort();
 await writeFile(path.join(root,'sitemap-paths.json'),JSON.stringify(routes,null,2));
 const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 await writeFile(path.join(root,'sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+routes.map(r=>'<url><loc>'+esc(origin+r)+'</loc></url>').join('')+'</urlset>');

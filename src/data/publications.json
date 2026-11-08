@@ -4,14 +4,6 @@
     "title": "Техническая документация и ГОСТ",
     "items": [
       {
-        "label": "Стандарты",
-        "slug": "wiki/pages/standards"
-      },
-      {
-        "label": "Образцы документов",
-        "slug": "wiki/pages/worksamples"
-      },
-      {
         "label": "Термины и сокращения",
         "slug": "reference/example"
       },
