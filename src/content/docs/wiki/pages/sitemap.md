@@ -12,7 +12,7 @@ draft: false
 ## Сведения о специалисте, портфолио и справка
 
 - [Каталог публикаций](/alsibir-expert/publications/)
-- [Путеводитель](/alsibir-expert/wiki/)
+- [Публикации и примеры работ](/alsibir-expert/publications/)
 - [Все теги статей](/alsibir-expert/tags/)
 - [Досье программного продукта — демонстрационный комплект — PDF](/alsibir-expert/dosies/mincifry_dossier.pdf)
 - [Досье промышленного изделия — демонстрационный комплект, PDF](/alsibir-expert/dosies/minpromtorg_dossier.pdf)
@@ -39,9 +39,9 @@ draft: false
 - [Услуги и компетенции](/alsibir-expert/wiki/pages/services/)
 - [Карта разделов](/alsibir-expert/wiki/pages/sitemap/)
 - [Навыки и инструменты](/alsibir-expert/wiki/pages/skills/)
-- [Стандарты и нормативная база](/alsibir-expert/wiki/pages/standards/)
+- [Нормативная база](/alsibir-expert/publications/#нормативная-база)
 - [Инструменты технического писателя](/alsibir-expert/wiki/pages/tools/)
-- [Образцы и шаблоны](/alsibir-expert/wiki/pages/worksamples/)
+- [Примеры выполненных работ](/alsibir-expert/publications/#примеры-выполненных-работ)
 - [Автоматизация технических документов: демонстрационный проект](/alsibir-expert/wiki/portfolio/ai/document-automation/)
 - [Системный анализ: демонстрационный проект](/alsibir-expert/wiki/portfolio/analytics/system-analysis/)
 - [Техническая документация: демонстрационный комплект](/alsibir-expert/wiki/portfolio/documentation/technical-documentation/)
