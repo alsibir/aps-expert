@@ -26,7 +26,7 @@ export default defineConfig({
       plugins: [starlightBlog({ title: 'Публикации по дате', navigation: 'none' })],
       sidebar: [
         { label: 'Публикации', items: [
-          { label: 'Каталог и маршруты чтения', slug: 'publications' },
+          { label: 'Публикации и примеры работ', slug: 'publications' },
           ...publicationTopics.map(topic => ({ label: topic.title, collapsed: true, items: topic.items.map(item => item.link ? { ...item, link: new URL(item.link, 'https://alsibir.github.io').href } : item) })),
           { label: 'Все публикации по дате', link: 'https://alsibir.github.io/alsibir-expert/blog/' },
           { label: 'Все теги', link: 'https://alsibir.github.io/alsibir-expert/tags/' },
@@ -44,7 +44,6 @@ export default defineConfig({
         { label: 'Справка и навигация', collapsed: true, items: [
           { label: 'Вопросы и ответы', slug: 'wiki/pages/faq' },
           { label: 'Карта сайта', slug: 'wiki/pages/sitemap' },
-          { label: 'Путеводитель по публикациям', slug: 'wiki' },
           { label: 'О разделе публикаций', slug: 'blog/welcome' },
         ] },
       ],
