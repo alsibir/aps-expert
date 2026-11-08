@@ -40,7 +40,6 @@ draft: false
 | [ИИ и защита данных](#ai-security) | 5 |
 | [Инструменты и автоматизация](#tools) | 14 |
 | [Рабочая среда: Windows и Linux](#environment) | 6 |
-| [Профессиональное развитие](#career) | 7 |
 
 <span id="documentation"></span>
 
@@ -138,20 +137,6 @@ draft: false
 - [Как создать SSH-ключ и подключиться к серверу без пароля](/alsibir-expert/blog/ssh-kluchi-linux-windows/)
 - [Не работает Wi-Fi в Ubuntu: как найти причину и восстановить подключение](/alsibir-expert/blog/wifi-ubuntu-ne-rabotaet/)
 - [Облачное хранилище: как выбрать сервис и не потерять файлы](/alsibir-expert/blog/oblachnoe-hranenie-vybor-i-rezervnye-kopii/)
-
-<span id="career"></span>
-
-## Профессиональное развитие
-
-Материалов: 7.
-
-- [К какому классу программ относятся Jira и Confluence](/alsibir-expert/blog/career/05_jira_confluence/)
-- [Как стать Python-разработчиком: полное руководство по подготовке к первой работе](/alsibir-expert/blog/career/06_python_career_full_guide/)
-- [Какие знания необходимы начинающему Python-разработчику](/alsibir-expert/blog/career/01_python_junior_skills/)
-- [Практический опыт выпускника без коммерческого стажа](/alsibir-expert/blog/career/04_practical_experience/)
-- [Пример резюме выпускника для первой работы Python-разработчиком](/alsibir-expert/blog/career/02_junior_python_resume/)
-- [РАНХиГС: образование и ключевые дисциплины для резюме](/alsibir-expert/blog/career/03_ranepa_education/)
-- [Чем системный аналитик отличается от технического писателя](/alsibir-expert/blog/career/analyst-vs-writer/)
 
 <span id="normative-base"></span>
 

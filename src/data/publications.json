@@ -254,39 +254,5 @@
         "slug": "blog/oblachnoe-hranenie-vybor-i-rezervnye-kopii"
       }
     ]
-  },
-  {
-    "id": "career",
-    "title": "Профессиональное развитие",
-    "items": [
-      {
-        "label": "К какому классу программ относятся Jira и Confluence",
-        "slug": "blog/career/05_jira_confluence"
-      },
-      {
-        "label": "Как стать Python-разработчиком: полное руководство по подготовке к первой работе",
-        "slug": "blog/career/06_python_career_full_guide"
-      },
-      {
-        "label": "Какие знания необходимы начинающему Python-разработчику",
-        "slug": "blog/career/01_python_junior_skills"
-      },
-      {
-        "label": "Практический опыт выпускника без коммерческого стажа",
-        "slug": "blog/career/04_practical_experience"
-      },
-      {
-        "label": "Пример резюме выпускника для первой работы Python-разработчиком",
-        "slug": "blog/career/02_junior_python_resume"
-      },
-      {
-        "label": "РАНХиГС: образование и ключевые дисциплины для резюме",
-        "slug": "blog/career/03_ranepa_education"
-      },
-      {
-        "label": "Чем системный аналитик отличается от технического писателя",
-        "slug": "blog/career/analyst-vs-writer"
-      }
-    ]
   }
 ]
