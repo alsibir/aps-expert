@@ -90,6 +90,4 @@ category: "Системный анализ и проектирование"
 
 - [Сбор исходных данных на установочной встрече](/alsibir-expert/blog/analytics/project-discovery-ai/).
 - [Трассируемость требований до испытаний](/alsibir-expert/blog/analytics/06_requirements_to_tests/).
-- [Чем аналитик отличается от технического писателя](/alsibir-expert/blog/career/analyst-vs-writer/).
-
 Методическая основа: [IIBA — требования и проектные решения](https://www.iiba.org/knowledgehub/the-business-analysis-standard/4-implementing-business-analysis/4-4-understanding-requirements-and-designs/). Описанное распределение обязанностей является практической моделью; конкретные полномочия закрепляются в проекте.
