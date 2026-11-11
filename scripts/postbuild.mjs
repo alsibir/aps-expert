@@ -81,7 +81,7 @@ for(const p of all){if(p.endsWith('.html')){let s=await readFile(p,'utf8');s=s.r
 // Normalize RSS plugin URLs when the plugin prepends base twice.
 for(const p of all.filter(p=>p.endsWith('.html')||p.endsWith('.xml'))){let s=await readFile(p,'utf8');while(s.includes(origin+base+base+'/'))s=s.replaceAll(origin+base+base+'/',origin+base+'/');if(p.endsWith('/rss.xml'))s=s.replaceAll('<link>'+origin+'/</link>','<link>'+origin+base+'/</link>');await writeFile(p,s);}
 const routes = files.map(routeFor).filter(route =>
-  !route.endsWith('/404.html') && !redirects.has(routeKey(new URL(route, origin)))).sort();
+  !route.endsWith('/404.html') && route !== base + '/wiki/pages/404/' && !redirects.has(routeKey(new URL(route, origin)))).sort();
 await writeFile(path.join(root,'sitemap-paths.json'),JSON.stringify(routes,null,2));
 const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 await writeFile(path.join(root,'sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+routes.map(r=>'<url><loc>'+esc(origin+r)+'</loc></url>').join('')+'</urlset>');
