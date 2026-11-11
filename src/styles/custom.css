@@ -407,3 +407,14 @@ a:hover { text-decoration-thickness: 2px; }
 @media print {
   .aps-graphdemo-figure { break-inside: avoid; }
 }
+
+/* Взаимные переходы публикаций и портфолио. */
+.aps-crosslink { margin: 1.5rem 0; padding: 1.25rem; border: 1px solid var(--aps-accent); border-radius: 8px; background: var(--aps-accent-soft); }
+.aps-crosslink p { margin: 0; }
+.aps-crosslink p + p { margin-top: .8rem; }
+.aps-crosslink .aps-button { white-space: normal; text-align: center; max-width: 100%; }
+.aps-related-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.aps-related-grid .aps-card { padding: 1rem; }
+.aps-related-grid .aps-card h3 { margin-top: 0; }
+.aps-related-grid .aps-card img { aspect-ratio: 16 / 11; object-fit: contain; }
+@media (max-width: 800px) { .aps-related-grid { grid-template-columns: 1fr; } }
