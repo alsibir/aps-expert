@@ -44,7 +44,7 @@ draft: false
 - [Нормативная база](/alsibir-expert/publications/)
 - [Инструменты технического писателя](/alsibir-expert/wiki/pages/tools/)
 - [Примеры выполненных работ](/alsibir-expert/publications/)
-- [Автоматизация технических документов: демонстрационный проект](/alsibir-expert/wiki/portfolio/ai/document-automation/)
+- [Автоматизация документов: типы, инструменты и связь с документооборотом](/alsibir-expert/wiki/portfolio/ai/document-automation/)
 - [Системный анализ: демонстрационный проект](/alsibir-expert/wiki/portfolio/analytics/system-analysis/)
 - [Техническая документация: демонстрационный комплект](/alsibir-expert/wiki/portfolio/documentation/technical-documentation/)
 - [Регистрационные досье: демонстрационный проект](/alsibir-expert/wiki/portfolio/registration/software-registration/)
