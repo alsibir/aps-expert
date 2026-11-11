@@ -11,6 +11,8 @@ draft: false
 
 ## Сведения о специалисте, портфолио и справка
 
+- [АС «АЛЬФА» — графические модели](/alsibir-expert/wiki/portfolio/analytics/alpha-graphic-models/)
+
 - [Каталог публикаций](/alsibir-expert/publications/)
 - [Публикации и примеры работ](/alsibir-expert/publications/)
 - [Все теги статей](/alsibir-expert/tags/)

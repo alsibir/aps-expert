@@ -391,3 +391,19 @@ a:hover { text-decoration-thickness: 2px; }
 @media (prefers-reduced-motion: reduce) {
   .page > header.header, .sl-menu-button, mobile-starlight-toc nav { transition: none; }
 }
+
+/* АЛЬФА: графический альбом, неизменная белая подложка технических схем. */
+.aps-graphdemo-summary { padding: 1.1rem 1.3rem; border: 1px solid var(--aps-line); border-left: 4px solid var(--aps-accent); border-radius: .65rem; background: var(--aps-accent-soft); }
+.aps-graphdemo-summary p { margin: .4rem 0; }
+.sl-markdown-content .aps-graphdemo-figure { margin: 1.3rem 0; padding: .9rem; border: 1px solid var(--aps-line); border-radius: .7rem; background: var(--aps-surface); }
+.aps-graphdemo-figure > a { display: block; padding: .8rem; overflow-x: auto; border-radius: .4rem; background: #fff; }
+.aps-graphdemo-figure img { display: block; width: auto; height: auto; max-width: 100%; max-height: 54rem; margin: 0 auto; object-fit: contain; }
+.aps-graphdemo-figure figcaption { margin-top: .8rem; color: var(--aps-muted); font-size: .9rem; }
+.aps-graphdemo-figure > a:focus-visible { outline: 3px solid var(--aps-accent); outline-offset: 4px; }
+@media (max-width: 40rem) {
+  .sl-markdown-content .aps-graphdemo-figure { padding: .5rem; }
+  .aps-graphdemo-figure > a { padding: .35rem; }
+}
+@media print {
+  .aps-graphdemo-figure { break-inside: avoid; }
+}

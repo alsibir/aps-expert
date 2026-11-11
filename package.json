@@ -9,7 +9,8 @@
     "preview": "node node_modules/astro/bin/astro.mjs preview",
     "astro": "node node_modules/astro/bin/astro.mjs",
     "serve:static": "python3 scripts/preview-static.py",
-    "diagrams:render": "node scripts/render-diagrams.mjs"
+    "diagrams:render": "node scripts/render-diagrams.mjs",
+    "graphdemo:render": "node scripts/render-graphdemo.mjs"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.42.6",
