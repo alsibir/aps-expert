@@ -54,7 +54,7 @@ draft: false
 - [Воспроизводимый процесс выпуска документации](/alsibir-expert/blog/automation/document-workflows/)
 - [Документация по ГОСТ 34: техническое задание, программа и методика испытаний, связь требований](/alsibir-expert/blog/documentation/02_gost34_traceability/)
 - [Документация программного обеспечения: классификация, состав и стандарты](/alsibir-expert/blog/documentation/software-documentation/)
-- [Как написать однозначное техническое задание](/alsibir-expert/blog/documentation/clear-technical-specification/)
+- [Как написать идеальное техническое задание](/alsibir-expert/blog/documentation/clear-technical-specification/)
 - [Как применять ГОСТ к программной документации](/alsibir-expert/blog/documentation/gost-documentation/)
 - [Контроль качества технической документации: таблица замечаний и регрессионная проверка](/alsibir-expert/blog/documentation/05_document_quality/)
 - [Методика проектирования комплекта программной документации по ЕСПД (ГОСТ 19)](/alsibir-expert/blog/documentation/01_gost19_documents/)

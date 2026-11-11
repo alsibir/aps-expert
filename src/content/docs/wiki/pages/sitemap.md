@@ -67,7 +67,7 @@ draft: false
 - [Документация по ГОСТ 34: техническое задание, программа и методика испытаний, связь требований](/alsibir-expert/blog/documentation/02_gost34_traceability/)
 - [Контроль качества технической документации: таблица замечаний и регрессионная проверка](/alsibir-expert/blog/documentation/05_document_quality/)
 - [Управление файлами, версиями и воспроизводимой сборкой технической документации](/alsibir-expert/blog/documentation/10_document_release/)
-- [Как написать однозначное техническое задание](/alsibir-expert/blog/documentation/clear-technical-specification/)
+- [Как написать идеальное техническое задание](/alsibir-expert/blog/documentation/clear-technical-specification/)
 - [Как применять ГОСТ к программной документации](/alsibir-expert/blog/documentation/gost-documentation/)
 - [Документация программного обеспечения: классификация, состав и стандарты](/alsibir-expert/blog/documentation/software-documentation/)
 - [BPMN, UML и PlantUML: как системному аналитику выбирать и сопровождать диаграммы](/alsibir-expert/blog/modeling/08_bpmn_uml_plantuml/)
