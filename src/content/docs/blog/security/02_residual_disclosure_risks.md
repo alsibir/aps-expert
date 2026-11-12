@@ -7,6 +7,9 @@ tags: ["Искусственный интеллект", "Информацион�
 category: "ИИ и защита данных"
 ---
 
+<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-security-02-residual-disclosure-risks.webp" alt="Иллюстрация к материалу: Как ИИ восстанавливает секретные сведения из анонимизированных документов: косвенные признаки" width="1279" height="720" loading="eager" decoding="async" />
+
+
 
 
 *Модель угроз, квази-идентификаторы, междокументные связи и границы достоверности выводов*

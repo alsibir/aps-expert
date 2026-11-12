@@ -6,6 +6,9 @@ excerpt: "Здесь публикуются практические матер�
 tags: ["Новости сайта"]
 ---
 
+<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-welcome.webp" alt="Иллюстрация к материалу: О разделе публикаций" width="1279" height="720" loading="eager" decoding="async" />
+
+
 Здесь публикуются практические материалы по техническому писательству, системному анализу, ГОСТ-документации, PlantUML, Word и инструментам автоматизации.
 
 [Тематический каталог и маршруты чтения](/alsibir-expert/publications/) · [Все теги](/alsibir-expert/tags/).

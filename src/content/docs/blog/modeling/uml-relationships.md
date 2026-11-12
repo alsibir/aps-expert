@@ -8,6 +8,9 @@ tags: ["Моделирование и диаграммы", "Системный �
 category: "Системный анализ и проектирование"
 ---
 
+<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-modeling-uml-relationships.webp" alt="Иллюстрация к материалу: Линии и типы связей в UML: как правильно читать диаграммы" width="1279" height="720" loading="eager" decoding="async" />
+
+
 
 
 **Категория:** системный анализ, архитектура программного обеспечения, техническая документация.  

@@ -3,6 +3,9 @@ title: 'Инструменты технического писателя'
 draft: false
 ---
 
+<img class="aps-article-collage" src="/alsibir-expert/images/articles/wiki-pages-tools.webp" alt="Иллюстрация к материалу: Инструменты технического писателя" width="1279" height="720" loading="eager" decoding="async" />
+
+
 Инструменты нужны для конкретных производственных задач: подготовки, согласования, проверки и повторяемой сборки документов.
 
 - [Автоматизация Word](/alsibir-expert/blog/automation/04_word_automation/)

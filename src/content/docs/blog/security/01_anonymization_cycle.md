@@ -7,6 +7,9 @@ tags: ["Искусственный интеллект", "Информацион�
 category: "ИИ и защита данных"
 ---
 
+<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-security-01-anonymization-cycle.webp" alt="Иллюстрация к материалу: Как выглядит анонимизация секретных документов: от оригинала к ИИ и обратно" width="1279" height="720" loading="eager" decoding="async" />
+
+
 
 
 *Сквозной демонстрационный пример обратимой псевдонимизации, обработки текста и контроля результата*

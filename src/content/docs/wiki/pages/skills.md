@@ -4,6 +4,9 @@ description: 'Компетенции аналитика и техническо�
 draft: false
 ---
 
+<img class="aps-article-collage" src="/alsibir-expert/images/articles/wiki-pages-skills.webp" alt="Иллюстрация к материалу: Навыки и инструменты" width="1279" height="720" loading="eager" decoding="async" />
+
+
 | Категория | Навыки | Инструменты |
 | --- | --- | --- |
 | Аналитика и моделирование | Моделирование процессов и сценариев использования; требования; UML, BPMN, Use Case, User Story; трассируемость; описание интерфейсов и API; JSON, OpenAPI, SQL | Business Studio, Swagger/OpenAPI, Postman, Mermaid, draw.io, PlantUML, Archicad, FreeCAD, AutoCAD |

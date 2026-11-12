@@ -1,0 +1,368 @@
+[
+  {
+    "page": "blog/ai/deanonymization-risks.md",
+    "image": "public/images/articles/blog-ai-deanonymization-risks.webp",
+    "title": "Косвенные признаки и повторная идентификация данных",
+    "prompt": "Use case: stylized-concept. Create ONE editorial collage banner for the APS technical writer and analyst website article titled «Косвенные признаки и повторная идентификация данных». Convey this specific subject with recognizable meaningful objects and an appropriate practical work scene. Landscape 16:9, around 1672x941. Photorealistic professional scene seamlessly blended with polished 3D objects, airy pale blue technical-grid background, rich navy and cyan diagonal ribbons in corners, restrained vivid orange highlights. Bright, elegant, detailed, professional, coherent corporate engineering design suitable for both light and dark website themes. No readable text, no fake diagrams, no watermark, no logos. This is an evocative article cover, not an exact instructional diagram."
+  },
+  {
+    "page": "blog/ai/document-anonymization.md",
+    "image": "public/images/articles/blog-ai-document-anonymization.webp",
+    "title": "Как готовить документы к обработке ИИ",
+    "prompt": "Use case: stylized-concept. Create ONE editorial collage banner for the APS technical writer and analyst website article titled «Как готовить документы к обработке ИИ». Convey this specific subject with recognizable meaningful objects and an appropriate practical work scene. Landscape 16:9, around 1672x941. Photorealistic professional scene seamlessly blended with polished 3D objects, airy pale blue technical-grid background, rich navy and cyan diagonal ribbons in corners, restrained vivid orange highlights. Bright, elegant, detailed, professional, coherent corporate engineering design suitable for both light and dark website themes. No readable text, no fake diagrams, no watermark, no logos. This is an evocative article cover, not an exact instructional diagram."
+  },
+  {
+    "page": "blog/ai/local-languagetool.md",
+    "image": "public/images/articles/blog-ai-local-languagetool.webp",
+    "title": "Локальная проверка русского текста с LanguageTool",
+    "prompt": "Use case: stylized-concept. Create ONE editorial collage banner for the APS technical writer and analyst website article titled «Локальная проверка русского текста с LanguageTool». Convey this specific subject with recognizable meaningful objects and an appropriate practical work scene. Landscape 16:9, around 1672x941. Photorealistic professional scene seamlessly blended with polished 3D objects, airy pale blue technical-grid background, rich navy and cyan diagonal ribbons in corners, restrained vivid orange highlights. Bright, elegant, detailed, professional, coherent corporate engineering design suitable for both light and dark website themes. No readable text, no fake diagrams, no watermark, no logos. This is an evocative article cover, not an exact instructional diagram."
+  },
+  {
+    "page": "blog/analytics/06_requirements_to_tests.md",
+    "image": "public/images/articles/blog-analytics-06-requirements-to-tests.webp",
+    "title": "Трассируемость требований: от бизнес-процесса и архитектуры до испытаний",
+    "prompt": "Use case: stylized-concept. Create ONE editorial collage banner for the APS technical writer and analyst website article titled «Трассируемость требований: от бизнес-процесса и архитектуры до испытаний». Convey this specific subject with recognizable meaningful objects and an appropriate practical work scene. Landscape 16:9, around 1672x941. Photorealistic professional scene seamlessly blended with polished 3D objects, airy pale blue technical-grid background, rich navy and cyan diagonal ribbons in corners, restrained vivid orange highlights. Bright, elegant, detailed, professional, coherent corporate engineering design suitable for both light and dark website themes. No readable text, no fake diagrams, no watermark, no logos. This is an evocative article cover, not an exact instructional diagram."
+  },
+  {
+    "page": "blog/analytics/project-discovery-ai.md",
+    "image": "public/images/articles/blog-analytics-project-discovery-ai.webp",
+    "title": "Организационная встреча по новому ИТ-проекту: сбор исходных данных для разработки требований к ПО, датасетам и технической документации",
+    "prompt": "Use case: stylized-concept. Create ONE editorial collage banner for the APS technical writer and analyst website article titled «Организационная встреча по новому ИТ-проекту: сбор исходных данных для разработки требований к ПО, датасетам и технической документации». Convey this specific subject with recognizable meaningful objects and an appropriate practical work scene. Landscape 16:9, around 1672x941. Photorealistic professional scene seamlessly blended with polished 3D objects, airy pale blue technical-grid background, rich navy and cyan diagonal ribbons in corners, restrained vivid orange highlights. Bright, elegant, detailed, professional, coherent corporate engineering design suitable for both light and dark website themes. No readable text, no fake diagrams, no watermark, no logos. This is an evocative article cover, not an exact instructional diagram."
+  },
+  {
+    "page": "blog/api/07_openapi_contracts.md",
+    "image": "public/images/articles/blog-api-07-openapi-contracts.webp",
+    "title": "Проектирование API: OpenAPI, модели данных, ошибки и управление версиями",
+    "prompt": "Use case: stylized-concept. Create ONE editorial collage banner for the APS technical writer and analyst website article titled «Проектирование API: OpenAPI, модели данных, ошибки и управление версиями». Convey this specific subject with recognizable meaningful objects and an appropriate practical work scene. Landscape 16:9, around 1672x941. Photorealistic professional scene seamlessly blended with polished 3D objects, airy pale blue technical-grid background, rich navy and cyan diagonal ribbons in corners, restrained vivid orange highlights. Bright, elegant, detailed, professional, coherent corporate engineering design suitable for both light and dark website themes. No readable text, no fake diagrams, no watermark, no logos. This is an evocative article cover, not an exact instructional diagram."
+  },
+  {
+    "page": "blog/automation/04_word_automation.md",
+    "image": "public/images/articles/blog-automation-04-word-automation.webp",
+    "title": "Автоматизированная проверка документации Microsoft Word: стили, поля, нумерация и перекрестные ссылки",
+    "prompt": "Create one polished editorial collage for the APS technical writer and analyst website, illustrating this exact article subject: «Автоматизированная проверка документации Microsoft Word: стили, поля, нумерация и перекрестные ссылки». Show a concrete practical work scene and recognizable objects that convey the subject, blending photorealistic objects with polished blue 3D symbolic elements. Landscape 16:9, pale blue engineering grid background, navy and cyan geometric corner ribbons, vivid small orange accents, professional bright airy lighting, high visual quality, coherent corporate engineering style, suitable inside both light and dark themed pages. No readable text, no logos, no watermark, no invented precise diagrams. Distinct subject-specific composition."
+  },
+  {
+    "page": "blog/automation/document-workflows.md",
+    "image": "public/images/articles/blog-automation-document-workflows.webp",
+    "title": "Воспроизводимый процесс выпуска документации",
+    "prompt": "Create one polished editorial collage for the APS technical writer and analyst website, illustrating this exact article subject: «Воспроизводимый процесс выпуска документации». Show a concrete practical work scene and recognizable objects that convey the subject, blending photorealistic objects with polished blue 3D symbolic elements. Landscape 16:9, pale blue engineering grid background, navy and cyan geometric corner ribbons, vivid small orange accents, professional bright airy lighting, high visual quality, coherent corporate engineering style, suitable inside both light and dark themed pages. No readable text, no logos, no watermark, no invented precise diagrams. Distinct subject-specific composition."
+  },
+  {
+    "page": "blog/automation/filename-portability.md",
+    "image": "public/images/articles/blog-automation-filename-portability.webp",
+    "title": "Имена файлов, совместимые с Windows и Linux",
+    "prompt": "Create one polished editorial collage for the APS technical writer and analyst website, illustrating this exact article subject: «Имена файлов, совместимые с Windows и Linux». Show a concrete practical work scene and recognizable objects that convey the subject, blending photorealistic objects with polished blue 3D symbolic elements. Landscape 16:9, pale blue engineering grid background, navy and cyan geometric corner ribbons, vivid small orange accents, professional bright airy lighting, high visual quality, coherent corporate engineering style, suitable inside both light and dark themed pages. No readable text, no logos, no watermark, no invented precise diagrams. Distinct subject-specific composition."
+  },
+  {
+    "page": "blog/automation/obsidian-automation.md",
+    "image": "public/images/articles/blog-automation-obsidian-automation.webp",
+    "title": "Систематизация заметок Obsidian: план контролируемой миграции",
+    "prompt": "Create one polished editorial collage for the APS technical writer and analyst website, illustrating this exact article subject: «Систематизация заметок Obsidian: план контролируемой миграции». Show a concrete practical work scene and recognizable objects that convey the subject, blending photorealistic objects with polished blue 3D symbolic elements. Landscape 16:9, pale blue engineering grid background, navy and cyan geometric corner ribbons, vivid small orange accents, professional bright airy lighting, high visual quality, coherent corporate engineering style, suitable inside both light and dark themed pages. No readable text, no logos, no watermark, no invented precise diagrams. Distinct subject-specific composition."
+  },
+  {
+    "page": "blog/automation/obsidian-knowledge-base.md",
+    "image": "public/images/articles/blog-automation-obsidian-knowledge-base.webp",
+    "title": "Автоматизированная систематизация базы знаний Obsidian: архитектура, метаданные, граф связей и безопасная миграция",
+    "prompt": "Create one polished editorial collage for the APS technical writer and analyst website, illustrating this exact article subject: «Автоматизированная систематизация базы знаний Obsidian: архитектура, метаданные, граф связей и безопасная миграция». Show a concrete practical work scene and recognizable objects that convey the subject, blending photorealistic objects with polished blue 3D symbolic elements. Landscape 16:9, pale blue engineering grid background, navy and cyan geometric corner ribbons, vivid small orange accents, professional bright airy lighting, high visual quality, coherent corporate engineering style, suitable inside both light and dark themed pages. No readable text, no logos, no watermark, no invented precise diagrams. Distinct subject-specific composition."
+  },
+  {
+    "page": "blog/automation/word-requirement-numbering.md",
+    "image": "public/images/articles/blog-automation-word-requirement-numbering.webp",
+    "title": "Автоматизация сбора, нумерации и трассировки требований в Microsoft Word",
+    "prompt": "Create one polished editorial collage for the APS technical writer and analyst website, illustrating this exact article subject: «Автоматизация сбора, нумерации и трассировки требований в Microsoft Word». Show a concrete practical work scene and recognizable objects that convey the subject, blending photorealistic objects with polished blue 3D symbolic elements. Landscape 16:9, pale blue engineering grid background, navy and cyan geometric corner ribbons, vivid small orange accents, professional bright airy lighting, high visual quality, coherent corporate engineering style, suitable inside both light and dark themed pages. No readable text, no logos, no watermark, no invented precise diagrams. Distinct subject-specific composition."
+  },
+  {
+    "page": "blog/documentation/01_gost19_documents.md",
+    "image": "public/images/articles/blog-documentation-01-gost19-documents.webp",
+    "title": "Методика проектирования комплекта программной документации по ЕСПД (ГОСТ 19)",
+    "prompt": "Create one polished editorial collage for the APS technical writer and analyst website, illustrating this exact article subject: «Методика проектирования комплекта программной документации по ЕСПД (ГОСТ 19)». Show a concrete practical work scene and recognizable objects that convey the subject, blending photorealistic objects with polished blue 3D symbolic elements. Landscape 16:9, pale blue engineering grid background, navy and cyan geometric corner ribbons, vivid small orange accents, professional bright airy lighting, high visual quality, coherent corporate engineering style, suitable inside both light and dark themed pages. No readable text, no logos, no watermark, no invented precise diagrams. Distinct subject-specific composition."
+  },
+  {
+    "page": "blog/documentation/02_gost34_traceability.md",
+    "image": "public/images/articles/blog-documentation-02-gost34-traceability.webp",
+    "title": "Документация по ГОСТ 34: техническое задание, программа и методика испытаний, связь требований",
+    "prompt": "Create one polished editorial collage for the APS technical writer and analyst website, illustrating this exact article subject: «Документация по ГОСТ 34: техническое задание, программа и методика испытаний, связь требований». Show a concrete practical work scene and recognizable objects that convey the subject, blending photorealistic objects with polished blue 3D symbolic elements. Landscape 16:9, pale blue engineering grid background, navy and cyan geometric corner ribbons, vivid small orange accents, professional bright airy lighting, high visual quality, coherent corporate engineering style, suitable inside both light and dark themed pages. No readable text, no logos, no watermark, no invented precise diagrams. Distinct subject-specific composition."
+  },
+  {
+    "page": "blog/documentation/05_document_quality.md",
+    "image": "public/images/articles/blog-documentation-05-document-quality.webp",
+    "title": "Контроль качества технической документации: таблица замечаний и регрессионная проверка",
+    "prompt": "Create one polished editorial collage for the APS technical writer and analyst website, illustrating this exact article subject: «Контроль качества технической документации: таблица замечаний и регрессионная проверка». Show a concrete practical work scene and recognizable objects that convey the subject, blending photorealistic objects with polished blue 3D symbolic elements. Landscape 16:9, pale blue engineering grid background, navy and cyan geometric corner ribbons, vivid small orange accents, professional bright airy lighting, high visual quality, coherent corporate engineering style, suitable inside both light and dark themed pages. No readable text, no logos, no watermark, no invented precise diagrams. Distinct subject-specific composition."
+  },
+  {
+    "page": "blog/documentation/10_document_release.md",
+    "image": "public/images/articles/blog-documentation-10-document-release.webp",
+    "title": "Управление файлами, версиями и воспроизводимой сборкой технической документации",
+    "prompt": "Create one polished editorial collage for the APS technical writer and analyst website, illustrating this exact article subject: «Управление файлами, версиями и воспроизводимой сборкой технической документации». Show a concrete practical work scene and recognizable objects that convey the subject, blending photorealistic objects with polished blue 3D symbolic elements. Landscape 16:9, pale blue engineering grid background, navy and cyan geometric corner ribbons, vivid small orange accents, professional bright airy lighting, high visual quality, coherent corporate engineering style, suitable inside both light and dark themed pages. No readable text, no logos, no watermark, no invented precise diagrams. Distinct subject-specific composition."
+  },
+  {
+    "page": "blog/documentation/clear-technical-specification.md",
+    "image": "public/images/articles/blog-documentation-clear-technical-specification.webp",
+    "title": "Как написать идеальное техническое задание",
+    "prompt": "Editorial collage about writing an ideal technical specification; blue/navy/cyan and orange palette; 16:9."
+  },
+  {
+    "page": "blog/documentation/gost-documentation.md",
+    "image": "public/images/articles/blog-documentation-gost-documentation.webp",
+    "title": "Как применять ГОСТ к программной документации",
+    "prompt": "Create one polished editorial collage for the APS technical writer and analyst website, illustrating this exact article subject: «Как применять ГОСТ к программной документации». Show a concrete practical work scene and recognizable objects that convey the subject, blending photorealistic objects with polished blue 3D symbolic elements. Landscape 16:9, pale blue engineering grid background, navy and cyan geometric corner ribbons, vivid small orange accents, professional bright airy lighting, high visual quality, coherent corporate engineering style, suitable inside both light and dark themed pages. No readable text, no logos, no watermark, no invented precise diagrams. Distinct subject-specific composition."
+  },
+  {
+    "page": "blog/documentation/software-documentation.md",
+    "image": "public/images/articles/blog-documentation-software-documentation.webp",
+    "title": "Документация программного обеспечения: классификация, состав и стандарты",
+    "prompt": "Create one polished editorial collage for the APS technical writer and analyst website, illustrating this exact article subject: «Документация программного обеспечения: классификация, состав и стандарты». Show a concrete practical work scene and recognizable objects that convey the subject, blending photorealistic objects with polished blue 3D symbolic elements. Landscape 16:9, pale blue engineering grid background, navy and cyan geometric corner ribbons, vivid small orange accents, professional bright airy lighting, high visual quality, coherent corporate engineering style, suitable inside both light and dark themed pages. No readable text, no logos, no watermark, no invented precise diagrams. Distinct subject-specific composition."
+  },
+  {
+    "page": "blog/dokumentaciya-rest-api-primery.md",
+    "image": "public/images/articles/blog-dokumentaciya-rest-api-primery.webp",
+    "title": "Как документировать REST API: структура, примеры запросов и OpenAPI",
+    "prompt": "Create one polished editorial collage for the APS technical writer and analyst website, illustrating this exact article subject: «Как документировать REST API: структура, примеры запросов и OpenAPI». Show a concrete practical work scene and recognizable objects that convey the subject, blending photorealistic objects with polished blue 3D symbolic elements. Landscape 16:9, pale blue engineering grid background, navy and cyan geometric corner ribbons, vivid small orange accents, professional bright airy lighting, high visual quality, coherent corporate engineering style, suitable inside both light and dark themed pages. No readable text, no logos, no watermark, no invented precise diagrams. Distinct subject-specific composition."
+  },
+  {
+    "page": "blog/izvlech-kartinki-iz-docx.md",
+    "image": "public/images/articles/blog-izvlech-kartinki-iz-docx.webp",
+    "title": "Как извлечь картинки из файла DOCX без потери качества",
+    "prompt": "Create one polished editorial collage for the APS technical writer and analyst website, illustrating this exact article subject: «Как извлечь картинки из файла DOCX без потери качества». Show a concrete practical work scene and recognizable objects that convey the subject, blending photorealistic objects with polished blue 3D symbolic elements. Landscape 16:9, pale blue engineering grid background, navy and cyan geometric corner ribbons, vivid small orange accents, professional bright airy lighting, high visual quality, coherent corporate engineering style, suitable inside both light and dark themed pages. No readable text, no logos, no watermark, no invented precise diagrams. Distinct subject-specific composition."
+  },
+  {
+    "page": "blog/kak-organizovat-razrabotku-it-proekta.md",
+    "image": "public/images/articles/blog-kak-organizovat-razrabotku-it-proekta.webp",
+    "title": "Как организовать разработку ИТ-проекта: этапы, роли и документация",
+    "prompt": "Create one polished editorial collage for the APS technical writer and analyst website, illustrating this exact article subject: «Как организовать разработку ИТ-проекта: этапы, роли и документация». Show a concrete practical work scene and recognizable objects that convey the subject, blending photorealistic objects with polished blue 3D symbolic elements. Landscape 16:9, pale blue engineering grid background, navy and cyan geometric corner ribbons, vivid small orange accents, professional bright airy lighting, high visual quality, coherent corporate engineering style, suitable inside both light and dark themed pages. No readable text, no logos, no watermark, no invented precise diagrams. Distinct subject-specific composition."
+  },
+  {
+    "page": "blog/modeling/08_bpmn_uml_plantuml.md",
+    "image": "public/images/articles/blog-modeling-08-bpmn-uml-plantuml.webp",
+    "title": "BPMN, UML и PlantUML: как системному аналитику выбирать и сопровождать диаграммы",
+    "prompt": "Create one polished editorial collage for the APS technical writer and analyst website, illustrating this exact article subject: «BPMN, UML и PlantUML: как системному аналитику выбирать и сопровождать диаграммы». Show a concrete practical work scene and recognizable objects that convey the subject, blending photorealistic objects with polished blue 3D symbolic elements. Landscape 16:9, pale blue engineering grid background, navy and cyan geometric corner ribbons, vivid small orange accents, professional bright airy lighting, high visual quality, coherent corporate engineering style, suitable inside both light and dark themed pages. No readable text, no logos, no watermark, no invented precise diagrams. Distinct subject-specific composition."
+  },
+  {
+    "page": "blog/modeling/uml-relationships.md",
+    "image": "public/images/articles/blog-modeling-uml-relationships.webp",
+    "title": "Линии и типы связей в UML: как правильно читать диаграммы",
+    "prompt": "Create one polished editorial collage for the APS technical writer and analyst website, illustrating this exact article subject: «Линии и типы связей в UML: как правильно читать диаграммы». Show a concrete practical work scene and recognizable objects that convey the subject, blending photorealistic objects with polished blue 3D symbolic elements. Landscape 16:9, pale blue engineering grid background, navy and cyan geometric corner ribbons, vivid small orange accents, professional bright airy lighting, high visual quality, coherent corporate engineering style, suitable inside both light and dark themed pages. No readable text, no logos, no watermark, no invented precise diagrams. Distinct subject-specific composition."
+  },
+  {
+    "page": "blog/oblachnoe-hranenie-vybor-i-rezervnye-kopii.md",
+    "image": "public/images/articles/blog-oblachnoe-hranenie-vybor-i-rezervnye-kopii.webp",
+    "title": "Облачное хранилище: как выбрать сервис и не потерять файлы",
+    "prompt": "Create one polished editorial collage for the APS technical writer and analyst website, illustrating this exact article subject: «Облачное хранилище: как выбрать сервис и не потерять файлы». Show a concrete practical work scene and recognizable objects that convey the subject, blending photorealistic objects with polished blue 3D symbolic elements. Landscape 16:9, pale blue engineering grid background, navy and cyan geometric corner ribbons, vivid small orange accents, professional bright airy lighting, high visual quality, coherent corporate engineering style, suitable inside both light and dark themed pages. No readable text, no logos, no watermark, no invented precise diagrams. Distinct subject-specific composition."
+  },
+  {
+    "page": "blog/oformlenie-skrinshotov.md",
+    "image": "public/images/articles/blog-oformlenie-skrinshotov.webp",
+    "title": "Как оформлять скриншоты для инструкций и технической документации",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Как оформлять скриншоты для инструкций и технической документации». Make the objects and action specifically illustrate the article subject. Scene: an elegant close-up still-life of relevant work tools and objects, no people. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/pdf-v-word-bez-poteri-formatirovaniya.md",
+    "image": "public/images/articles/blog-pdf-v-word-bez-poteri-formatirovaniya.webp",
+    "title": "Как перевести PDF в Word: 4 способа и что делать со сканами",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Как перевести PDF в Word: 4 способа и что делать со сканами». Make the objects and action specifically illustrate the article subject. Scene: a professional male engineer at work with subject-specific equipment. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/registries/01_mincifry_registry_software.md",
+    "image": "public/images/articles/blog-registries-01-mincifry-registry-software.webp",
+    "title": "Подготовка программного обеспечения к включению в реестр Минцифры России: от требований до регистрационного досье",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Подготовка программного обеспечения к включению в реестр Минцифры России: от требований до регистрационного досье». Make the objects and action specifically illustrate the article subject. Scene: a small mixed team working on the subject in a bright modern office. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/registries/02_minpromtorg_registry_industry.md",
+    "image": "public/images/articles/blog-registries-02-minpromtorg-registry-industry.webp",
+    "title": "Подтверждение российского происхождения промышленной продукции: инженерное досье для Минпромторга и ГИСП",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Подтверждение российского происхождения промышленной продукции: инженерное досье для Минпромторга и ГИСП». Make the objects and action specifically illustrate the article subject. Scene: a cinematic tabletop scene with real objects and floating 3D symbolic elements, no people. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/security/01_anonymization_cycle.md",
+    "image": "public/images/articles/blog-security-01-anonymization-cycle.webp",
+    "title": "Как выглядит анонимизация секретных документов: от оригинала к ИИ и обратно",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Как выглядит анонимизация секретных документов: от оригинала к ИИ и обратно». Make the objects and action specifically illustrate the article subject. Scene: an elegant close-up still-life of relevant work tools and objects, no people. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/security/02_residual_disclosure_risks.md",
+    "image": "public/images/articles/blog-security-02-residual-disclosure-risks.webp",
+    "title": "Как ИИ восстанавливает секретные сведения из анонимизированных документов: косвенные признаки",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Как ИИ восстанавливает секретные сведения из анонимизированных документов: косвенные признаки». Make the objects and action specifically illustrate the article subject. Scene: a professional male engineer at work with subject-specific equipment. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/security/09_ai_document_privacy.md",
+    "image": "public/images/articles/blog-security-09-ai-document-privacy.webp",
+    "title": "Применение искусственного интеллекта в техническом документировании: обезличивание и контроль утечек",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Применение искусственного интеллекта в техническом документировании: обезличивание и контроль утечек». Make the objects and action specifically illustrate the article subject. Scene: a small mixed team working on the subject in a bright modern office. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/security/ssh-key-access.md",
+    "image": "public/images/articles/blog-security-ssh-key-access.webp",
+    "title": "Настройка SSH-доступа по ключам в Linux и Windows: PuTTY, OpenSSH и журналирование подключений",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Настройка SSH-доступа по ключам в Linux и Windows: PuTTY, OpenSSH и журналирование подключений». Make the objects and action specifically illustrate the article subject. Scene: a cinematic tabletop scene with real objects and floating 3D symbolic elements, no people. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/ssh-kluchi-linux-windows.md",
+    "image": "public/images/articles/blog-ssh-kluchi-linux-windows.webp",
+    "title": "Как создать SSH-ключ и подключиться к серверу без пароля",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Как создать SSH-ключ и подключиться к серверу без пароля». Make the objects and action specifically illustrate the article subject. Scene: an elegant close-up still-life of relevant work tools and objects, no people. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/standards/03_spds_gost21.md",
+    "image": "public/images/articles/blog-standards-03-spds-gost21.webp",
+    "title": "Оформление документов СПДС: комплект, тома, листы и согласованность по ГОСТ Р 21.101-2026",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Оформление документов СПДС: комплект, тома, листы и согласованность по ГОСТ Р 21.101-2026». Make the objects and action specifically illustrate the article subject. Scene: a professional male engineer at work with subject-specific equipment. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/standards/gost-updates.md",
+    "image": "public/images/articles/blog-standards-gost-updates.webp",
+    "title": "Как отслеживать изменения технических стандартов",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Как отслеживать изменения технических стандартов». Make the objects and action specifically illustrate the article subject. Scene: a small mixed team working on the subject in a bright modern office. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/standards/spds-microsoft-word.md",
+    "image": "public/images/articles/blog-standards-spds-microsoft-word.webp",
+    "title": "Как оформить документ по СПДС в Microsoft Word",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Как оформить документ по СПДС в Microsoft Word». Make the objects and action specifically illustrate the article subject. Scene: a cinematic tabletop scene with real objects and floating 3D symbolic elements, no people. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/standards/spds-shbv.md",
+    "image": "public/images/articles/blog-standards-spds-shbv.webp",
+    "title": "Как оформить документ по СПДС в Word: рамки, основные надписи, тома и двойная нумерация страниц",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Как оформить документ по СПДС в Word: рамки, основные надписи, тома и двойная нумерация страниц». Make the objects and action specifically illustrate the article subject. Scene: an elegant close-up still-life of relevant work tools and objects, no people. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/tools/Total_Commander_Plugins_RU.md",
+    "image": "public/images/articles/blog-tools-total-commander-plugins-ru.webp",
+    "title": "Плагины Total Commander: полный обзор каталога и примеры применения",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Плагины Total Commander: полный обзор каталога и примеры применения». Make the objects and action specifically illustrate the article subject. Scene: a professional male engineer at work with subject-specific equipment. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/tools/local-languagetool.md",
+    "image": "public/images/articles/blog-tools-local-languagetool.webp",
+    "title": "Как развернуть собственный сервер LanguageTool на Windows и Linux: установка, настройка, использование и сравнение с Premium",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Как развернуть собственный сервер LanguageTool на Windows и Linux: установка, настройка, использование и сравнение с Premium». Make the objects and action specifically illustrate the article subject. Scene: a small mixed team working on the subject in a bright modern office. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/tools/neovim-guide.md",
+    "image": "public/images/articles/blog-tools-neovim-guide.webp",
+    "title": "Neovim: настройка удобного редактора для кода и технической документации",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Neovim: настройка удобного редактора для кода и технической документации». Make the objects and action specifically illustrate the article subject. Scene: a cinematic tabletop scene with real objects and floating 3D symbolic elements, no people. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/tools/portableapps-aps-full-review.md",
+    "image": "public/images/articles/blog-tools-portableapps-aps-full-review.webp",
+    "title": "PortableApps.com: каталог переносимых программ, сравнение аналогов и оптимальный набор для технического писателя",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «PortableApps.com: каталог переносимых программ, сравнение аналогов и оптимальный набор для технического писателя». Make the objects and action specifically illustrate the article subject. Scene: an elegant close-up still-life of relevant work tools and objects, no people. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/ux/ux-editing-guide.md",
+    "image": "public/images/articles/blog-ux-ux-editing-guide.webp",
+    "title": "UX-редактура: практическое руководство",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «UX-редактура: практическое руководство». Make the objects and action specifically illustrate the article subject. Scene: a professional male engineer at work with subject-specific equipment. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/ux/ux-writing.md",
+    "image": "public/images/articles/blog-ux-ux-writing.webp",
+    "title": "UX-тексты для технических интерфейсов",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «UX-тексты для технических интерфейсов». Make the objects and action specifically illustrate the article subject. Scene: a small mixed team working on the subject in a bright modern office. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/welcome.md",
+    "image": "public/images/articles/blog-welcome.webp",
+    "title": "О разделе публикаций",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «О разделе публикаций». Make the objects and action specifically illustrate the article subject. Scene: a cinematic tabletop scene with real objects and floating 3D symbolic elements, no people. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/wifi-ubuntu-ne-rabotaet.md",
+    "image": "public/images/articles/blog-wifi-ubuntu-ne-rabotaet.webp",
+    "title": "Не работает Wi-Fi в Ubuntu: как найти причину и восстановить подключение",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Не работает Wi-Fi в Ubuntu: как найти причину и восстановить подключение». Make the objects and action specifically illustrate the article subject. Scene: an elegant close-up still-life of relevant work tools and objects, no people. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/windows/microsoft-edge-reset-and-removal.md",
+    "image": "public/images/articles/blog-windows-microsoft-edge-reset-and-removal.webp",
+    "title": "Как сбросить, восстановить или удалить Microsoft Edge в Windows 10",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Как сбросить, восстановить или удалить Microsoft Edge в Windows 10». Make the objects and action specifically illustrate the article subject. Scene: a professional male engineer at work with subject-specific equipment. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "blog/wsl-graficheskie-prilozheniya-windows.md",
+    "image": "public/images/articles/blog-wsl-graficheskie-prilozheniya-windows.webp",
+    "title": "Как запускать графические программы Linux в Windows 10 и 11 через WSL",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Как запускать графические программы Linux в Windows 10 и 11 через WSL». Make the objects and action specifically illustrate the article subject. Scene: a small mixed team working on the subject in a bright modern office. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "guides/example.md",
+    "image": "public/images/articles/guides-example.webp",
+    "title": "Порядок подготовки комплекта документации",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Порядок подготовки комплекта документации». Make the objects and action specifically illustrate the article subject. Scene: a cinematic tabletop scene with real objects and floating 3D symbolic elements, no people. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "reference/example.md",
+    "image": "public/images/articles/reference-example.webp",
+    "title": "Термины и обозначения",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Термины и обозначения». Make the objects and action specifically illustrate the article subject. Scene: an elegant close-up still-life of relevant work tools and objects, no people. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "wiki/pages/ai.md",
+    "image": "public/images/articles/wiki-pages-ai.webp",
+    "title": "ИИ в документации",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «ИИ в документации». Make the objects and action specifically illustrate the article subject. Scene: a professional male engineer at work with subject-specific equipment. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "wiki/pages/faq.md",
+    "image": "public/images/articles/wiki-pages-faq.webp",
+    "title": "Частые вопросы",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Частые вопросы». Make the objects and action specifically illustrate the article subject. Scene: a small mixed team working on the subject in a bright modern office. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "wiki/pages/resume.md",
+    "image": "public/images/articles/wiki-pages-resume.webp",
+    "title": "Запросить резюме",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Запросить резюме». Make the objects and action specifically illustrate the article subject. Scene: a cinematic tabletop scene with real objects and floating 3D symbolic elements, no people. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "wiki/pages/services.md",
+    "image": "public/images/articles/wiki-pages-services.webp",
+    "title": "Услуги и компетенции",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Услуги и компетенции». Make the objects and action specifically illustrate the article subject. Scene: an elegant close-up still-life of relevant work tools and objects, no people. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "wiki/pages/skills.md",
+    "image": "public/images/articles/wiki-pages-skills.webp",
+    "title": "Навыки и инструменты",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Навыки и инструменты». Make the objects and action specifically illustrate the article subject. Scene: a professional male engineer at work with subject-specific equipment. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "wiki/pages/tools.md",
+    "image": "public/images/articles/wiki-pages-tools.webp",
+    "title": "Инструменты технического писателя",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Инструменты технического писателя». Make the objects and action specifically illustrate the article subject. Scene: a small mixed team working on the subject in a bright modern office. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "wiki/portfolio/ai/document-automation.md",
+    "image": "public/images/articles/wiki-portfolio-ai-document-automation.webp",
+    "title": "Автоматизация документов: типы, инструменты и связь с документооборотом",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Автоматизация документов: типы, инструменты и связь с документооборотом». Make the objects and action specifically illustrate the article subject. Scene: a cinematic tabletop scene with real objects and floating 3D symbolic elements, no people. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "wiki/portfolio/analytics/alpha-graphic-models.md",
+    "image": "public/images/articles/wiki-portfolio-analytics-alpha-graphic-models.webp",
+    "title": "АС «АЛЬФА»: от требований к визуальной модели системы",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «АС «АЛЬФА»: от требований к визуальной модели системы». Make the objects and action specifically illustrate the article subject. Scene: an elegant close-up still-life of relevant work tools and objects, no people. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "wiki/portfolio/analytics/system-analysis.md",
+    "image": "public/images/articles/wiki-portfolio-analytics-system-analysis.webp",
+    "title": "Системный анализ: демонстрационный проект",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Системный анализ: демонстрационный проект». Make the objects and action specifically illustrate the article subject. Scene: a professional male engineer at work with subject-specific equipment. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "wiki/portfolio/documentation/technical-documentation.md",
+    "image": "public/images/articles/wiki-portfolio-documentation-technical-documentation.webp",
+    "title": "Техническая документация: демонстрационный комплект",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Техническая документация: демонстрационный комплект». Make the objects and action specifically illustrate the article subject. Scene: a small mixed team working on the subject in a bright modern office. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  },
+  {
+    "page": "wiki/portfolio/registration/software-registration.md",
+    "image": "public/images/articles/wiki-portfolio-registration-software-registration.webp",
+    "title": "Регистрационные досье: демонстрационный проект",
+    "prompt": "Create ONE professional editorial collage cover for a technical writer / analyst website article titled «Регистрационные досье: демонстрационный проект». Make the objects and action specifically illustrate the article subject. Scene: a cinematic tabletop scene with real objects and floating 3D symbolic elements, no people. Landscape 16:9, around 1672x941 pixels. Bright photorealistic scene blended with refined dimensional blue engineering objects, airy pale blue technical grid background, geometric navy and cyan corner ribbons, small vivid orange accents. Same coherent corporate engineering visual identity across articles, suitable as a contained image on light or dark webpage. Realistic materials and lighting, clear uncluttered composition. No readable text, no logos, no watermark. Not an exact diagram; do not invent precise labeled technical diagrams."
+  }
+]

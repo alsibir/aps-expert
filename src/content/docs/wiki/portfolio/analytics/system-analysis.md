@@ -4,6 +4,9 @@ description: 'Материалы аналитика: сбор требовани
 draft: false
 ---
 
+<img class="aps-article-collage" src="/alsibir-expert/images/articles/wiki-portfolio-analytics-system-analysis.webp" alt="Иллюстрация к материалу: Системный анализ: демонстрационный проект" width="1279" height="720" loading="eager" decoding="async" />
+
+
 Эта страница объединяет примеры и статьи, по которым можно оценить работу аналитика: от уточнения задачи и границ системы до описания поведения, данных и проверяемых требований. Основной демонстрационный проект — АС «АЛЬФА», веб-система регистрации и обработки внутренних обращений.
 
 **Начать просмотр:** [графические модели «АЛЬФА»](/alsibir-expert/wiki/portfolio/analytics/alpha-graphic-models/) показывают систему с разных сторон; [комплект документации](/alsibir-expert/wiki/portfolio/documentation/alpha/) раскрывает требования, проектные решения и процедуры проверки.

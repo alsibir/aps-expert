@@ -7,6 +7,9 @@ tags: ["Техническая документация", "Автоматиза�
 category: "Техническая документация и ГОСТ"
 ---
 
+<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-automation-document-workflows.webp" alt="Иллюстрация к материалу: Воспроизводимый процесс выпуска документации" width="1279" height="720" loading="eager" decoding="async" />
+
+
 Техническая документация должна выпускаться по управляемому процессу — от исходных материалов до комплекта с проверяемым статусом.
 
 ## Этапы

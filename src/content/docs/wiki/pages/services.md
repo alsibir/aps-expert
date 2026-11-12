@@ -3,6 +3,9 @@ title: 'Услуги и компетенции'
 draft: false
 ---
 
+<img class="aps-article-collage" src="/alsibir-expert/images/articles/wiki-pages-services.webp" alt="Иллюстрация к материалу: Услуги и компетенции" width="1279" height="720" loading="eager" decoding="async" />
+
+
 ## Техническая документация
 
 - Разработка и актуализация **ТЗ, ПМИ, пояснительных записок, описаний программ, руководств пользователя и администратора**.
