@@ -10,11 +10,13 @@
     "astro": "node node_modules/astro/bin/astro.mjs",
     "serve:static": "python3 scripts/preview-static.py",
     "diagrams:render": "node scripts/render-diagrams.mjs",
-    "graphdemo:render": "node scripts/render-graphdemo.mjs"
+    "graphdemo:render": "node scripts/render-graphdemo.mjs",
+    "test:pdf": "node --test scripts/test-pdf-links.mjs && python3 scripts/audit-pdf-viewer.py"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.42.6",
     "astro": "^7.2.10",
+    "pdfjs-dist": "6.5.438",
     "sharp": "^0.35.3",
     "starlight-blog": "^0.30.2"
   },
