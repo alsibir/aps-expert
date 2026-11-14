@@ -1,0 +1,140 @@
+---
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const rows = [{"direction": "left", "label": "Документация, анализ и моделирование", "logos": [["postman", "Postman"], ["sql", "SQL"], ["prometheus", "Prometheus"], ["obsidian", "Obsidian"], ["diagramsdotnet", "draw.io"], ["plantuml", "PlantUML"], ["mermaid", "Mermaid"], ["confluence", "Confluence"], ["bitrix24", "Битрикс24"], ["astro", "Astro"], ["chatgpt", "ChatGPT"], ["deepseek", "DeepSeek"], ["yandexgpt", "YandexGPT"], ["gigachat", "ГигаЧат"], ["swagger", "Swagger (OpenAPI)"], ["jira", "Jira"]]}, {"direction": "right", "label": "Разработка и рабочая среда", "logos": [["gitlab", "GitLab"], ["github", "GitHub"], ["microsoftexcel", "Excel"], ["microsoftvisio", "Visio"], ["microsoftword", "Word"], ["visualstudiocode", "Visual Studio Code"], ["git", "Git"], ["markdown", "Markdown"], ["linuxmint", "Linux Mint"], ["windows", "Windows"], ["virtualbox", "VirtualBox"], ["figma", "Figma"], ["html5", "HTML"], ["css3", "CSS"], ["uml", "UML"], ["bpmn", "BPMN"]]}];
+---
+<section class="aps-tools" id="clients-tools" aria-labelledby="clients-tools-title" data-tools>
+  <div class="aps-tools-heading">
+    <h2 id="clients-tools-title">Инструменты и технологии</h2>
+    <button class="aps-tools-pause" type="button" aria-pressed="false" aria-controls="clients-tools-rows" hidden>Приостановить движение</button>
+  </div>
+  <p>Средства подготовки документации, анализа систем, моделирования и управления требованиями.</p>
+  <div class="aps-tools-panel" id="clients-tools-rows">
+    {rows.map(row => (
+      <div class:list={['aps-tools-row', `aps-tools-row-${row.direction}`]} tabindex="0" role="region" aria-label={row.label}>
+        <div class="aps-tools-track" data-tools-track>
+          {[false, true].map(duplicate => (
+            <ul class="aps-tools-group" aria-label={duplicate ? undefined : row.label} aria-hidden={duplicate ? 'true' : undefined} role="list">
+              {row.logos.map(([file, name]) => (
+                <li class="aps-tools-cell">
+                  <img src={`${base}/images/tools/${file}.svg`} alt="" width="64" height="64" loading="eager" decoding="async" />
+                <span>{name}</span>
+                </li>
+              ))}
+            </ul>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+  <p><a href={`${base}/wiki/pages/skills/`}>Назначение инструментов</a> · <a href={`${base}/wiki/pages/portfolio/`}>Применение инструментов в примерах работ</a></p>
+</section>
+
+<style>
+  .aps-tools { --partner-pitch: 172px; }
+  .aps-tools-cell span { font-size: 13px; line-height: 1.3; color: var(--aps-ink); text-align: center; }
+  .aps-tools-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 12px 24px; margin-bottom: 32px; }
+  .aps-tools-heading h2 { margin: 0; }
+  .aps-tools-pause { border: 1px solid var(--aps-line); border-radius: 6px; padding: 6px 12px; background: var(--aps-surface); color: var(--aps-ink); font: inherit; font-size: 13px; cursor: pointer; }
+  .aps-tools-pause:hover { border-color: var(--aps-accent); }
+  .aps-tools-pause:focus-visible { outline: 2px solid var(--aps-accent); outline-offset: 4px; }
+  .aps-tools-pause[hidden] { display: none; }
+  .aps-tools-panel { position: relative; width: 100%; box-sizing: border-box; display: grid; gap: 20px; padding: 24px 0; overflow: hidden; background: var(--aps-surface); border: 1px solid var(--aps-line); border-radius: 8px; }
+  .aps-tools-row { min-width: 0; overflow: hidden; mask-image: linear-gradient(to right, transparent, black 24px, black calc(100% - 24px), transparent); }
+  .aps-tools-row:focus-visible { outline: 2px solid var(--aps-accent); outline-offset: -3px; }
+  .aps-tools-track { display: flex; width: max-content; animation: aps-tools-scroll var(--duration, 45s) linear infinite; }
+  .aps-tools-row-right .aps-tools-track { animation-direction: reverse; }
+  .aps-tools-panel .aps-tools-group { display: flex; flex: 0 0 auto; align-items: center; gap: 0; list-style: none; padding: 0; margin: 0; }
+  .aps-tools-panel .aps-tools-cell { display: flex; flex: 0 0 var(--partner-pitch); align-items: center; justify-content: center; width: var(--partner-pitch); height: 116px; flex-direction: column; gap: 10px; padding: 8px; margin: 0; }
+  .aps-tools-panel img { display: block; width: 64px; max-width: 100%; height: 64px; padding: 8px; box-sizing: border-box; background: #fff; object-fit: contain; border: 0; border-radius: 10px; margin: 0; filter: none; mix-blend-mode: normal; }
+  .aps-tools-panel:hover .aps-tools-track,
+  .aps-tools-panel:focus-within .aps-tools-track,
+  .aps-tools[data-paused] .aps-tools-track { animation-play-state: paused; }
+  @keyframes aps-tools-scroll { from { transform: translateX(0); } to { transform: translateX(calc(-1 * var(--cycle-width, 50%))); } }
+  @media (max-width: 640px) {
+    .aps-tools { --partner-pitch: 144px; }
+
+    .aps-tools-heading { margin-bottom: 24px; }
+    .aps-tools-panel { gap: 29px; padding: 24px 0; }
+    .aps-tools-panel .aps-tools-cell { height: 116px; }
+    .aps-tools-panel img { width: 64px; height: 64px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .aps-tools-track { animation: none; transform: none; width: auto; }
+    .aps-tools-row { overflow-x: auto; mask-image: none; }
+    .aps-tools-panel .aps-tools-group { flex-wrap: nowrap; width: max-content; }
+    .aps-tools-group[aria-hidden='true'] { display: none; }
+    .aps-tools-pause { display: none; }
+    .aps-tools-panel { gap: 24px; }
+  }
+</style>
+
+<script>
+  const initializeTools = () => {
+    document.querySelectorAll<HTMLElement>('[data-tools]').forEach(section => {
+      const button = section.querySelector<HTMLButtonElement>('.aps-tools-pause');
+      if (!button || button.dataset.initialized) return;
+      button.dataset.initialized = 'true';
+      const panel = section.querySelector<HTMLElement>('.aps-tools-panel');
+      const updatePanelGeometry = () => {
+        if (!panel) return;
+        const themeControl = document.querySelector<HTMLElement>('starlight-theme-select')
+          ?? document.querySelector<HTMLElement>('[data-theme-select]')
+          ?? document.querySelector<HTMLElement>('header select[aria-label*="тем" i]');
+        const viewportWidth = document.documentElement.clientWidth;
+        const themeRect = themeControl?.getBoundingClientRect();
+        const rightGap = themeRect && themeRect.width > 0
+          ? viewportWidth - themeRect.right : 24;
+        const inset = Math.max(0, Math.min(viewportWidth / 4, rightGap));
+        // Measure the unmodified main-content column, not the expanded panel.
+        const sectionRect = section.getBoundingClientRect();
+        const contentWidth = sectionRect.width;
+        const availableWidth = Math.max(0, viewportWidth - 2 * inset);
+        // Gradually blend between the text-column width and the full
+        // available viewport width; never switch geometry abruptly.
+        // The interpolation is zero on narrow screens and reaches one
+        // only after the main text column is clearly max-width constrained.
+        const ratio = availableWidth > 0 ? contentWidth / availableWidth : 1;
+        const progress = Math.max(0, Math.min(1, (0.95 - ratio) / 0.20));
+        const blend = progress * progress * (3 - 2 * progress);
+        const targetWidth = contentWidth + (availableWidth - contentWidth) * blend;
+        const targetLeft = sectionRect.left + (inset - sectionRect.left) * blend;
+        panel.style.width = `${targetWidth}px`;
+        panel.style.marginLeft = `${targetLeft - sectionRect.left}px`;
+      };
+      updatePanelGeometry();
+      window.addEventListener('resize', updatePanelGeometry, { passive: true });
+      const refreshRows = () => {
+        section.querySelectorAll<HTMLElement>('[data-tools-track]').forEach(track => {
+          const original = track.querySelector<HTMLElement>('.aps-tools-group');
+          if (!original) return;
+          Array.from(track.querySelectorAll<HTMLElement>('.aps-tools-group')).slice(2).forEach(group => group.remove());
+          const cycleWidth = original.getBoundingClientRect().width;
+          const viewportWidth = track.parentElement?.getBoundingClientRect().width ?? 0;
+          if (!cycleWidth || !viewportWidth) return;
+          const copies = Math.max(2, Math.ceil(viewportWidth / cycleWidth) + 2);
+          for (let i = 2; i < copies; i++) {
+            const clone = original.cloneNode(true) as HTMLElement;
+            clone.setAttribute('aria-hidden', 'true');
+            clone.removeAttribute('aria-label');
+            clone.querySelectorAll('img').forEach(img => { img.alt = ''; });
+            track.appendChild(clone);
+          }
+          track.style.setProperty('--cycle-width', `${cycleWidth}px`);
+          const mobile = window.matchMedia('(max-width: 640px)').matches;
+          track.style.setProperty('--duration', `${cycleWidth / (mobile ? 20 : 25)}s`);
+        });
+      };
+      refreshRows();
+      const observer = new ResizeObserver(refreshRows);
+      observer.observe(section.querySelector('.aps-tools-panel') ?? section);
+      button.hidden = false;
+      button.addEventListener('click', () => {
+        const paused = section.toggleAttribute('data-paused');
+        button.setAttribute('aria-pressed', String(paused));
+        button.textContent = paused ? 'Продолжить движение' : 'Приостановить движение';
+      });
+    });
+  };
+  initializeTools();
+  document.addEventListener('astro:page-load', initializeTools);
+</script>
