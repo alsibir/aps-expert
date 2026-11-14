@@ -4,7 +4,7 @@ description: 'Компетенции аналитика и техническо�
 draft: false
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/wiki-pages-skills.webp" alt="Иллюстрация к материалу: Навыки и инструменты" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/wiki-pages-skills.webp" alt="Иллюстрация к материалу: Навыки и инструменты" width="1279" height="720" loading="eager" decoding="async" />
 
 
 | Категория | Навыки | Инструменты |
@@ -19,10 +19,10 @@ draft: false
 
 ## Примеры применения
 
-- [Системный анализ](/alsibir-expert/wiki/portfolio/analytics/system-analysis/) — требования, сценарии, данные и проверяемость.
-- [Графические модели «АЛЬФА»](/alsibir-expert/wiki/portfolio/analytics/alpha-graphic-models/) — схемы, пояснения и исходники.
-- [Техническая документация](/alsibir-expert/wiki/portfolio/documentation/technical-documentation/) — состав комплекта, руководства и испытания.
-- [Регистрационные досье](/alsibir-expert/wiki/portfolio/registration/software-registration/) — структурирование сведений и подтверждающих материалов.
+- [Системный анализ](/aps-expert/wiki/portfolio/analytics/system-analysis/) — требования, сценарии, данные и проверяемость.
+- [Графические модели «АЛЬФА»](/aps-expert/wiki/portfolio/analytics/alpha-graphic-models/) — схемы, пояснения и исходники.
+- [Техническая документация](/aps-expert/wiki/portfolio/documentation/technical-documentation/) — состав комплекта, руководства и испытания.
+- [Регистрационные досье](/aps-expert/wiki/portfolio/registration/software-registration/) — структурирование сведений и подтверждающих материалов.
 
 ## Принцип работы
 

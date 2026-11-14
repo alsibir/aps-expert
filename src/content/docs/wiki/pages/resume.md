@@ -4,7 +4,7 @@ description: 'Получить по электронной почте резюм
 draft: false
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/wiki-pages-resume.webp" alt="Иллюстрация к материалу: Запросить резюме" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/wiki-pages-resume.webp" alt="Иллюстрация к материалу: Запросить резюме" width="1279" height="720" loading="eager" decoding="async" />
 
 
 Сайт представляет портфолио Александра Сибирякова и примеры работ для посетителей, ознакомившихся с профилем аналитика или технического писателя на hh.ru.
@@ -26,4 +26,4 @@ draft: false
 
 > Здравствуйте! Прошу выслать резюме Александра Сибирякова для профиля «аналитик».
 
-[Посмотреть реальные работы](/alsibir-expert/wiki/pages/portfolio/) · [Контакты](/alsibir-expert/wiki/pages/contact/)
+[Посмотреть реальные работы](/aps-expert/wiki/pages/portfolio/) · [Контакты](/aps-expert/wiki/pages/contact/)

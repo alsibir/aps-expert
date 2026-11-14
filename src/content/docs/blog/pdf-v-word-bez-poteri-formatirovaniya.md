@@ -11,7 +11,7 @@ excerpt: "Как преобразовать PDF в редактируемый DO
 category: "Инструменты и автоматизация"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-pdf-v-word-bez-poteri-formatirovaniya.webp" alt="Иллюстрация к материалу: Как перевести PDF в Word: 4 способа и что делать со сканами" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-pdf-v-word-bez-poteri-formatirovaniya.webp" alt="Иллюстрация к материалу: Как перевести PDF в Word: 4 способа и что делать со сканами" width="1279" height="720" loading="eager" decoding="async" />
 
 
 PDF удобно использовать для передачи документов с устойчивой разметкой, но для внесения правок часто требуется формат Word. Конвертация возможна несколькими способами, однако результат зависит от содержимого PDF: обычный текст преобразуется лучше, чем скан, сложная таблица или чертёж.

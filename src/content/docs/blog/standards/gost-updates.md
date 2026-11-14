@@ -7,7 +7,7 @@ tags: ["Техническая документация", "Качество до
 category: "Техническая документация и ГОСТ"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-standards-gost-updates.webp" alt="Иллюстрация к материалу: Как отслеживать изменения технических стандартов" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-standards-gost-updates.webp" alt="Иллюстрация к материалу: Как отслеживать изменения технических стандартов" width="1279" height="720" loading="eager" decoding="async" />
 
 
 Нормативные требования изменяются: актуальная редакция стандарта, дата введения и область применения способны повлиять на состав и оформление документации.

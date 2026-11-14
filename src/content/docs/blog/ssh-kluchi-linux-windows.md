@@ -11,7 +11,7 @@ excerpt: "Пошаговая настройка SSH-ключей Ed25519 в Linu
 category: "Рабочая среда: Windows и Linux"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-ssh-kluchi-linux-windows.webp" alt="Иллюстрация к материалу: Как создать SSH-ключ и подключиться к серверу без пароля" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-ssh-kluchi-linux-windows.webp" alt="Иллюстрация к материалу: Как создать SSH-ключ и подключиться к серверу без пароля" width="1279" height="720" loading="eager" decoding="async" />
 
 
 Для подключения к Linux-серверу по SSH можно использовать пару ключей вместо постоянного ввода пароля учётной записи. Закрытый ключ остаётся на компьютере пользователя, а открытый записывается на сервер. После настройки сервер проверяет владение закрытым ключом, не получая сам закрытый ключ.
@@ -157,4 +157,4 @@ sudo systemctl reload ssh
 
 ## Связанные публикации
 
-- [PuTTY, OpenSSH и журналирование подключений](/alsibir-expert/blog/security/ssh-key-access/)
+- [PuTTY, OpenSSH и журналирование подключений](/aps-expert/blog/security/ssh-key-access/)

@@ -64,7 +64,7 @@ for(const item of catalog){
   c.drawString(40,y,f'{i:02}. {item["title"]}');y-=23
  y=para(c,'Требования, роли и статусы сверены с опубликованным комплектом АС «АЛЬФА» версии 1.0.0. Макет отчётной панели является отдельным предложением; значения полностью синтетические.',40,y-12,w-80)
  para(c,'Исходники PlantUML и SVG доступны на странице кейса. Формат страниц выбран по размеру модели для сохранения читаемости подписей.',40,y-16,w-80)
- c.linkURL('https://alsibir.github.io/alsibir-expert/wiki/portfolio/analytics/alpha-graphic-models/',(40,40,w-40,66),relative=0)
+ c.linkURL('https://alsibir.github.io/aps-expert/wiki/portfolio/analytics/alpha-graphic-models/',(40,40,w-40,66),relative=0)
  c.setFillColor(blue);c.setFont('DejaVu',10);c.drawString(40,50,'Открыть страницу графического кейса на сайте АПС')
  c.showPage()
  for i,item in enumerate(catalog,1):
@@ -113,7 +113,7 @@ BPMN: обзор процесса; отмена и уточнение раскр
 Для PDF: Python reportlab, системные шрифты DejaVu, npm-зависимости проекта.
 Скрипт требует доступ к Node.js и Graphviz через PATH.
 
-https://alsibir.github.io/alsibir-expert/wiki/portfolio/analytics/alpha-graphic-models/
+https://alsibir.github.io/aps-expert/wiki/portfolio/analytics/alpha-graphic-models/
 '''
 (output/'README.txt').write_text(readme)
 archive=output/'alpha-graphdemo.zip'

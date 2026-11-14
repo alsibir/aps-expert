@@ -7,7 +7,7 @@ tags: ["Microsoft Word", "Автоматизация", "Качество док�
 category: "Инструменты и автоматизация"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-automation-04-word-automation.webp" alt="Иллюстрация к материалу: Автоматизированная проверка документации Microsoft Word: стили, поля, нумерация и перекрестные ссылки" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-automation-04-word-automation.webp" alt="Иллюстрация к материалу: Автоматизированная проверка документации Microsoft Word: стили, поля, нумерация и перекрестные ссылки" width="1279" height="720" loading="eager" decoding="async" />
 
 
 **Направление:** автоматизация документирования · **Актуализация:** 09.10.2026.

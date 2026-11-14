@@ -1,6 +1,6 @@
-# alsibir-expert
+# aps-expert
 
-Astro/Starlight. Сайт: https://alsibir.github.io/alsibir-expert/.
+Astro/Starlight. Сайт: https://alsibir.github.io/aps-expert/.
 
 ## Работа с исходниками
 
@@ -8,10 +8,10 @@ Astro/Starlight. Сайт: https://alsibir.github.io/alsibir-expert/.
 
 ```bash
 npm ci
-npm run dev -- --open /alsibir-expert/
+npm run dev -- --open /aps-expert/
 npm run build
 python3 scripts/audit.py
-npm run preview -- --open /alsibir-expert/
+npm run preview -- --open /aps-expert/
 ```
 
 ## GitHub Pages
@@ -25,8 +25,8 @@ Workflow .github/workflows/deploy.yml: pull request — сборка и staging-
 Не выполнять git pull в старую смешанную директорию. Сохранить её отдельной резервной копией и клонировать репозиторий в новый соседний каталог. После проверки сборки заменить используемый каталог проекта. Существующие настройки меню запуска указывают на старый путь — выбрать новый каталог либо сохранить прежнее имя после резервирования.
 
 ```bash
-git clone https://github.com/alsibir/alsibir-expert.git alsibir-expert-git
-cd alsibir-expert-git
+git clone https://github.com/alsibir/aps-expert.git aps-expert-git
+cd aps-expert-git
 # Для проверки незавершённого релиза:
 git switch release/audit-20261101
 npm ci

@@ -7,7 +7,7 @@ category: "Инструменты и автоматизация"
 draft: false
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-tools-total-commander-plugins-ru.webp" alt="Иллюстрация к материалу: Плагины Total Commander: полный обзор каталога и примеры применения" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-tools-total-commander-plugins-ru.webp" alt="Иллюстрация к материалу: Плагины Total Commander: полный обзор каталога и примеры применения" width="1279" height="720" loading="eager" decoding="async" />
 
 
 Total Commander можно дополнить средствами просмотра документов, поиска по содержимому, доступа к облакам, чтения дисковых образов и обработки редких архивов. Для выбора расширения сначала следует определить задачу: открыть файл, подключить хранилище, вывести свойства в колонках или выполнить поиск.

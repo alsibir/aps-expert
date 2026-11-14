@@ -7,7 +7,7 @@ tags: ["Техническая документация", "Автоматиза�
 category: "Техническая документация и ГОСТ"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-automation-document-workflows.webp" alt="Иллюстрация к материалу: Воспроизводимый процесс выпуска документации" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-automation-document-workflows.webp" alt="Иллюстрация к материалу: Воспроизводимый процесс выпуска документации" width="1279" height="720" loading="eager" decoding="async" />
 
 
 Техническая документация должна выпускаться по управляемому процессу — от исходных материалов до комплекта с проверяемым статусом.
@@ -20,4 +20,4 @@ category: "Техническая документация и ГОСТ"
 4. **Проверка:** полнота разделов, трассировка, контроль ссылок, форматирование.
 5. **Выпуск:** зафиксированные версии, контрольные суммы и ведомость изменений.
 
-Автоматизировать целесообразно повторяемые операции, а не содержательные решения. См. [контроль качества](/alsibir-expert/blog/documentation/05_document_quality/) и [воспроизводимый выпуск](/alsibir-expert/blog/documentation/10_document_release/).
+Автоматизировать целесообразно повторяемые операции, а не содержательные решения. См. [контроль качества](/aps-expert/blog/documentation/05_document_quality/) и [воспроизводимый выпуск](/aps-expert/blog/documentation/10_document_release/).

@@ -4,12 +4,12 @@ description: 'Материалы аналитика: сбор требовани
 draft: false
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/wiki-portfolio-analytics-system-analysis.webp" alt="Иллюстрация к материалу: Системный анализ: демонстрационный проект" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/wiki-portfolio-analytics-system-analysis.webp" alt="Иллюстрация к материалу: Системный анализ: демонстрационный проект" width="1279" height="720" loading="eager" decoding="async" />
 
 
 Эта страница объединяет примеры и статьи, по которым можно оценить работу аналитика: от уточнения задачи и границ системы до описания поведения, данных и проверяемых требований. Основной демонстрационный проект — АС «АЛЬФА», веб-система регистрации и обработки внутренних обращений.
 
-**Начать просмотр:** [графические модели «АЛЬФА»](/alsibir-expert/wiki/portfolio/analytics/alpha-graphic-models/) показывают систему с разных сторон; [комплект документации](/alsibir-expert/wiki/portfolio/documentation/alpha/) раскрывает требования, проектные решения и процедуры проверки.
+**Начать просмотр:** [графические модели «АЛЬФА»](/aps-expert/wiki/portfolio/analytics/alpha-graphic-models/) показывают систему с разных сторон; [комплект документации](/aps-expert/wiki/portfolio/documentation/alpha/) раскрывает требования, проектные решения и процедуры проверки.
 
 Материалы специально разработаны автором для демонстрации профессиональных компетенций. Организации, системы и данные условные; документы заказчиков и конфиденциальные сведения не включены. Наличие работающего продукта, внедрение и факт испытаний не утверждаются.
 
@@ -17,12 +17,12 @@ draft: false
 
 | Задача аналитика | Материал сайта | Что можно оценить |
 | --- | --- | --- |
-| Собрать исходные данные | [Установочная встреча по ИТ-проекту](/alsibir-expert/blog/analytics/project-discovery-ai/) | Вопросы к участникам, фиксация ограничений, журнал открытых вопросов и критерии готовности исходных данных |
-| Определить границы и участников | [Контекст и варианты использования «АЛЬФА»](/alsibir-expert/wiki/portfolio/analytics/alpha-graphic-models/#diagram-02) | Отделение системы от окружения, определение ролей и пользовательских целей |
-| Описать процесс и поведение | [BPMN, UML и другие модели «АЛЬФА»](/alsibir-expert/wiki/portfolio/analytics/alpha-graphic-models/) | Основной ход процесса, развилки, взаимодействия компонентов и состояния заявки |
-| Согласовать данные | [ER-модель «АЛЬФА»](/alsibir-expert/wiki/portfolio/analytics/alpha-graphic-models/#diagram-09) | Сущности, связи, ключи и ограничения целостности |
-| Описать требования и API | [Документы «АЛЬФА»: состав и демонстрируемые навыки](/alsibir-expert/wiki/portfolio/documentation/alpha/) | Связь требований с архитектурой, данными и описанием интерфейсов |
-| Сделать требования проверяемыми | [Трассируемость требований до испытаний](/alsibir-expert/blog/analytics/06_requirements_to_tests/) | Матрица связей, ожидаемые результаты, анализ влияния изменений |
+| Собрать исходные данные | [Установочная встреча по ИТ-проекту](/aps-expert/blog/analytics/project-discovery-ai/) | Вопросы к участникам, фиксация ограничений, журнал открытых вопросов и критерии готовности исходных данных |
+| Определить границы и участников | [Контекст и варианты использования «АЛЬФА»](/aps-expert/wiki/portfolio/analytics/alpha-graphic-models/#diagram-02) | Отделение системы от окружения, определение ролей и пользовательских целей |
+| Описать процесс и поведение | [BPMN, UML и другие модели «АЛЬФА»](/aps-expert/wiki/portfolio/analytics/alpha-graphic-models/) | Основной ход процесса, развилки, взаимодействия компонентов и состояния заявки |
+| Согласовать данные | [ER-модель «АЛЬФА»](/aps-expert/wiki/portfolio/analytics/alpha-graphic-models/#diagram-09) | Сущности, связи, ключи и ограничения целостности |
+| Описать требования и API | [Документы «АЛЬФА»: состав и демонстрируемые навыки](/aps-expert/wiki/portfolio/documentation/alpha/) | Связь требований с архитектурой, данными и описанием интерфейсов |
+| Сделать требования проверяемыми | [Трассируемость требований до испытаний](/aps-expert/blog/analytics/06_requirements_to_tests/) | Матрица связей, ожидаемые результаты, анализ влияния изменений |
 
 ## Сквозной пример: регистрация обращения
 
@@ -40,9 +40,9 @@ draft: false
 
 ## Материалы о методах и результате работы
 
-- [Профессия системного аналитика](/alsibir-expert/blog/analytics/system-analyst/) — функции, обязанности и рабочие результаты.
-- [BPMN, UML и PlantUML](/alsibir-expert/blog/modeling/08_bpmn_uml_plantuml/) — выбор способов описания процессов и системы.
-- [Результаты анализа и техническая документация](/alsibir-expert/blog/documentation/analysis-documentation-deliverables/) — состав передаваемых материалов и исходных данных.
-- [Техническая документация: демонстрационный комплект](/alsibir-expert/wiki/portfolio/documentation/technical-documentation/) — продолжение маршрута от моделей к документам.
+- [Профессия системного аналитика](/aps-expert/blog/analytics/system-analyst/) — функции, обязанности и рабочие результаты.
+- [BPMN, UML и PlantUML](/aps-expert/blog/modeling/08_bpmn_uml_plantuml/) — выбор способов описания процессов и системы.
+- [Результаты анализа и техническая документация](/aps-expert/blog/documentation/analysis-documentation-deliverables/) — состав передаваемых материалов и исходных данных.
+- [Техническая документация: демонстрационный комплект](/aps-expert/wiki/portfolio/documentation/technical-documentation/) — продолжение маршрута от моделей к документам.
 
-[Все примеры работ](/alsibir-expert/wiki/pages/portfolio/) · [Публикации](/alsibir-expert/publications/) · [Навыки и инструменты](/alsibir-expert/wiki/pages/skills/)
+[Все примеры работ](/aps-expert/wiki/pages/portfolio/) · [Публикации](/aps-expert/publications/) · [Навыки и инструменты](/aps-expert/wiki/pages/skills/)

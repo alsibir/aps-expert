@@ -8,7 +8,7 @@ tags: ["Требования и техническое задание", "Microso
 category: "Инструменты и автоматизация"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-automation-word-requirement-numbering.webp" alt="Иллюстрация к материалу: Автоматизация сбора, нумерации и трассировки требований в Microsoft Word" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-automation-word-requirement-numbering.webp" alt="Иллюстрация к материалу: Автоматизация сбора, нумерации и трассировки требований в Microsoft Word" width="1279" height="720" loading="eager" decoding="async" />
 
 
 ## Постановка задачи

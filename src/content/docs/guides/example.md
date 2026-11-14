@@ -4,7 +4,7 @@ draft: false
 category: "Техническая документация и ГОСТ"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/guides-example.webp" alt="Иллюстрация к материалу: Порядок подготовки комплекта документации" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/guides-example.webp" alt="Иллюстрация к материалу: Порядок подготовки комплекта документации" width="1279" height="720" loading="eager" decoding="async" />
 
 
 Документацию удобно собирать в последовательности: исходные сведения → реестр требований → структура комплекта → разработка → междокументная проверка → выпуск.
@@ -15,4 +15,4 @@ category: "Техническая документация и ГОСТ"
 4. **Проверить факты.** Все даты, версии, платформы и права должны иметь источник.
 5. **Выпустить версию.** Проверить содержимое, ссылки, номера, подписи и состав вложений.
 
-[Читать статью о выпуске](/alsibir-expert/blog/documentation/10_document_release/) и [обзор контрольных проверок](/alsibir-expert/blog/documentation/05_document_quality/).
+[Читать статью о выпуске](/aps-expert/blog/documentation/10_document_release/) и [обзор контрольных проверок](/aps-expert/blog/documentation/05_document_quality/).

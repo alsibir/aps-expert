@@ -11,7 +11,7 @@ excerpt: "Кто отвечает за требования, архитекту�
 category: "Системный анализ и проектирование"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-kak-organizovat-razrabotku-it-proekta.webp" alt="Иллюстрация к материалу: Как организовать разработку ИТ-проекта: этапы, роли и документация" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-kak-organizovat-razrabotku-it-proekta.webp" alt="Иллюстрация к материалу: Как организовать разработку ИТ-проекта: этапы, роли и документация" width="1279" height="720" loading="eager" decoding="async" />
 
 
 Создание программного продукта начинается не с выбора языка программирования, а с понимания задачи. Если заказчик, аналитик, архитектор и разработчики по-разному представляют результат, даже хорошо написанный код может не решить исходную проблему.

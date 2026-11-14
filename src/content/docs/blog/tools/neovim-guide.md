@@ -8,7 +8,7 @@ tags: ["Рабочие инструменты", "Редактура и пров�
 category: "Инструменты и автоматизация"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-tools-neovim-guide.webp" alt="Иллюстрация к материалу: Neovim: настройка удобного редактора для кода и технической документации" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-tools-neovim-guide.webp" alt="Иллюстрация к материалу: Neovim: настройка удобного редактора для кода и технической документации" width="1279" height="720" loading="eager" decoding="async" />
 
 
 Neovim — редактор текста и программного кода, который можно превратить в компактную рабочую среду под собственные задачи. Его главное достоинство не в том, что он заменяет все IDE, а в сочетании клавиатурного управления, расширяемости и возможности хранить настройки в обычных текстовых файлах.

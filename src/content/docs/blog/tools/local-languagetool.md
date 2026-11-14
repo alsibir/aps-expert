@@ -7,7 +7,7 @@ tags: ["Редактура и проверка текста", "Системно�
 category: "Инструменты и автоматизация"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-tools-local-languagetool.webp" alt="Иллюстрация к материалу: Как развернуть собственный сервер LanguageTool на Windows и Linux: установка, настройка, использование и сравнение с Premium" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-tools-local-languagetool.webp" alt="Иллюстрация к материалу: Как развернуть собственный сервер LanguageTool на Windows и Linux: установка, настройка, использование и сравнение с Premium" width="1279" height="720" loading="eager" decoding="async" />
 
 
 *Практическое руководство для технических писателей, аналитиков, разработчиков программного обеспечения и специалистов по подготовке документации.*
@@ -858,4 +858,4 @@ LanguageTool поддерживает разработку пользовате�
 
 ## Связанные публикации
 
-- [Краткая рабочая схема LanguageTool](/alsibir-expert/blog/ai/local-languagetool/)
+- [Краткая рабочая схема LanguageTool](/aps-expert/blog/ai/local-languagetool/)

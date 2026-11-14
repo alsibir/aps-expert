@@ -11,7 +11,7 @@ slug: "blog/portableapps-polnyy-obzor-programm"
 category: "Инструменты и автоматизация"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-tools-portableapps-aps-full-review.webp" alt="Иллюстрация к материалу: PortableApps.com: каталог переносимых программ, сравнение аналогов и оптимальный набор для технического писателя" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-tools-portableapps-aps-full-review.webp" alt="Иллюстрация к материалу: PortableApps.com: каталог переносимых программ, сравнение аналогов и оптимальный набор для технического писателя" width="1279" height="720" loading="eager" decoding="async" />
 
 
 **Актуальность обзора:** 26 октября 2026 года. **Источник:** [официальный каталог PortableApps.com](https://portableapps.com/apps). **Аудитория:** технические писатели, системные аналитики, разработчики документации и пользователи переносимых рабочих сред Windows.

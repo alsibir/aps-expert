@@ -16,7 +16,7 @@ for f,u in links:
  if v.scheme or v.netloc or not v.fragment:continue
  path=unquote(v.path);frag=unquote(v.fragment)
  if not path:q=f
- elif path.startswith('/alsibir-expert/'):q=root/path[len('/alsibir-expert/'):]
+ elif path.startswith('/aps-expert/'):q=root/path[len('/aps-expert/'):]
  elif path.startswith('/'):continue
  else:q=f.parent/path
  if q.is_dir():q=q/'index.html'

@@ -8,7 +8,7 @@ tags: ["Базы знаний", "Управление файлами"]
 category: "Инструменты и автоматизация"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-automation-obsidian-automation.webp" alt="Иллюстрация к материалу: Систематизация заметок Obsidian: план контролируемой миграции" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-automation-obsidian-automation.webp" alt="Иллюстрация к материалу: Систематизация заметок Obsidian: план контролируемой миграции" width="1279" height="720" loading="eager" decoding="async" />
 
 
 ## Постановка задачи
@@ -320,4 +320,4 @@ obsidian-migration/
 
 ## Связанные публикации
 
-- [Архитектура и автоматизация базы знаний Obsidian](/alsibir-expert/blog/automation/obsidian-knowledge-base/)
+- [Архитектура и автоматизация базы знаний Obsidian](/aps-expert/blog/automation/obsidian-knowledge-base/)

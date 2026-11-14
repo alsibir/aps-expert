@@ -7,7 +7,7 @@ tags: ["ГОСТ 21 и СПДС", "Microsoft Word"]
 category: "Техническая документация и ГОСТ"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-standards-spds-shbv.webp" alt="Иллюстрация к материалу: Как оформить документ по СПДС в Word: рамки, основные надписи, тома и двойная нумерация страниц" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-standards-spds-shbv.webp" alt="Иллюстрация к материалу: Как оформить документ по СПДС в Word: рамки, основные надписи, тома и двойная нумерация страниц" width="1279" height="720" loading="eager" decoding="async" />
 
 
 Оформление документации по СПДС часто кажется простой задачей: добавить рамку, основную надпись и привести поля страницы к установленному виду. На практике основные трудности начинаются не с самой рамки, а тогда, когда несколько самостоятельных документов требуется собрать в один том, сохранить локальную нумерацию каждого документа, одновременно обеспечить сквозную нумерацию листов тома и правильно сформировать содержание.
@@ -624,5 +624,5 @@ Word не гарантирует, что каждое поле автомати�
 
 ## Связанные публикации
 
-- [Первоначальная настройка СПДС в Word](/alsibir-expert/blog/standards/spds-microsoft-word/)
-- [Согласованность комплекта СПДС](/alsibir-expert/blog/standards/03_spds_gost21/)
+- [Первоначальная настройка СПДС в Word](/aps-expert/blog/standards/spds-microsoft-word/)
+- [Согласованность комплекта СПДС](/aps-expert/blog/standards/03_spds_gost21/)

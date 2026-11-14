@@ -14,8 +14,8 @@ class Parser(HTMLParser):
    p=unquote(v.path)
    if not p:continue
    count+=1
-   if p.startswith('/alsibir-expert/'):target=root/p[len('/alsibir-expert/'):]
-   elif p=='/alsibir-expert':target=root
+   if p.startswith('/aps-expert/'):target=root/p[len('/aps-expert/'):]
+   elif p=='/aps-expert':target=root
    elif p.startswith('/'):errors.append([str(self.file.relative_to(root)),u,'outside base']);continue
    else:target=self.file.parent/p
    if not target.exists() and not (target/'index.html').exists():errors.append([str(self.file.relative_to(root)),u,'missing'])

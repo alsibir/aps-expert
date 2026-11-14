@@ -7,7 +7,7 @@ tags: ["Версии и выпуск документации", "Управле�
 category: "Техническая документация и ГОСТ"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-documentation-10-document-release.webp" alt="Иллюстрация к материалу: Управление файлами, версиями и воспроизводимой сборкой технической документации" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-documentation-10-document-release.webp" alt="Иллюстрация к материалу: Управление файлами, версиями и воспроизводимой сборкой технической документации" width="1279" height="720" loading="eager" decoding="async" />
 
 
 **Направление:** техническое документирование, инструменты разработки · **Актуализация:** 09.10.2026.

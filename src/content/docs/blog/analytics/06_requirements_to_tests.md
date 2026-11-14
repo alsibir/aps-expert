@@ -7,7 +7,7 @@ tags: ["Требования и техническое задание", "Сис�
 category: "Системный анализ и проектирование"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-analytics-06-requirements-to-tests.webp" alt="Иллюстрация к материалу: Трассируемость требований: от бизнес-процесса и архитектуры до испытаний" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-analytics-06-requirements-to-tests.webp" alt="Иллюстрация к материалу: Трассируемость требований: от бизнес-процесса и архитектуры до испытаний" width="1279" height="720" loading="eager" decoding="async" />
 
 
 **Направление:** системный анализ · **Актуализация:** 09.10.2026.
@@ -89,7 +89,7 @@ T --> P
 @enduml
 ```
 
-![Демонстрационная диаграмма PlantUML — иллюстрация 1](/alsibir-expert/diagrams/b1aa04b907461a33.svg)
+![Демонстрационная диаграмма PlantUML — иллюстрация 1](/aps-expert/diagrams/b1aa04b907461a33.svg)
 
 Исходный код схемы пригоден для хранения в Git рядом со статьей. Для производственной документации следует выбирать строгий тип связи («порождает», «реализует», «проверяет») и указывать направление.
 

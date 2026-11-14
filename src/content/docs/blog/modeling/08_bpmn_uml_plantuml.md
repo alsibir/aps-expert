@@ -7,7 +7,7 @@ tags: ["Моделирование и диаграммы", "Системный �
 category: "Системный анализ и проектирование"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-modeling-08-bpmn-uml-plantuml.webp" alt="Иллюстрация к материалу: BPMN, UML и PlantUML: как системному аналитику выбирать и сопровождать диаграммы" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-modeling-08-bpmn-uml-plantuml.webp" alt="Иллюстрация к материалу: BPMN, UML и PlantUML: как системному аналитику выбирать и сопровождать диаграммы" width="1279" height="720" loading="eager" decoding="async" />
 
 
 **Направление:** системный анализ, архитектура · **Актуализация:** 09.10.2026.
@@ -57,7 +57,7 @@ end
 @enduml
 ```
 
-![Демонстрационная диаграмма PlantUML — иллюстрация 1](/alsibir-expert/diagrams/cefd4ce4921d163c.svg)
+![Демонстрационная диаграмма PlantUML — иллюстрация 1](/aps-expert/diagrams/cefd4ce4921d163c.svg)
 
 Здесь показаны участники, вызовы и альтернативные ветви. Вместе с тем диаграмма не определяет поля запроса и ответа: для этого требуется API-контракт.
 
@@ -75,7 +75,7 @@ Completed --> [*]
 @enduml
 ```
 
-![Демонстрационная диаграмма PlantUML — иллюстрация 2](/alsibir-expert/diagrams/c1b67f131fddad03.svg)
+![Демонстрационная диаграмма PlantUML — иллюстрация 2](/aps-expert/diagrams/c1b67f131fddad03.svg)
 
 Две диаграммы описывают одну предметную область с разных сторон. Диаграмма последовательности отвечает на вопрос «кто кому сообщает», диаграмма состояний — «какой переход допустим».
 

@@ -7,7 +7,7 @@ tags: ["UX и интерфейсы", "Редактура и проверка т�
 category: "Системный анализ и проектирование"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-ux-ux-editing-guide.webp" alt="Иллюстрация к материалу: UX-редактура: практическое руководство" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-ux-ux-editing-guide.webp" alt="Иллюстрация к материалу: UX-редактура: практическое руководство" width="1279" height="720" loading="eager" decoding="async" />
 
 
 ## 1. Что такое UX-редактура

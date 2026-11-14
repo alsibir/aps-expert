@@ -4,7 +4,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit, parse_qs, unquote
 
 root = Path(__file__).resolve().parents[1] / 'dist'
-base = '/alsibir-expert/'
+base = '/aps-expert/'
 errors = []
 previews = downloads = 0
 documents = set()

@@ -6,7 +6,7 @@ draft: false
 
 **Направление:** Платформа разговорного искусственного интеллекта.
 
-![Иллюстрация проекта](/alsibir-expert/images/projects/dialogos.webp)
+![Иллюстрация проекта](/aps-expert/images/projects/dialogos.webp)
 
 ## О проекте
 
@@ -16,4 +16,4 @@ DialogOS позволяет создавать и обучать текстов�
 
 [Оригинальная страница проекта или разработчика — «Наносемантика»](https://nanosemantics.ai/dialog-os).
 
-[Вернуться к перечню проектов](/alsibir-expert/wiki/pages/projects/).
+[Вернуться к перечню проектов](/aps-expert/wiki/pages/projects/).

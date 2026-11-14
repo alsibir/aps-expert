@@ -3,7 +3,7 @@ title: 'Частые вопросы'
 draft: false
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/wiki-pages-faq.webp" alt="Иллюстрация к материалу: Частые вопросы" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/wiki-pages-faq.webp" alt="Иллюстрация к материалу: Частые вопросы" width="1279" height="720" loading="eager" decoding="async" />
 
 
 ## Какие документы можно заказать?
@@ -26,4 +26,4 @@ draft: false
 
 Только после адаптации и проверки. Они демонстрационные и не подтверждают факты о реальном изделии или компании.
 
-[Связаться](/alsibir-expert/wiki/pages/contact/).
+[Связаться](/aps-expert/wiki/pages/contact/).

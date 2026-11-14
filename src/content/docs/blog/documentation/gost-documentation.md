@@ -7,7 +7,7 @@ tags: ["ГОСТ 19 и ЕСПД", "ГОСТ 34", "Техническая док�
 category: "Техническая документация и ГОСТ"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-documentation-gost-documentation.webp" alt="Иллюстрация к материалу: Как применять ГОСТ к программной документации" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-documentation-gost-documentation.webp" alt="Иллюстрация к материалу: Как применять ГОСТ к программной документации" width="1279" height="720" loading="eager" decoding="async" />
 
 
 При выборе стандарта необходимо определить объект разработки, стадию жизненного цикла, договорные требования и актуальность редакции нормативного документа.
@@ -20,4 +20,4 @@ category: "Техническая документация и ГОСТ"
 4. Связать сведения в разных файлах идентификаторами требований и версий.
 5. Провести нормоконтроль и содержательную экспертизу.
 
-Шаблон может помочь с оформлением, но не подтверждает достаточность технических сведений. Для конкретных примеров см. [комплект по ГОСТ 19](/alsibir-expert/blog/documentation/01_gost19_documents/) и [ГОСТ 34](/alsibir-expert/blog/documentation/02_gost34_traceability/).
+Шаблон может помочь с оформлением, но не подтверждает достаточность технических сведений. Для конкретных примеров см. [комплект по ГОСТ 19](/aps-expert/blog/documentation/01_gost19_documents/) и [ГОСТ 34](/aps-expert/blog/documentation/02_gost34_traceability/).
