@@ -11,7 +11,7 @@ excerpt: "Как оценивать облачные диски, отличат�
 category: "Рабочая среда: Windows и Linux"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-oblachnoe-hranenie-vybor-i-rezervnye-kopii.webp" alt="Иллюстрация к материалу: Облачное хранилище: как выбрать сервис и не потерять файлы" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-oblachnoe-hranenie-vybor-i-rezervnye-kopii.webp" alt="Иллюстрация к материалу: Облачное хранилище: как выбрать сервис и не потерять файлы" width="1279" height="720" loading="eager" decoding="async" />
 
 
 Облачное хранилище удобно: документы доступны с нескольких устройств, изменения передаются автоматически, а отдельные файлы можно отправить по ссылке. Но наличие копии в облаке не означает, что сведения надёжно защищены от удаления, шифровальщика или ошибки синхронизации.

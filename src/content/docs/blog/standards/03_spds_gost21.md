@@ -7,7 +7,7 @@ tags: ["ГОСТ 21 и СПДС", "Техническая документаци
 category: "Техническая документация и ГОСТ"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-standards-03-spds-gost21.webp" alt="Иллюстрация к материалу: Оформление документов СПДС: комплект, тома, листы и согласованность по ГОСТ Р 21.101-2026" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-standards-03-spds-gost21.webp" alt="Иллюстрация к материалу: Оформление документов СПДС: комплект, тома, листы и согласованность по ГОСТ Р 21.101-2026" width="1279" height="720" loading="eager" decoding="async" />
 
 
 **Направление:** нормативная техническая документация · **Актуализация:** 09.10.2026.
@@ -102,5 +102,5 @@ R-014: обозначение схемы на листе 1 не совпадае
 
 ## Связанные публикации
 
-- [Первоначальная настройка СПДС в Word](/alsibir-expert/blog/standards/spds-microsoft-word/)
-- [Рамки, основные надписи и нумерация](/alsibir-expert/blog/standards/spds-shbv/)
+- [Первоначальная настройка СПДС в Word](/aps-expert/blog/standards/spds-microsoft-word/)
+- [Рамки, основные надписи и нумерация](/aps-expert/blog/standards/spds-shbv/)

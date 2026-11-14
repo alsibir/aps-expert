@@ -8,7 +8,7 @@ tags: ["Техническая документация", "Системный а
 category: "Техническая документация и ГОСТ"
 ---
 
-![Проверка требований и документации программно-аппаратного комплекса](/alsibir-expert/images/articles/analysis-documentation-deliverables.png)
+![Проверка требований и документации программно-аппаратного комплекса](/aps-expert/images/articles/analysis-documentation-deliverables.png)
 
 Качественные требования и документацию нельзя подготовить только по названию продукта и нескольким снимкам экрана. Специалистам нужны подтверждённые сведения, доступ к системе, время экспертов и согласованный состав результатов.
 
@@ -96,6 +96,6 @@ category: "Техническая документация и ГОСТ"
 
 ## Материалы по теме
 
-- [Состав программной документации](/alsibir-expert/blog/documentation/software-documentation/).
-- [Проектирование комплекта по ЕСПД](/alsibir-expert/blog/documentation/01_gost19_documents/).
-- [Выпуск и версии документации](/alsibir-expert/blog/documentation/10_document_release/).
+- [Состав программной документации](/aps-expert/blog/documentation/software-documentation/).
+- [Проектирование комплекта по ЕСПД](/aps-expert/blog/documentation/01_gost19_documents/).
+- [Выпуск и версии документации](/aps-expert/blog/documentation/10_document_release/).

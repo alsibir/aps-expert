@@ -3,7 +3,7 @@ title: 'Услуги и компетенции'
 draft: false
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/wiki-pages-services.webp" alt="Иллюстрация к материалу: Услуги и компетенции" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/wiki-pages-services.webp" alt="Иллюстрация к материалу: Услуги и компетенции" width="1279" height="720" loading="eager" decoding="async" />
 
 
 ## Техническая документация
@@ -34,7 +34,7 @@ draft: false
 - Разработка небольших скриптов для повторяемых операций и формирования отчётов.
 - Организация базы знаний и редакционного процесса.
 
-**Формат сотрудничества:** обсуждается индивидуально. Для запроса укажите цель, состав исходных данных, формат результата и желаемые сроки. [Контакты](/alsibir-expert/wiki/pages/contact/).
+**Формат сотрудничества:** обсуждается индивидуально. Для запроса укажите цель, состав исходных данных, формат результата и желаемые сроки. [Контакты](/aps-expert/wiki/pages/contact/).
 
 
 ## Порядок работы

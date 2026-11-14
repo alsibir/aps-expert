@@ -6,7 +6,7 @@ draft: false
 
 **Направление:** Интерактивная система с цифровым аватаром.
 
-![Иллюстрация проекта](/alsibir-expert/images/projects/snezhinka.webp)
+![Иллюстрация проекта](/aps-expert/images/projects/snezhinka.webp)
 
 ## О проекте
 
@@ -16,4 +16,4 @@ draft: false
 
 [Оригинальная страница проекта или разработчика — «Наносемантика»](https://nanosemantics.ai/customers/20).
 
-[Вернуться к перечню проектов](/alsibir-expert/wiki/pages/projects/).
+[Вернуться к перечню проектов](/aps-expert/wiki/pages/projects/).

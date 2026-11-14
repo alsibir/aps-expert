@@ -23,4 +23,4 @@ BPMN: обзор процесса; отмена и уточнение раскр
 Для PDF: Python reportlab, системные шрифты DejaVu, npm-зависимости проекта.
 Скрипт требует доступ к Node.js и Graphviz через PATH.
 
-https://alsibir.github.io/alsibir-expert/wiki/portfolio/analytics/alpha-graphic-models/
+https://alsibir.github.io/aps-expert/wiki/portfolio/analytics/alpha-graphic-models/

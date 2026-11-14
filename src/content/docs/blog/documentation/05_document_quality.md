@@ -7,7 +7,7 @@ tags: ["Качество документации", "Техническая до
 category: "Техническая документация и ГОСТ"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-documentation-05-document-quality.webp" alt="Иллюстрация к материалу: Контроль качества технической документации: таблица замечаний и регрессионная проверка" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-documentation-05-document-quality.webp" alt="Иллюстрация к материалу: Контроль качества технической документации: таблица замечаний и регрессионная проверка" width="1279" height="720" loading="eager" decoding="async" />
 
 
 **Направление:** техническое документирование, нормоконтроль · **Актуализация:** 09.10.2026.
@@ -78,7 +78,7 @@ category: "Техническая документация и ГОСТ"
 @enduml
 ```
 
-![Демонстрационная диаграмма PlantUML — иллюстрация 1](/alsibir-expert/diagrams/8948bec6da543520.svg)
+![Демонстрационная диаграмма PlantUML — иллюстрация 1](/aps-expert/diagrams/8948bec6da543520.svg)
 
 Переход «Исправлено → Закрыто» без проверки недопустим в методике строгого контроля: исполнитель правки и проверяющий могут наблюдать разные результаты.
 

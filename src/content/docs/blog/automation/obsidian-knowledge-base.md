@@ -8,7 +8,7 @@ tags: ["Базы знаний", "Автоматизация", "Управлен�
 category: "Инструменты и автоматизация"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-automation-obsidian-knowledge-base.webp" alt="Иллюстрация к материалу: Автоматизированная систематизация базы знаний Obsidian: архитектура, метаданные, граф связей и безопасная миграция" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-automation-obsidian-knowledge-base.webp" alt="Иллюстрация к материалу: Автоматизированная систематизация базы знаний Obsidian: архитектура, метаданные, граф связей и безопасная миграция" width="1279" height="720" loading="eager" decoding="async" />
 
 
 ## Постановка задачи
@@ -888,4 +888,4 @@ python inventory.py "/путь/к/Obsidian" --output "/путь/к/отчёта�
 
 ## Связанные публикации
 
-- [План контролируемой миграции Obsidian](/alsibir-expert/blog/automation/obsidian-automation/)
+- [План контролируемой миграции Obsidian](/aps-expert/blog/automation/obsidian-automation/)

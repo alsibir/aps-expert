@@ -3,16 +3,16 @@ title: 'Инструменты технического писателя'
 draft: false
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/wiki-pages-tools.webp" alt="Иллюстрация к материалу: Инструменты технического писателя" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/wiki-pages-tools.webp" alt="Иллюстрация к материалу: Инструменты технического писателя" width="1279" height="720" loading="eager" decoding="async" />
 
 
 Инструменты нужны для конкретных производственных задач: подготовки, согласования, проверки и повторяемой сборки документов.
 
-- [Автоматизация Word](/alsibir-expert/blog/automation/04_word_automation/)
-- [Obsidian как база знаний](/alsibir-expert/blog/automation/obsidian-knowledge-base/)
-- [Локальный LanguageTool](/alsibir-expert/blog/tools/local-languagetool/)
-- [Neovim](/alsibir-expert/blog/tools/neovim-guide/)
-- [UML и PlantUML](/alsibir-expert/blog/modeling/uml-relationships/)
-- Mermaid — создание схем по текстовому описанию и преобразование в SVG с помощью Mermaid CLI. [Пример схемы в публикации](/alsibir-expert/blog/security/01_anonymization_cycle/).
+- [Автоматизация Word](/aps-expert/blog/automation/04_word_automation/)
+- [Obsidian как база знаний](/aps-expert/blog/automation/obsidian-knowledge-base/)
+- [Локальный LanguageTool](/aps-expert/blog/tools/local-languagetool/)
+- [Neovim](/aps-expert/blog/tools/neovim-guide/)
+- [UML и PlantUML](/aps-expert/blog/modeling/uml-relationships/)
+- Mermaid — создание схем по текстовому описанию и преобразование в SVG с помощью Mermaid CLI. [Пример схемы в публикации](/aps-expert/blog/security/01_anonymization_cycle/).
 
 Выбор инструмента должен учитывать режим работы с данными, форматы обмена, переносимость и воспроизводимость результата.

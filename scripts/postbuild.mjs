@@ -12,7 +12,7 @@ for(const name of await readdir(dossiersSource)){
   if(/\.(docx|pdf)$/i.test(name)) await copyFile(path.join(dossiersSource,name),path.join(dossiersTarget,name));
 }
 const origin='https://alsibir.github.io';
-const base='/alsibir-expert';
+const base='/aps-expert';
 const prefix=u=>u.startsWith('/')&&!u.startsWith('//')&&u!==base&&!u.startsWith(base+'/') ? base+u : u;
 async function walk(dir){let out=[];for(const e of await readdir(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory()){if(e.name==='СТОРОННЕЕ'){await rm(p,{recursive:true,force:true});continue;}out.push(...await walk(p));}else out.push(p);}return out;}
 // Keep the former tag-directory URL usable without routing it as a blog post.
@@ -88,7 +88,7 @@ const routes = files.map(routeFor).filter(route =>
 await writeFile(path.join(root,'sitemap-paths.json'),JSON.stringify(routes,null,2));
 const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 await writeFile(path.join(root,'sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+routes.map(r=>'<url><loc>'+esc(origin+r)+'</loc></url>').join('')+'</urlset>');
-await writeFile(path.join(root,'robots.txt'),'User-agent: *\nAllow: /alsibir-expert/\nSitemap: '+origin+base+'/sitemap.xml\n');
+await writeFile(path.join(root,'robots.txt'),'User-agent: *\nAllow: /aps-expert/\nSitemap: '+origin+base+'/sitemap.xml\n');
 await writeFile(path.join(root,'.nojekyll'),'');
 console.log('Postbuild: '+files.length+' pages; base '+base+'; sitemap.xml created.');
 

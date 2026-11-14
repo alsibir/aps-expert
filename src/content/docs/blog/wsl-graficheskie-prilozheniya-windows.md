@@ -11,7 +11,7 @@ excerpt: "Установка WSL 2, проверка поддержки WSLg, з
 category: "Рабочая среда: Windows и Linux"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-wsl-graficheskie-prilozheniya-windows.webp" alt="Иллюстрация к материалу: Как запускать графические программы Linux в Windows 10 и 11 через WSL" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-wsl-graficheskie-prilozheniya-windows.webp" alt="Иллюстрация к материалу: Как запускать графические программы Linux в Windows 10 и 11 через WSL" width="1279" height="720" loading="eager" decoding="async" />
 
 
 Подсистема Windows для Linux (WSL) позволяет запускать Linux-программы в Windows без отдельного сеанса полноценной виртуальной машины. В современных конфигурациях WSL 2 графические приложения Linux могут открываться в обычных окнах Windows благодаря WSLg.

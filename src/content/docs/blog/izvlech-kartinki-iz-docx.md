@@ -11,7 +11,7 @@ excerpt: "Как открыть документ Word как ZIP-архив и �
 category: "Инструменты и автоматизация"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-izvlech-kartinki-iz-docx.webp" alt="Иллюстрация к материалу: Как извлечь картинки из файла DOCX без потери качества" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-izvlech-kartinki-iz-docx.webp" alt="Иллюстрация к материалу: Как извлечь картинки из файла DOCX без потери качества" width="1279" height="720" loading="eager" decoding="async" />
 
 
 Изображение, вставленное в документ Word, не обязательно нужно сохранять через контекстное меню. Если файл имеет формат `.docx`, можно открыть его как ZIP-архив и извлечь медиаданные непосредственно из структуры документа. Такой способ удобен, когда требуется получить сразу десятки картинок.

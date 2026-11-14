@@ -7,7 +7,7 @@ tags: ["ГОСТ 34", "Требования и техническое задан
 category: "Техническая документация и ГОСТ"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-documentation-02-gost34-traceability.webp" alt="Иллюстрация к материалу: Документация по ГОСТ 34: техническое задание, программа и методика испытаний, связь требований" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-documentation-02-gost34-traceability.webp" alt="Иллюстрация к материалу: Документация по ГОСТ 34: техническое задание, программа и методика испытаний, связь требований" width="1279" height="720" loading="eager" decoding="async" />
 
 
 **Направление:** системный анализ · **Актуализация:** 09.10.2026 · **Формат:** методика с матрицей трассируемости.
@@ -90,7 +90,7 @@ TEST --> PROTO : подтверждено
 @enduml
 ```
 
-![Демонстрационная диаграмма PlantUML — иллюстрация 1](/alsibir-expert/diagrams/65e9a86bb747b63d.svg)
+![Демонстрационная диаграмма PlantUML — иллюстрация 1](/aps-expert/diagrams/65e9a86bb747b63d.svg)
 
 ## 6. Распространенные дефекты
 

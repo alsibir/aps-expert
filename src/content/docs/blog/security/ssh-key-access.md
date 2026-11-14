@@ -8,7 +8,7 @@ tags: ["Системное администрирование", "Информа�
 category: "Рабочая среда: Windows и Linux"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-security-ssh-key-access.webp" alt="Иллюстрация к материалу: Настройка SSH-доступа по ключам в Linux и Windows: PuTTY, OpenSSH и журналирование подключений" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-security-ssh-key-access.webp" alt="Иллюстрация к материалу: Настройка SSH-доступа по ключам в Linux и Windows: PuTTY, OpenSSH и журналирование подключений" width="1279" height="720" loading="eager" decoding="async" />
 
 
 SSH позволяет администрировать удалённый сервер через защищённое соединение. При обычном входе пользователь вводит пароль учётной записи. Альтернативный вариант — **аутентификация по паре криптографических ключей**: открытый ключ размещается на сервере, а закрытый остаётся у пользователя.
@@ -323,4 +323,4 @@ PermitRootLogin no
 
 ## Связанные публикации
 
-- [Настройка OpenSSH и ключей Ed25519](/alsibir-expert/blog/ssh-kluchi-linux-windows/)
+- [Настройка OpenSSH и ключей Ed25519](/aps-expert/blog/ssh-kluchi-linux-windows/)

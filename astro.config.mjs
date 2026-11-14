@@ -7,7 +7,7 @@ const publicationTopics = JSON.parse(readFileSync(new URL('./src/data/publicatio
 
 export default defineConfig({
   site: "https://alsibir.github.io",
-  base: "/alsibir-expert/",
+  base: "/aps-expert/",
   vite: { server: { allowedHosts: ['terminal.local'] } },
   trailingSlash: 'always',
   integrations: [
@@ -28,8 +28,8 @@ export default defineConfig({
         { label: 'Публикации', items: [
           { label: 'Публикации и практические материалы', slug: 'publications' },
           ...publicationTopics.map(topic => ({ label: topic.title, collapsed: true, items: topic.items.map(item => item.link ? { ...item, link: new URL(item.link, 'https://alsibir.github.io').href } : item) })),
-          { label: 'Все публикации по дате', link: 'https://alsibir.github.io/alsibir-expert/blog/' },
-          { label: 'Все теги', link: 'https://alsibir.github.io/alsibir-expert/tags/' },
+          { label: 'Все публикации по дате', link: 'https://alsibir.github.io/aps-expert/blog/' },
+          { label: 'Все теги', link: 'https://alsibir.github.io/aps-expert/tags/' },
         ] },
         { label: 'О специалисте', collapsed: true, items: [
           { label: 'О специалисте', slug: 'wiki/pages/about' },

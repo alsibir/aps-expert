@@ -1,6 +1,6 @@
 // Keep PDF source URLs in content; publish preview links through the site viewer.
 export const siteOrigin = 'https://alsibir.github.io';
-export const siteBase = '/alsibir-expert/';
+export const siteBase = '/aps-expert/';
 const decodeHtml = value => value.replaceAll('&amp;', '&').replaceAll('&quot;', '"').replaceAll('&#39;', "'");
 const escapeHtml = value => value.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll("'", '&#39;').replaceAll('<', '&lt;');
 

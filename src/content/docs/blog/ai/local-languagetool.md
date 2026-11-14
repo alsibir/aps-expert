@@ -7,7 +7,7 @@ tags: ["Редактура и проверка текста", "Рабочие и
 category: "Инструменты и автоматизация"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-ai-local-languagetool.webp" alt="Иллюстрация к материалу: Локальная проверка русского текста с LanguageTool" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-ai-local-languagetool.webp" alt="Иллюстрация к материалу: Локальная проверка русского текста с LanguageTool" width="1279" height="720" loading="eager" decoding="async" />
 
 
 LanguageTool можно запустить локально для проверки орфографии, стилистики и некоторых грамматических ошибок. Локальный запуск снижает необходимость отправлять текст публичному облачному сервису, но сам по себе не гарантирует защищённости всей рабочей среды.
@@ -20,9 +20,9 @@ LanguageTool можно запустить локально для провер�
 - Настроить редактор или скрипт, обрабатывающий найденные замечания.
 - Контролировать доступ к журналам, временным файлам и конфигурации.
 
-**Ограничение:** автоматические правила не заменяют техническую вычитку терминологии и фактическую проверку. [Подробная инструкция для Windows и Linux](/alsibir-expert/blog/tools/local-languagetool/).
+**Ограничение:** автоматические правила не заменяют техническую вычитку терминологии и фактическую проверку. [Подробная инструкция для Windows и Linux](/aps-expert/blog/tools/local-languagetool/).
 
 
 ## Связанные публикации
 
-- [Подробная установка LanguageTool в Windows и Linux](/alsibir-expert/blog/tools/local-languagetool/)
+- [Подробная установка LanguageTool в Windows и Linux](/aps-expert/blog/tools/local-languagetool/)

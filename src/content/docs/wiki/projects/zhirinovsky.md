@@ -6,7 +6,7 @@ draft: false
 
 **Направление:** Цифровой персонаж и генеративный ИИ.
 
-![Иллюстрация проекта](/alsibir-expert/images/projects/zhirinovsky.webp)
+![Иллюстрация проекта](/aps-expert/images/projects/zhirinovsky.webp)
 
 ## О проекте
 
@@ -16,4 +16,4 @@ draft: false
 
 [Оригинальная страница проекта или разработчика — «Наносемантика»](https://nanosemantics.ai/customers/21).
 
-[Вернуться к перечню проектов](/alsibir-expert/wiki/pages/projects/).
+[Вернуться к перечню проектов](/aps-expert/wiki/pages/projects/).

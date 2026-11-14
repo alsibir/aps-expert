@@ -4,7 +4,7 @@ draft: false
 category: "Техническая документация и ГОСТ"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/reference-example.webp" alt="Иллюстрация к материалу: Термины и обозначения" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/reference-example.webp" alt="Иллюстрация к материалу: Термины и обозначения" width="1279" height="720" loading="eager" decoding="async" />
 
 
 | Термин | Краткое определение |

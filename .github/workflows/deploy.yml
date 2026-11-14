@@ -33,6 +33,13 @@ jobs:
           test -f dist/index.html
           python3 scripts/audit.py
           python3 scripts/audit-anchors.py
+      - name: Prepare former-address compatibility site
+        run: node scripts/prepare-legacy-site.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: legacy-site
+          path: out/legacy-site/
+          include-hidden-files: true
       - uses: actions/upload-artifact@v4
         with:
           name: staging-static
@@ -43,7 +50,7 @@ jobs:
         with:
           path: dist
   publish:
-    if: github.event_name != 'pull_request'
+    if: github.event_name != 'pull_request' && github.repository == 'alsibir/aps-expert'
     needs: build
     runs-on: ubuntu-latest
     permissions:

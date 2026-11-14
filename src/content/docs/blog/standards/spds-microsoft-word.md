@@ -7,7 +7,7 @@ tags: ["ГОСТ 21 и СПДС", "Microsoft Word"]
 category: "Техническая документация и ГОСТ"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-standards-spds-microsoft-word.webp" alt="Иллюстрация к материалу: Как оформить документ по СПДС в Microsoft Word" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-standards-spds-microsoft-word.webp" alt="Иллюстрация к материалу: Как оформить документ по СПДС в Microsoft Word" width="1279" height="720" loading="eager" decoding="async" />
 
 
 Оформление документации по СПДС в Microsoft Word требует решить задачу, которая значительно сложнее обычной верстки текстового документа. В одном файле Word могут последовательно размещаться несколько самостоятельных документов, каждый из которых имеет собственную нумерацию листов, заглавный лист, последующие листы, основную надпись и внутреннее оглавление. Одновременно весь том должен оставаться единым документом со сквозной структурой и корректным содержанием.
@@ -1054,5 +1054,5 @@ TOC
 
 ## Связанные публикации
 
-- [Рамки, основные надписи и нумерация](/alsibir-expert/blog/standards/spds-shbv/)
-- [Согласованность комплекта СПДС](/alsibir-expert/blog/standards/03_spds_gost21/)
+- [Рамки, основные надписи и нумерация](/aps-expert/blog/standards/spds-shbv/)
+- [Согласованность комплекта СПДС](/aps-expert/blog/standards/03_spds_gost21/)

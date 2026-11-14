@@ -7,7 +7,7 @@ tags: ["Управление файлами", "Windows", "Linux"]
 category: "Инструменты и автоматизация"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-automation-filename-portability.webp" alt="Иллюстрация к материалу: Имена файлов, совместимые с Windows и Linux" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-automation-filename-portability.webp" alt="Иллюстрация к материалу: Имена файлов, совместимые с Windows и Linux" width="1279" height="720" loading="eager" decoding="async" />
 
 
 В проектах, которые перемещаются между Windows, Linux и USB-носителями, имена файлов влияют на надёжность сборки и ссылок.

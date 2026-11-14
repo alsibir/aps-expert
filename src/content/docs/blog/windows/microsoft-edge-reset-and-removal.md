@@ -9,7 +9,7 @@ tags: ["Windows", "Системное администрирование"]
 draft: false
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-windows-microsoft-edge-reset-and-removal.webp" alt="Иллюстрация к материалу: Как сбросить, восстановить или удалить Microsoft Edge в Windows 10" width="1280" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-windows-microsoft-edge-reset-and-removal.webp" alt="Иллюстрация к материалу: Как сбросить, восстановить или удалить Microsoft Edge в Windows 10" width="1280" height="720" loading="eager" decoding="async" />
 
 
 **Microsoft Edge** может перестать открывать сайты, работать медленно, показывать нежелательные уведомления или запускаться без запроса пользователя. В подобных случаях необязательно удалять браузер: часто достаточно очистить временные файлы, восстановить настройки или исправить установку.

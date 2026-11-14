@@ -6,7 +6,7 @@ draft: false
 
 **Направление:** Робототехника и речевое взаимодействие.
 
-![Иллюстрация проекта](/alsibir-expert/images/projects/robot-mfti.webp)
+![Иллюстрация проекта](/aps-expert/images/projects/robot-mfti.webp)
 
 ## О проекте
 
@@ -16,4 +16,4 @@ draft: false
 
 [Оригинальная страница проекта или разработчика — «Наносемантика»](https://nanosemantics.ai/).
 
-[Вернуться к перечню проектов](/alsibir-expert/wiki/pages/projects/).
+[Вернуться к перечню проектов](/aps-expert/wiki/pages/projects/).

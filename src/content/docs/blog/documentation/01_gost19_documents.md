@@ -7,7 +7,7 @@ tags: ["ГОСТ 19 и ЕСПД", "Техническая документаци
 category: "Техническая документация и ГОСТ"
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/blog-documentation-01-gost19-documents.webp" alt="Иллюстрация к материалу: Методика проектирования комплекта программной документации по ЕСПД (ГОСТ 19)" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/blog-documentation-01-gost19-documents.webp" alt="Иллюстрация к материалу: Методика проектирования комплекта программной документации по ЕСПД (ГОСТ 19)" width="1279" height="720" loading="eager" decoding="async" />
 
 
 **Направление:** техническое документирование · **Актуализация:** 09.10.2026 · **Формат:** методика с демонстрационным примером.

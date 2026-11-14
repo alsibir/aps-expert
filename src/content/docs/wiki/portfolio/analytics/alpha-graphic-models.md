@@ -6,7 +6,7 @@ sidebar:
 draft: false
 ---
 
-<img class="aps-article-collage" src="/alsibir-expert/images/articles/wiki-portfolio-analytics-alpha-graphic-models.webp" alt="Иллюстрация к материалу: АС «АЛЬФА»: от требований к визуальной модели системы" width="1279" height="720" loading="eager" decoding="async" />
+<img class="aps-article-collage" src="/aps-expert/images/articles/wiki-portfolio-analytics-alpha-graphic-models.webp" alt="Иллюстрация к материалу: АС «АЛЬФА»: от требований к визуальной модели системы" width="1279" height="720" loading="eager" decoding="async" />
 
 
 Графические модели помогают согласовать требования, объяснить устройство системы и подготовить понятную документацию. Здесь один проект показан с разных сторон: бизнес-процесс, действия пользователей, взаимодействие компонентов, данные, инфраструктура, интерфейс и испытания.
@@ -16,9 +16,9 @@ draft: false
 АС «АЛЬФА» версии 1.0.0 — демонстрационная веб-система регистрации и обработки внутренних обращений. Проект специально подготовлен для профессионального портфолио. Организации, данные и инфраструктура условные; наличие работающего продукта, внедрение и факт проведения испытаний не утверждаются.
 
 <div class="aps-graphdemo-summary">
-<p><strong>Посмотреть целиком:</strong> <a href="/alsibir-expert/images/graphdemo/alpha-graphic-album.pdf" target="_blank" rel="noopener">Открыть графический альбом PDF</a></p>
-<p><strong>Получить исходники:</strong> <a href="/alsibir-expert/images/graphdemo/alpha-graphdemo.zip" download>Скачать PlantUML, SVG и альбом — ZIP, 2,57 МБ</a></p>
-<p><a href="/alsibir-expert/wiki/portfolio/documentation/alpha/">Комплект документации «АЛЬФА»</a> · <a href="/alsibir-expert/wiki/pages/portfolio/">Все примеры работ</a></p>
+<p><strong>Посмотреть целиком:</strong> <a href="/aps-expert/images/graphdemo/alpha-graphic-album.pdf" target="_blank" rel="noopener">Открыть графический альбом PDF</a></p>
+<p><strong>Получить исходники:</strong> <a href="/aps-expert/images/graphdemo/alpha-graphdemo.zip" download>Скачать PlantUML, SVG и альбом — ZIP, 2,57 МБ</a></p>
+<p><a href="/aps-expert/wiki/portfolio/documentation/alpha/">Комплект документации «АЛЬФА»</a> · <a href="/aps-expert/wiki/pages/portfolio/">Все примеры работ</a></p>
 </div>
 
 ## Какие задачи решает графическое описание
@@ -54,7 +54,7 @@ draft: false
 **BPMN 2.0 · Кто выполняет действия и как обрабатываются развилки?**
 
 <figure class="aps-graphdemo-figure">
-<a href="/alsibir-expert/images/graphdemo/01-bpmn-process.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 1 в полном размере"><img src="/alsibir-expert/images/graphdemo/01-bpmn-process.svg" alt="Процесс обработки обращения — BPMN 2.0" loading="lazy" decoding="async" width="1116" height="626"/></a>
+<a href="/aps-expert/images/graphdemo/01-bpmn-process.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 1 в полном размере"><img src="/aps-expert/images/graphdemo/01-bpmn-process.svg" alt="Процесс обработки обращения — BPMN 2.0" loading="lazy" decoding="async" width="1116" height="626"/></a>
 <figcaption>Рисунок 1 — Процесс обработки обращения</figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ draft: false
 
 **Демонстрируемые навыки:** Моделирование бизнес-процессов; распределение ответственности; анализ альтернативных сценариев; применение элементов BPMN.
 
-[Открыть SVG](/alsibir-expert/images/graphdemo/01-bpmn-process.svg) · <a href="/alsibir-expert/images/graphdemo/plantuml/01-bpmn-process.puml" download>Скачать исходник PlantUML</a>
+[Открыть SVG](/aps-expert/images/graphdemo/01-bpmn-process.svg) · <a href="/aps-expert/images/graphdemo/plantuml/01-bpmn-process.puml" download>Скачать исходник PlantUML</a>
 
 <a id="diagram-02"></a>
 
@@ -71,7 +71,7 @@ draft: false
 **Контекстная схема · Что входит в систему и кто с ней взаимодействует?**
 
 <figure class="aps-graphdemo-figure">
-<a href="/alsibir-expert/images/graphdemo/02-system-context.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 2 в полном размере"><img src="/alsibir-expert/images/graphdemo/02-system-context.svg" alt="Границы системы и окружение — Контекстная схема" loading="lazy" decoding="async" width="1149" height="523"/></a>
+<a href="/aps-expert/images/graphdemo/02-system-context.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 2 в полном размере"><img src="/aps-expert/images/graphdemo/02-system-context.svg" alt="Границы системы и окружение — Контекстная схема" loading="lazy" decoding="async" width="1149" height="523"/></a>
 <figcaption>Рисунок 2 — Границы системы и окружение</figcaption>
 </figure>
 
@@ -79,7 +79,7 @@ draft: false
 
 **Демонстрируемые навыки:** Определение границ системы; анализ участников и интеграций; описание информационных потоков.
 
-[Открыть SVG](/alsibir-expert/images/graphdemo/02-system-context.svg) · <a href="/alsibir-expert/images/graphdemo/plantuml/02-system-context.puml" download>Скачать исходник PlantUML</a>
+[Открыть SVG](/aps-expert/images/graphdemo/02-system-context.svg) · <a href="/aps-expert/images/graphdemo/plantuml/02-system-context.puml" download>Скачать исходник PlantUML</a>
 
 <a id="diagram-03"></a>
 
@@ -88,7 +88,7 @@ draft: false
 **UML Use Case · Какие действия доступны каждой роли?**
 
 <figure class="aps-graphdemo-figure">
-<a href="/alsibir-expert/images/graphdemo/03-use-cases.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 3 в полном размере"><img src="/alsibir-expert/images/graphdemo/03-use-cases.svg" alt="Функции и роли пользователей — UML Use Case" loading="lazy" decoding="async" width="477" height="904"/></a>
+<a href="/aps-expert/images/graphdemo/03-use-cases.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 3 в полном размере"><img src="/aps-expert/images/graphdemo/03-use-cases.svg" alt="Функции и роли пользователей — UML Use Case" loading="lazy" decoding="async" width="477" height="904"/></a>
 <figcaption>Рисунок 3 — Функции и роли пользователей</figcaption>
 </figure>
 
@@ -96,7 +96,7 @@ draft: false
 
 **Демонстрируемые навыки:** Выявление функциональных требований; моделирование ролей; разграничение доступа; UML Use Case.
 
-[Открыть SVG](/alsibir-expert/images/graphdemo/03-use-cases.svg) · <a href="/alsibir-expert/images/graphdemo/plantuml/03-use-cases.puml" download>Скачать исходник PlantUML</a>
+[Открыть SVG](/aps-expert/images/graphdemo/03-use-cases.svg) · <a href="/aps-expert/images/graphdemo/plantuml/03-use-cases.puml" download>Скачать исходник PlantUML</a>
 
 <a id="diagram-04"></a>
 
@@ -105,7 +105,7 @@ draft: false
 **UML Activity · При каких условиях заявка сохраняется?**
 
 <figure class="aps-graphdemo-figure">
-<a href="/alsibir-expert/images/graphdemo/04-registration-activity.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 4 в полном размере"><img src="/alsibir-expert/images/graphdemo/04-registration-activity.svg" alt="Алгоритм регистрации заявки — UML Activity" loading="lazy" decoding="async" width="748" height="1510"/></a>
+<a href="/aps-expert/images/graphdemo/04-registration-activity.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 4 в полном размере"><img src="/aps-expert/images/graphdemo/04-registration-activity.svg" alt="Алгоритм регистрации заявки — UML Activity" loading="lazy" decoding="async" width="748" height="1510"/></a>
 <figcaption>Рисунок 4 — Алгоритм регистрации заявки</figcaption>
 </figure>
 
@@ -113,7 +113,7 @@ draft: false
 
 **Демонстрируемые навыки:** Детализация алгоритмов; анализ условий и ошибок; формализация проверяемого поведения; UML Activity.
 
-[Открыть SVG](/alsibir-expert/images/graphdemo/04-registration-activity.svg) · <a href="/alsibir-expert/images/graphdemo/plantuml/04-registration-activity.puml" download>Скачать исходник PlantUML</a>
+[Открыть SVG](/aps-expert/images/graphdemo/04-registration-activity.svg) · <a href="/aps-expert/images/graphdemo/plantuml/04-registration-activity.puml" download>Скачать исходник PlantUML</a>
 
 <a id="diagram-05"></a>
 
@@ -122,7 +122,7 @@ draft: false
 **UML Sequence · Как взаимодействуют интерфейс, сервер и база данных?**
 
 <figure class="aps-graphdemo-figure">
-<a href="/alsibir-expert/images/graphdemo/05-registration-sequence.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 5 в полном размере"><img src="/alsibir-expert/images/graphdemo/05-registration-sequence.svg" alt="Обмен сообщениями при регистрации — UML Sequence" loading="lazy" decoding="async" width="1878" height="1390"/></a>
+<a href="/aps-expert/images/graphdemo/05-registration-sequence.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 5 в полном размере"><img src="/aps-expert/images/graphdemo/05-registration-sequence.svg" alt="Обмен сообщениями при регистрации — UML Sequence" loading="lazy" decoding="async" width="1878" height="1390"/></a>
 <figcaption>Рисунок 5 — Обмен сообщениями при регистрации</figcaption>
 </figure>
 
@@ -130,7 +130,7 @@ draft: false
 
 **Демонстрируемые навыки:** Описание REST-взаимодействий; транзакционные границы; асинхронная обработка; UML Sequence.
 
-[Открыть SVG](/alsibir-expert/images/graphdemo/05-registration-sequence.svg) · <a href="/alsibir-expert/images/graphdemo/plantuml/05-registration-sequence.puml" download>Скачать исходник PlantUML</a>
+[Открыть SVG](/aps-expert/images/graphdemo/05-registration-sequence.svg) · <a href="/aps-expert/images/graphdemo/plantuml/05-registration-sequence.puml" download>Скачать исходник PlantUML</a>
 
 <a id="diagram-06"></a>
 
@@ -139,7 +139,7 @@ draft: false
 **UML State Machine · Какие переходы разрешены и кто их выполняет?**
 
 <figure class="aps-graphdemo-figure">
-<a href="/alsibir-expert/images/graphdemo/06-request-states.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 6 в полном размере"><img src="/alsibir-expert/images/graphdemo/06-request-states.svg" alt="Жизненный цикл заявки — UML State Machine" loading="lazy" decoding="async" width="1371" height="897"/></a>
+<a href="/aps-expert/images/graphdemo/06-request-states.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 6 в полном размере"><img src="/aps-expert/images/graphdemo/06-request-states.svg" alt="Жизненный цикл заявки — UML State Machine" loading="lazy" decoding="async" width="1371" height="897"/></a>
 <figcaption>Рисунок 6 — Жизненный цикл заявки</figcaption>
 </figure>
 
@@ -147,7 +147,7 @@ draft: false
 
 **Демонстрируемые навыки:** Разработка статусных моделей; анализ полномочий; проверка полноты переходов; UML State Machine.
 
-[Открыть SVG](/alsibir-expert/images/graphdemo/06-request-states.svg) · <a href="/alsibir-expert/images/graphdemo/plantuml/06-request-states.puml" download>Скачать исходник PlantUML</a>
+[Открыть SVG](/aps-expert/images/graphdemo/06-request-states.svg) · <a href="/aps-expert/images/graphdemo/plantuml/06-request-states.puml" download>Скачать исходник PlantUML</a>
 
 <a id="diagram-07"></a>
 
@@ -156,7 +156,7 @@ draft: false
 **UML Component · Как распределены функции программного продукта?**
 
 <figure class="aps-graphdemo-figure">
-<a href="/alsibir-expert/images/graphdemo/07-components.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 7 в полном размере"><img src="/alsibir-expert/images/graphdemo/07-components.svg" alt="Логическая архитектура — UML Component" loading="lazy" decoding="async" width="1158" height="808"/></a>
+<a href="/aps-expert/images/graphdemo/07-components.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 7 в полном размере"><img src="/aps-expert/images/graphdemo/07-components.svg" alt="Логическая архитектура — UML Component" loading="lazy" decoding="async" width="1158" height="808"/></a>
 <figcaption>Рисунок 7 — Логическая архитектура</figcaption>
 </figure>
 
@@ -164,7 +164,7 @@ draft: false
 
 **Демонстрируемые навыки:** Декомпозиция системы; описание интерфейсов; анализ зависимостей; UML Component.
 
-[Открыть SVG](/alsibir-expert/images/graphdemo/07-components.svg) · <a href="/alsibir-expert/images/graphdemo/plantuml/07-components.puml" download>Скачать исходник PlantUML</a>
+[Открыть SVG](/aps-expert/images/graphdemo/07-components.svg) · <a href="/aps-expert/images/graphdemo/plantuml/07-components.puml" download>Скачать исходник PlantUML</a>
 
 <a id="diagram-08"></a>
 
@@ -173,7 +173,7 @@ draft: false
 **UML Deployment · На каких узлах работает система?**
 
 <figure class="aps-graphdemo-figure">
-<a href="/alsibir-expert/images/graphdemo/08-deployment.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 8 в полном размере"><img src="/alsibir-expert/images/graphdemo/08-deployment.svg" alt="Размещение компонентов — UML Deployment" loading="lazy" decoding="async" width="1050" height="1203"/></a>
+<a href="/aps-expert/images/graphdemo/08-deployment.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 8 в полном размере"><img src="/aps-expert/images/graphdemo/08-deployment.svg" alt="Размещение компонентов — UML Deployment" loading="lazy" decoding="async" width="1050" height="1203"/></a>
 <figcaption>Рисунок 8 — Размещение компонентов</figcaption>
 </figure>
 
@@ -181,7 +181,7 @@ draft: false
 
 **Демонстрируемые навыки:** Описание инфраструктуры; сопоставление артефактов и узлов; подготовка эксплуатационной документации; UML Deployment.
 
-[Открыть SVG](/alsibir-expert/images/graphdemo/08-deployment.svg) · <a href="/alsibir-expert/images/graphdemo/plantuml/08-deployment.puml" download>Скачать исходник PlantUML</a>
+[Открыть SVG](/aps-expert/images/graphdemo/08-deployment.svg) · <a href="/aps-expert/images/graphdemo/plantuml/08-deployment.puml" download>Скачать исходник PlantUML</a>
 
 <a id="diagram-09"></a>
 
@@ -190,7 +190,7 @@ draft: false
 **ER · нотация «воронья лапка» · Какие данные хранятся и как они связаны?**
 
 <figure class="aps-graphdemo-figure">
-<a href="/alsibir-expert/images/graphdemo/09-data-model.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 9 в полном размере"><img src="/alsibir-expert/images/graphdemo/09-data-model.svg" alt="Логическая модель данных — ER · нотация «воронья лапка»" loading="lazy" decoding="async" width="603" height="1245"/></a>
+<a href="/aps-expert/images/graphdemo/09-data-model.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 9 в полном размере"><img src="/aps-expert/images/graphdemo/09-data-model.svg" alt="Логическая модель данных — ER · нотация «воронья лапка»" loading="lazy" decoding="async" width="603" height="1245"/></a>
 <figcaption>Рисунок 9 — Логическая модель данных</figcaption>
 </figure>
 
@@ -198,7 +198,7 @@ draft: false
 
 **Демонстрируемые навыки:** Выделение сущностей; определение ключей и кратностей; анализ целостности; моделирование данных.
 
-[Открыть SVG](/alsibir-expert/images/graphdemo/09-data-model.svg) · <a href="/alsibir-expert/images/graphdemo/plantuml/09-data-model.puml" download>Скачать исходник PlantUML</a>
+[Открыть SVG](/aps-expert/images/graphdemo/09-data-model.svg) · <a href="/aps-expert/images/graphdemo/plantuml/09-data-model.puml" download>Скачать исходник PlantUML</a>
 
 <a id="diagram-10"></a>
 
@@ -207,7 +207,7 @@ draft: false
 **UML Class · Какие понятия и правила определяют поведение системы?**
 
 <figure class="aps-graphdemo-figure">
-<a href="/alsibir-expert/images/graphdemo/10-domain-classes.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 10 в полном размере"><img src="/alsibir-expert/images/graphdemo/10-domain-classes.svg" alt="Предметная модель — UML Class" loading="lazy" decoding="async" width="1278" height="869"/></a>
+<a href="/aps-expert/images/graphdemo/10-domain-classes.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 10 в полном размере"><img src="/aps-expert/images/graphdemo/10-domain-classes.svg" alt="Предметная модель — UML Class" loading="lazy" decoding="async" width="1278" height="869"/></a>
 <figcaption>Рисунок 10 — Предметная модель</figcaption>
 </figure>
 
@@ -215,7 +215,7 @@ draft: false
 
 **Демонстрируемые навыки:** Объектное моделирование; формализация понятий и инвариантов; различение предметной модели и структуры БД; UML Class.
 
-[Открыть SVG](/alsibir-expert/images/graphdemo/10-domain-classes.svg) · <a href="/alsibir-expert/images/graphdemo/plantuml/10-domain-classes.puml" download>Скачать исходник PlantUML</a>
+[Открыть SVG](/aps-expert/images/graphdemo/10-domain-classes.svg) · <a href="/aps-expert/images/graphdemo/plantuml/10-domain-classes.puml" download>Скачать исходник PlantUML</a>
 
 <a id="diagram-11"></a>
 
@@ -224,7 +224,7 @@ draft: false
 **PlantUML Salt · прототип интерфейса · Как представить сведения и действия на экране?**
 
 <figure class="aps-graphdemo-figure">
-<a href="/alsibir-expert/images/graphdemo/11-interface-wireframe.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 11 в полном размере"><img src="/alsibir-expert/images/graphdemo/11-interface-wireframe.svg" alt="Прототип карточки заявки — PlantUML Salt · прототип интерфейса" loading="lazy" decoding="async" width="520" height="435"/></a>
+<a href="/aps-expert/images/graphdemo/11-interface-wireframe.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 11 в полном размере"><img src="/aps-expert/images/graphdemo/11-interface-wireframe.svg" alt="Прототип карточки заявки — PlantUML Salt · прототип интерфейса" loading="lazy" decoding="async" width="520" height="435"/></a>
 <figcaption>Рисунок 11 — Прототип карточки заявки</figcaption>
 </figure>
 
@@ -232,7 +232,7 @@ draft: false
 
 **Демонстрируемые навыки:** Прототипирование; проектирование ролевых состояний интерфейса; определение состава полей и действий.
 
-[Открыть SVG](/alsibir-expert/images/graphdemo/11-interface-wireframe.svg) · <a href="/alsibir-expert/images/graphdemo/plantuml/11-interface-wireframe.puml" download>Скачать исходник PlantUML</a>
+[Открыть SVG](/aps-expert/images/graphdemo/11-interface-wireframe.svg) · <a href="/aps-expert/images/graphdemo/plantuml/11-interface-wireframe.puml" download>Скачать исходник PlantUML</a>
 
 <a id="diagram-12"></a>
 
@@ -241,7 +241,7 @@ draft: false
 **Карта пользовательского сценария · Как пользователь достигает результата?**
 
 <figure class="aps-graphdemo-figure">
-<a href="/alsibir-expert/images/graphdemo/12-screen-navigation.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 12 в полном размере"><img src="/alsibir-expert/images/graphdemo/12-screen-navigation.svg" alt="Переходы между экранами — Карта пользовательского сценария" loading="lazy" decoding="async" width="905" height="514"/></a>
+<a href="/aps-expert/images/graphdemo/12-screen-navigation.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 12 в полном размере"><img src="/aps-expert/images/graphdemo/12-screen-navigation.svg" alt="Переходы между экранами — Карта пользовательского сценария" loading="lazy" decoding="async" width="905" height="514"/></a>
 <figcaption>Рисунок 12 — Переходы между экранами</figcaption>
 </figure>
 
@@ -249,7 +249,7 @@ draft: false
 
 **Демонстрируемые навыки:** Проектирование навигации; описание успешных и ошибочных сценариев; согласование интерфейса и функциональных требований.
 
-[Открыть SVG](/alsibir-expert/images/graphdemo/12-screen-navigation.svg) · <a href="/alsibir-expert/images/graphdemo/plantuml/12-screen-navigation.puml" download>Скачать исходник PlantUML</a>
+[Открыть SVG](/aps-expert/images/graphdemo/12-screen-navigation.svg) · <a href="/aps-expert/images/graphdemo/plantuml/12-screen-navigation.puml" download>Скачать исходник PlantUML</a>
 
 <a id="diagram-13"></a>
 
@@ -258,7 +258,7 @@ draft: false
 **Аннотированный макет · Как объяснить действие в руководстве пользователя?**
 
 <figure class="aps-graphdemo-figure">
-<a href="/alsibir-expert/images/graphdemo/13-annotated-interface.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 13 в полном размере"><img src="/alsibir-expert/images/graphdemo/13-annotated-interface.svg" alt="Пояснения к элементам интерфейса — Аннотированный макет" loading="lazy" decoding="async" width="603" height="556"/></a>
+<a href="/aps-expert/images/graphdemo/13-annotated-interface.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 13 в полном размере"><img src="/aps-expert/images/graphdemo/13-annotated-interface.svg" alt="Пояснения к элементам интерфейса — Аннотированный макет" loading="lazy" decoding="async" width="603" height="556"/></a>
 <figcaption>Рисунок 13 — Пояснения к элементам интерфейса</figcaption>
 </figure>
 
@@ -266,7 +266,7 @@ draft: false
 
 **Демонстрируемые навыки:** Разработка технических иллюстраций; оформление выносок; согласование подписей и инструкции; описание результата действия.
 
-[Открыть SVG](/alsibir-expert/images/graphdemo/13-annotated-interface.svg) · <a href="/alsibir-expert/images/graphdemo/plantuml/13-annotated-interface.puml" download>Скачать исходник PlantUML</a>
+[Открыть SVG](/aps-expert/images/graphdemo/13-annotated-interface.svg) · <a href="/aps-expert/images/graphdemo/plantuml/13-annotated-interface.puml" download>Скачать исходник PlantUML</a>
 
 <a id="diagram-14"></a>
 
@@ -275,7 +275,7 @@ draft: false
 **Связи «требование — реализация — тест» · Чем подтверждается выполнение требования?**
 
 <figure class="aps-graphdemo-figure">
-<a href="/alsibir-expert/images/graphdemo/14-requirement-trace.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 14 в полном размере"><img src="/alsibir-expert/images/graphdemo/14-requirement-trace.svg" alt="Трассировка требований и испытаний — Связи «требование — реализация — тест»" loading="lazy" decoding="async" width="796" height="610"/></a>
+<a href="/aps-expert/images/graphdemo/14-requirement-trace.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 14 в полном размере"><img src="/aps-expert/images/graphdemo/14-requirement-trace.svg" alt="Трассировка требований и испытаний — Связи «требование — реализация — тест»" loading="lazy" decoding="async" width="796" height="610"/></a>
 <figcaption>Рисунок 14 — Трассировка требований и испытаний</figcaption>
 </figure>
 
@@ -283,7 +283,7 @@ draft: false
 
 **Демонстрируемые навыки:** Управление требованиями; анализ покрытия; подготовка испытаний; контроль согласованности проектных материалов.
 
-[Открыть SVG](/alsibir-expert/images/graphdemo/14-requirement-trace.svg) · <a href="/alsibir-expert/images/graphdemo/plantuml/14-requirement-trace.puml" download>Скачать исходник PlantUML</a>
+[Открыть SVG](/aps-expert/images/graphdemo/14-requirement-trace.svg) · <a href="/aps-expert/images/graphdemo/plantuml/14-requirement-trace.puml" download>Скачать исходник PlantUML</a>
 
 <a id="diagram-15"></a>
 
@@ -292,7 +292,7 @@ draft: false
 **Макет отчёта · синтетические данные · Какие сведения помогают оценить очередь обращений?**
 
 <figure class="aps-graphdemo-figure">
-<a href="/alsibir-expert/images/graphdemo/15-reporting-dashboard.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 15 в полном размере"><img src="/alsibir-expert/images/graphdemo/15-reporting-dashboard.svg" alt="Представление показателей — Макет отчёта · синтетические данные" loading="lazy" decoding="async" width="637" height="463"/></a>
+<a href="/aps-expert/images/graphdemo/15-reporting-dashboard.svg" target="_blank" rel="noopener" aria-label="Открыть рисунок 15 в полном размере"><img src="/aps-expert/images/graphdemo/15-reporting-dashboard.svg" alt="Представление показателей — Макет отчёта · синтетические данные" loading="lazy" decoding="async" width="637" height="463"/></a>
 <figcaption>Рисунок 15 — Представление показателей</figcaption>
 </figure>
 
@@ -300,7 +300,7 @@ draft: false
 
 **Демонстрируемые навыки:** Визуализация данных; выбор показателей; согласование чисел и графики; проектирование отчётных форм.
 
-[Открыть SVG](/alsibir-expert/images/graphdemo/15-reporting-dashboard.svg) · <a href="/alsibir-expert/images/graphdemo/plantuml/15-reporting-dashboard.puml" download>Скачать исходник PlantUML</a>
+[Открыть SVG](/aps-expert/images/graphdemo/15-reporting-dashboard.svg) · <a href="/aps-expert/images/graphdemo/plantuml/15-reporting-dashboard.puml" download>Скачать исходник PlantUML</a>
 
 ## Как обеспечивается согласованность моделей
 
@@ -328,13 +328,13 @@ draft: false
 
 ## Просмотр и скачивание
 
-- [Открыть графический альбом PDF](/alsibir-expert/images/graphdemo/alpha-graphic-album.pdf) — все 15 иллюстраций с подписями, пояснениями и навыками в одном файле.
-- <a href="/alsibir-expert/images/graphdemo/alpha-graphdemo.zip" download>Скачать исходники, SVG и альбом — ZIP, 2,57 МБ</a>.
-- <a href="/alsibir-expert/images/graphdemo/plantuml/theme.puml" download>Скачать общий файл оформления PlantUML</a> — требуется вместе с исходниками UML и ER для повторной компиляции.
-- [Открыть комплект документации АС «АЛЬФА»](/alsibir-expert/wiki/portfolio/documentation/alpha/).
+- [Открыть графический альбом PDF](/aps-expert/images/graphdemo/alpha-graphic-album.pdf) — все 15 иллюстраций с подписями, пояснениями и навыками в одном файле.
+- <a href="/aps-expert/images/graphdemo/alpha-graphdemo.zip" download>Скачать исходники, SVG и альбом — ZIP, 2,57 МБ</a>.
+- <a href="/aps-expert/images/graphdemo/plantuml/theme.puml" download>Скачать общий файл оформления PlantUML</a> — требуется вместе с исходниками UML и ER для повторной компиляции.
+- [Открыть комплект документации АС «АЛЬФА»](/aps-expert/wiki/portfolio/documentation/alpha/).
 
 ## Обсудить подготовку схем и документации
 
 Графические материалы могут быть подготовлены для обследования, согласования требований, проектирования, испытаний, внедрения и эксплуатации информационной системы.
 
-[Связаться с автором проекта](/alsibir-expert/wiki/pages/contact/) · [Запросить резюме аналитика или технического писателя](/alsibir-expert/wiki/pages/resume/).
+[Связаться с автором проекта](/aps-expert/wiki/pages/contact/) · [Запросить резюме аналитика или технического писателя](/aps-expert/wiki/pages/resume/).
