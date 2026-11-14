@@ -31,14 +31,14 @@ const rows = [{"direction": "left", "label": "Документация, анал
 
 <style>
   .aps-tools { --partner-pitch: 172px; }
-  .aps-tools-cell span { font-size: 13px; line-height: 1.3; color: var(--aps-ink); text-align: center; }
+  .aps-tools-cell span { font-size: 13px; line-height: 1.3; color: #1f2937; text-align: center; }
   .aps-tools-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 12px 24px; margin-bottom: 32px; }
   .aps-tools-heading h2 { margin: 0; }
   .aps-tools-pause { border: 1px solid var(--aps-line); border-radius: 6px; padding: 6px 12px; background: var(--aps-surface); color: var(--aps-ink); font: inherit; font-size: 13px; cursor: pointer; }
   .aps-tools-pause:hover { border-color: var(--aps-accent); }
   .aps-tools-pause:focus-visible { outline: 2px solid var(--aps-accent); outline-offset: 4px; }
   .aps-tools-pause[hidden] { display: none; }
-  .aps-tools-panel { position: relative; width: 100%; box-sizing: border-box; display: grid; gap: 20px; padding: 24px 0; overflow: hidden; background: var(--aps-surface); border: 1px solid var(--aps-line); border-radius: 8px; }
+  .aps-tools-panel { position: relative; width: 100%; box-sizing: border-box; display: grid; gap: 20px; padding: 24px 0; overflow: hidden; background: #fff; color-scheme: light; border: 1px solid #e4e8ed; border-radius: 8px; }
   .aps-tools-row { min-width: 0; overflow: hidden; mask-image: linear-gradient(to right, transparent, black 24px, black calc(100% - 24px), transparent); }
   .aps-tools-row:focus-visible { outline: 2px solid var(--aps-accent); outline-offset: -3px; }
   .aps-tools-track { display: flex; width: max-content; animation: aps-tools-scroll var(--duration, 45s) linear infinite; }
@@ -75,34 +75,31 @@ const rows = [{"direction": "left", "label": "Документация, анал
       if (!button || button.dataset.initialized) return;
       button.dataset.initialized = 'true';
       const panel = section.querySelector<HTMLElement>('.aps-tools-panel');
+      // Reuse the visible partner panel as the geometry reference in either theme.
+      const reference = document.querySelector<HTMLElement>('.aps-partners-panel');
       const updatePanelGeometry = () => {
-        if (!panel) return;
-        const themeControl = document.querySelector<HTMLElement>('starlight-theme-select')
-          ?? document.querySelector<HTMLElement>('[data-theme-select]')
-          ?? document.querySelector<HTMLElement>('header select[aria-label*="тем" i]');
-        const viewportWidth = document.documentElement.clientWidth;
-        const themeRect = themeControl?.getBoundingClientRect();
-        const rightGap = themeRect && themeRect.width > 0
-          ? viewportWidth - themeRect.right : 24;
-        const inset = Math.max(0, Math.min(viewportWidth / 4, rightGap));
-        // Measure the unmodified main-content column, not the expanded panel.
-        const sectionRect = section.getBoundingClientRect();
-        const contentWidth = sectionRect.width;
-        const availableWidth = Math.max(0, viewportWidth - 2 * inset);
-        // Gradually blend between the text-column width and the full
-        // available viewport width; never switch geometry abruptly.
-        // The interpolation is zero on narrow screens and reaches one
-        // only after the main text column is clearly max-width constrained.
-        const ratio = availableWidth > 0 ? contentWidth / availableWidth : 1;
-        const progress = Math.max(0, Math.min(1, (0.95 - ratio) / 0.20));
-        const blend = progress * progress * (3 - 2 * progress);
-        const targetWidth = contentWidth + (availableWidth - contentWidth) * blend;
-        const targetLeft = sectionRect.left + (inset - sectionRect.left) * blend;
-        panel.style.width = `${targetWidth}px`;
-        panel.style.marginLeft = `${targetLeft - sectionRect.left}px`;
+        if (!panel || !reference) return;
+        const bounds = reference.getBoundingClientRect();
+        const sectionBounds = section.getBoundingClientRect();
+        panel.style.width = `${bounds.width}px`;
+        panel.style.marginLeft = `${bounds.left - sectionBounds.left}px`;
+        panel.style.marginRight = '0';
       };
+      const scheduleGeometry = () => requestAnimationFrame(updatePanelGeometry);
       updatePanelGeometry();
-      window.addEventListener('resize', updatePanelGeometry, { passive: true });
+      window.addEventListener('resize', scheduleGeometry, { passive: true });
+      const geometryObserver = new ResizeObserver(scheduleGeometry);
+      if (reference) {
+        geometryObserver.observe(reference);
+        new MutationObserver(scheduleGeometry).observe(reference, {
+          attributes: true, attributeFilter: ['style'],
+        });
+      }
+      geometryObserver.observe(section);
+      new MutationObserver(scheduleGeometry).observe(document.documentElement, {
+        attributes: true, attributeFilter: ['data-theme', 'class', 'style'],
+      });
+      document.fonts.ready.then(scheduleGeometry);
       const refreshRows = () => {
         section.querySelectorAll<HTMLElement>('[data-tools-track]').forEach(track => {
           const original = track.querySelector<HTMLElement>('.aps-tools-group');
@@ -121,7 +118,7 @@ const rows = [{"direction": "left", "label": "Документация, анал
           }
           track.style.setProperty('--cycle-width', `${cycleWidth}px`);
           const mobile = window.matchMedia('(max-width: 640px)').matches;
-          track.style.setProperty('--duration', `${cycleWidth / (mobile ? 20 : 25)}s`);
+          track.style.setProperty('--duration', `${cycleWidth / (mobile ? 30 : 37.5)}s`);
         });
       };
       refreshRows();
