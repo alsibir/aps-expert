@@ -117,7 +117,13 @@ const rows = [
         panel.style.marginLeft = `${targetLeft - sectionRect.left}px`;
       };
       updatePanelGeometry();
-      window.addEventListener('resize', updatePanelGeometry, { passive: true });
+      const scheduleGeometry = () => requestAnimationFrame(updatePanelGeometry);
+      window.addEventListener('resize', scheduleGeometry, { passive: true });
+      new ResizeObserver(scheduleGeometry).observe(section);
+      new MutationObserver(scheduleGeometry).observe(document.documentElement, {
+        attributes: true, attributeFilter: ['data-theme', 'class', 'style'],
+      });
+      document.fonts.ready.then(scheduleGeometry);
       const refreshRows = () => {
         section.querySelectorAll<HTMLElement>('[data-partners-track]').forEach(track => {
           const original = track.querySelector<HTMLElement>('.aps-partners-group');
