@@ -32,8 +32,47 @@ draft: false
 
 Представленные на сайте материалы демонстрируют методы работы, качество аналитической проработки, системность технических решений и уровень подготовки документации. Демонстрационные образцы создаются независимо от материалов заказчиков, что позволяет оценивать профессиональные компетенции без раскрытия конфиденциальной информации.
 
-## Резюме и результаты
+## Запросить Резюме
 
-[Запросить резюме аналитика или технического писателя](/aps-expert/wiki/pages/resume/).
+<a class="aps-resume-request" href="/aps-expert/wiki/pages/resume/">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path><path d="M16 16h4m-2-2 2 2-2 2"></path></svg>
+  <span>Запросить резюме аналитика или технического писателя</span>
+</a>
 
-<div class="aps-results"><div><strong>87 %</strong><p>Приёмка с первого раза</p></div><div><strong>+26 %</strong><p>Охват функциональности сверх плана</p></div><div><strong>×1,7</strong><p>Ускорение выпуска документации</p></div></div>
+<style>
+  .aps-resume-request {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 1rem 1.25rem;
+    border: 2px solid #0759b5;
+    border-radius: 0.65rem;
+    background: #0759b5;
+    color: #fff !important;
+    font-weight: 700;
+    line-height: 1.45;
+    text-decoration: none !important;
+    overflow-wrap: anywhere;
+    transition: background-color 0.15s, border-color 0.15s;
+  }
+  .aps-resume-request svg { flex: 0 0 24px; }
+  .aps-resume-request:hover {
+    background: #06458d;
+    border-color: #06458d;
+  }
+  .aps-resume-request:focus-visible {
+    outline: 3px solid var(--sl-color-text-accent, #0759b5);
+    outline-offset: 4px;
+  }
+  :root[data-theme='dark'] .aps-resume-request {
+    background: #9ac7ff;
+    border-color: #9ac7ff;
+    color: #082747 !important;
+  }
+  :root[data-theme='dark'] .aps-resume-request:hover {
+    background: #bddbff;
+    border-color: #bddbff;
+  }
+</style>
