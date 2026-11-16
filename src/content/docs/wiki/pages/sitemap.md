@@ -28,7 +28,7 @@ draft: false
 - [Конфиденциальность и обработка данных](/aps-expert/wiki/pages/pp/)
 - [Проекты](/aps-expert/wiki/pages/projects/)
 - [Публикации](/aps-expert/wiki/pages/publication/)
-- [Запросить резюме аналитика или технического писателя](/aps-expert/wiki/pages/resume/)
+- [Скачать резюме аналитика или технического писателя](/aps-expert/wiki/pages/resume/)
 - [Поиск по сайту](/aps-expert/wiki/pages/search/)
 - [Услуги и компетенции](/aps-expert/wiki/pages/services/)
 - [Карта разделов](/aps-expert/wiki/pages/sitemap/)

@@ -36,7 +36,7 @@ draft: false
 
 <a class="aps-resume-request" href="/aps-expert/wiki/pages/resume/">
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path><path d="M16 16h4m-2-2 2 2-2 2"></path></svg>
-  <span>Запросить резюме аналитика или технического писателя</span>
+  <span>Скачать резюме аналитика или технического писателя</span>
 </a>
 
 <style>

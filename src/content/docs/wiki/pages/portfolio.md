@@ -7,7 +7,7 @@ draft: false
 
 <aside class="aps-crosslink"><p>Подходы к анализу систем, разработке документации и применению инструментов раскрыты в практических статьях.</p><p><a class="aps-button" href="/aps-expert/publications/">Открыть публикации: подходы и инструменты</a></p></aside>
 
-[Скачать все пять примеров ZIP](/aps-expert/examples/portfolio-samples.zip) · [Запросить резюме](/aps-expert/wiki/pages/resume/)
+[Скачать все пять примеров ZIP](/aps-expert/examples/portfolio-samples.zip) · [Скачать резюме](/aps-expert/wiki/pages/resume/)
 
 Полный документ открывается по ссылке «Открыть PDF» или при нажатии на его скриншот. Подтверждение требуется только для скачивания файлов.
 
