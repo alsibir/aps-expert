@@ -17,10 +17,10 @@ draft: false
 
 | Комплект | Просмотр и исходник | Что демонстрирует |
 | --- | --- | --- |
-| Досье программного продукта — семь образцов | [Открыть PDF](/aps-expert/dosies/mincifry_dossier.pdf) · [Скачать DOCX](/aps-expert/dosies/mincifry_dossier.docx) | Описание продукта, организация сведений и подтверждений, взаимная согласованность документов |
-| Досье промышленного изделия — семь образцов | [Открыть PDF](/aps-expert/dosies/minpromtorg_dossier.pdf) · [Скачать DOCX](/aps-expert/dosies/minpromtorg_dossier.docx) | Карточка изделия, вопросы к Разработчику, структура доказательств и матрица применимости |
+| Досье программного продукта — семь образцов | [Открыть PDF](/aps-expert/dosies/mincifry_dossier.pdf) · <a href="/aps-expert/dosies/mincifry_dossier.pdf" download="mincifry_dossier.pdf">Скачать PDF</a> · <a href="/aps-expert/dosies/mincifry_dossier.docx" download="mincifry_dossier.docx">Скачать DOCX</a> | Описание продукта, организация сведений и подтверждений, взаимная согласованность документов |
+| Досье промышленного изделия — семь образцов | [Открыть PDF](/aps-expert/dosies/minpromtorg_dossier.pdf) · <a href="/aps-expert/dosies/minpromtorg_dossier.pdf" download="minpromtorg_dossier.pdf">Скачать PDF</a> · <a href="/aps-expert/dosies/minpromtorg_dossier.docx" download="minpromtorg_dossier.docx">Скачать DOCX</a> | Карточка изделия, вопросы к Разработчику, структура доказательств и матрица применимости |
 
-Ссылка «Открыть PDF» предназначена для просмотра всего комплекта. DOCX позволяет изучить структуру и оформление документов; скачивание выполняется с подтверждением.
+Ссылки «Открыть PDF» предназначены для просмотра комплектов. По ссылкам «Скачать PDF» и «Скачать DOCX» соответствующий файл загружается только после подтверждения пользователем. Отмена подтверждения не инициирует скачивание.
 
 ## Как изучать материалы
 
