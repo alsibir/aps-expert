@@ -281,8 +281,10 @@ a:hover { text-decoration-thickness: 2px; }
 @media (min-width: 1101px) { .aps-menu:not([open]) > .aps-top-nav { display: flex; } }
 @media (max-width: 900px) {
   .aps-grid, .aps-home-projects { grid-template-columns: minmax(0, 1fr); }
-  .aps-home-project { display: grid; grid-template-columns: .85fr 1fr; }
-  .aps-home-project > a { align-self: start; }
+  /* Узкое окно ПК и телефон: изображение располагается НАД текстом, а не сбоку. */
+  .aps-home-project { display: flex; flex-direction: column; width: 100%; }
+  .aps-home-project > a { align-self: center; width: min(100%, 440px); max-width: 100%; }
+  .aps-home-project img { width: 100%; max-width: 100%; height: auto; }
   .aps-home-experience { grid-template-columns: 1fr; gap: 18px; }
   .aps-home-intro { font-size: 17px; }
   .aps-home-actions .aps-button { padding: 10px 14px; font-size: 14px; }
@@ -299,7 +301,6 @@ a:hover { text-decoration-thickness: 2px; }
   .aps-home-hero h1 { font-size: 40px; }
   .aps-home-proof { grid-template-columns: 1fr; gap: 16px; }
   .aps-home-proof > div { border-inline-start: 2px solid var(--aps-accent); padding-inline-start: 14px; }
-  .aps-home-project { display: flex; }
   .aps-home-services, .aps-home-library, .aps-home-cta { grid-template-columns: 1fr; }
   .aps-home-section-heading { align-items: start; flex-direction: column; gap: 0; }
   .aps-home-content > section { padding: 30px 0; }
