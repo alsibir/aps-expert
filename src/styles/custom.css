@@ -377,7 +377,7 @@ a:hover { text-decoration-thickness: 2px; }
   .aps-menu > summary { display: flex; align-items: center; justify-content: center; list-style: none; cursor: pointer; width: 68px; min-height: 44px; padding: 0 6px; font-size: 15px; }
   .aps-menu > summary::marker, .aps-menu > summary::-webkit-details-marker { display: none; }
   .aps-menu:not([open]) > .aps-top-nav { display: none; }
-  .aps-menu[open] > .aps-top-nav { display: flex; position: absolute; inset: 46px 0 auto auto; width: min(340px, calc(100vw - 32px)); box-sizing: border-box; flex-direction: column; align-items: stretch; gap: 0; background: var(--aps-surface); border: 1px solid var(--aps-line); border-radius: 8px; padding: 10px; max-height: calc(100dvh - 64px); overflow-y: auto; overscroll-behavior: contain; box-shadow: 0 12px 28px #0002; z-index: 50; }
+  .aps-menu[open] > .aps-top-nav { display: flex; position: fixed; top: calc(var(--sl-nav-height) + 4px); right: 16px; bottom: auto; left: auto; width: min(340px, calc(100vw - 32px)); max-width: calc(100vw - 32px); box-sizing: border-box; flex-direction: column; align-items: stretch; gap: 0; background: var(--aps-surface); border: 1px solid var(--aps-line); border-radius: 8px; padding: 10px; max-height: calc(100dvh - var(--sl-nav-height) - 16px); overflow-y: auto; overscroll-behavior: contain; box-shadow: 0 12px 28px #0002; z-index: 50; }
   .aps-menu .aps-top-nav a { font-size: 16px; padding: 10px 12px; min-height: 44px; box-sizing: border-box; }
   .aps-menu .aps-mobile-theme { display: block; margin: 0 12px 8px; padding-bottom: 12px; border-bottom: 1px solid var(--aps-line); min-width: 0; }
   .aps-mobile-theme starlight-theme-select, .aps-mobile-theme starlight-theme-select label { width: 100%; }
