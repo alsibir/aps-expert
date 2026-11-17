@@ -250,7 +250,7 @@ a:hover { text-decoration-thickness: 2px; }
 .aps-home-section-heading { display: flex; justify-content: space-between; align-items: end; gap: 20px; }
 .aps-home-section-heading > a { white-space: nowrap; font-size: 15px; margin-bottom: 18px; }
 .aps-home-section-lead { max-width: 70ch; color: var(--aps-muted); }
-.aps-home-projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); gap: 20px; margin-top: 26px; min-width: 0; }
+.aps-home-projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: 20px; margin-top: 26px; min-width: 0; }
 .aps-home-project { display: flex; flex-direction: column; min-width: 0; background: var(--aps-surface); border-radius: 8px; overflow: hidden; margin: 0 !important; border: 1px solid var(--aps-line); }
 .aps-home-project > a { display: block; background: var(--aps-surface); }
 .aps-home-project img { display: block; width: 100%; height: auto; aspect-ratio: 1600 / 1100; object-fit: contain; margin: 0 !important; border-radius: 0; }
