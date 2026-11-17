@@ -2,10 +2,46 @@
 import ClientsPartners from './ClientsPartners.astro';
 import ToolsTechnologies from './ToolsTechnologies.astro';
 const projects = [
-  { id: 'alpha', title: 'АС «АЛЬФА» — комплект документации', type: 'Авторский демонстрационный комплект · 16 PDF и TXT', task: 'Требования, архитектура, данные, API, руководства, испытания и эксплуатационные регламенты.', detail: 'Состав комплекта и навыки аналитика и технического писателя — в таблице на странице проекта. Архив ZIP: 5,24 МБ.', image: 'alpha-project-collage.webp', href: '/aps-expert/wiki/portfolio/documentation/alpha/' },
-  { id: 'assistant', title: 'Цифровой аватар «Жириновский»', type: 'Руководство оператора · 30 страниц', task: 'Установка, настройка и работа с цифровым аватаром.', detail: 'Пример описания эксплуатации системы и действий оператора.', image: 'assistant-project-card.png', pdf: 'assistant.pdf' },
-  { id: 'snezhinka', title: 'Снежинка', type: 'Техническое задание · 21 страница', task: 'Требования к виртуальному ассистенту мультимедийного стенда.', detail: 'Пример описания функциональности и взаимодействия с пользователем.', image: 'snezhinka-project-card.png', pdf: 'snezhinka.pdf' },
-  { id: 'api', title: 'OK Service API', type: 'Описание API · 30 страниц', task: 'Подключение и взаимодействие с программным интерфейсом.', detail: 'Пример документации для разработчиков и интеграторов.', image: 'api-project-card.png', pdf: 'api.pdf' },
+  {
+    id: 'alpha',
+    title: 'АС «АЛЬФА» — комплект документации',
+    description: 'Авторский демонстрационный комплект: 16 документов PDF и сопроводительный TXT. Требования, архитектура, данные, API, руководства, испытания и регламенты.',
+    detail: 'Таблица состава и навыков аналитика и технического писателя. Архив ZIP: 5,24 МБ.',
+    image: '/aps-expert/images/evidence/alpha-project-collage.webp',
+    imageAlt: 'АС «АЛЬФА»: буква альфа в окружении элементов разработки',
+    imageWidth: 1600,
+    imageHeight: 1100,
+    href: '/aps-expert/wiki/portfolio/documentation/alpha/',
+    action: 'Состав комплекта и навыки',
+    approach: 'от требований к испытаниям',
+    approachHref: '/aps-expert/blog/analytics/06_requirements_to_tests/',
+  },
+  {
+    id: 'alpha-graphics',
+    title: 'АС «АЛЬФА» — графические модели',
+    description: '15 иллюстраций: BPMN, UML, ER, прототипы интерфейса, трассировка требований и пример отчёта.',
+    detail: 'Подписи, пояснения, демонстрируемые навыки, альбом PDF и исходники PlantUML.',
+    image: '/aps-expert/images/graphdemo/02-system-context.svg',
+    imageAlt: 'АС «АЛЬФА»: контекстная схема системы и участников',
+    imageWidth: 1000,
+    imageHeight: 650,
+    href: '/aps-expert/wiki/portfolio/analytics/alpha-graphic-models/',
+    action: 'Открыть графический кейс',
+    approach: 'BPMN, UML и PlantUML',
+    approachHref: '/aps-expert/blog/modeling/08_bpmn_uml_plantuml/',
+  },
+  {
+    id: 'alpha-registration',
+    title: 'АС «АЛЬФА» — регистрационные досье для подачи в Минрадиопром и Минпромторг + ВНИИР',
+    description: 'Демонстрационные регистрационные досье: структура комплекта, описание продукта, исходные сведения, доказательные материалы и контроль их согласованности.',
+    detail: 'На странице кейса представлены досье программного продукта и промышленного изделия. Доступны просмотр PDF и скачивание PDF или DOCX с подтверждением.',
+    image: '/aps-expert/images/articles/wiki-portfolio-registration-software-registration.webp',
+    imageAlt: 'Регистрационные досье программного продукта и промышленного изделия',
+    imageWidth: 1279,
+    imageHeight: 720,
+    href: '/aps-expert/wiki/portfolio/registration/software-registration/',
+    action: 'Открыть регистрационный кейс',
+  },
 ];
 ---
 <div class="aps-home-content">
@@ -34,21 +70,22 @@ const projects = [
   </section>
 
   <section id="real-work" aria-labelledby="real-work-title">
-    <div class="aps-home-section-heading"><div><p class="aps-home-eyebrow">Профессиональное портфолио</p><h2 id="real-work-title">Реальные работы</h2></div><a href="/aps-expert/wiki/pages/portfolio/">Все примеры →</a></div>
-    <p class="aps-home-section-lead">Примеры документации и авторский демонстрационный комплект АС «АЛЬФА». Документы открываются в PDF, комплект — на отдельной странице с составом и описанием навыков.</p>
+    <div class="aps-home-section-heading"><div><p class="aps-home-eyebrow">Профессиональное портфолио</p><h2 id="real-work-title">Выполненные работы</h2></div><a href="/aps-expert/wiki/pages/portfolio/">Полное портфолио →</a></div>
+    <p class="aps-home-section-lead">Три демонстрационных кейса АС «АЛЬФА»: комплект технической документации, графические модели и регистрационные досье. Каждый кейс открывается на отдельной странице с пояснениями и материалами для просмотра.</p>
     <div class="aps-home-projects">
       {projects.map(project => (
-        <article class="aps-home-project">
-          <a href={project.href ?? `/aps-expert/examples/${project.pdf}`} aria-label={`${project.title} — ${project.href ? 'открыть состав комплекта' : 'открыть документ PDF'}`}><img src={`/aps-expert/images/evidence/${project.image}`} alt={project.id === 'alpha' ? 'АС «АЛЬФА»: буква альфа в окружении ярких элементов разработки' : `${project.title}: титульный лист и фрагмент документа`} width="1600" height="1100" loading="lazy" decoding="async"/></a>
-          <div class="aps-home-project-body"><p class="aps-home-document-type">{project.type}</p><h3>{project.title}</h3><p>{project.task}</p><p class="aps-home-project-detail">{project.detail}</p>
-            <div class="aps-home-project-links"><a href={project.href ?? `/aps-expert/examples/${project.pdf}`}>{project.href ? 'Состав и навыки →' : 'Открыть PDF →'}</a>{!project.href && <a href={`/aps-expert/wiki/pages/portfolio/#${project.id}`}>Подробнее</a>}</div>
-            {project.id === 'assistant' && <p class="aps-home-source">О проекте: <a href="/aps-expert/wiki/projects/zhirinovsky/">Описание на сайте АПС</a></p>}
-            {project.id === 'snezhinka' && <p class="aps-home-source">О проекте: <a href="/aps-expert/wiki/projects/snezhinka/">Описание на сайте АПС</a></p>}
+        <article class="aps-home-project" id={project.id}>
+          <a href={project.href} aria-label={`Открыть кейс: ${project.title}`}><img src={project.image} alt={project.imageAlt} width={project.imageWidth} height={project.imageHeight} loading="lazy" decoding="async"/></a>
+          <div class="aps-home-project-body">
+            <h3>{project.title}</h3>
+            <p>{project.description}</p>
+            <p class="aps-home-project-detail">{project.detail}</p>
+            <div class="aps-home-project-links"><a href={project.href}>{project.action} →</a></div>
+            {project.approachHref && <p class="aps-home-source">Подход: <a href={project.approachHref}>{project.approach}</a>.</p>}
           </div>
         </article>
       ))}
     </div>
-    <div class="aps-home-more-work"><p>Другие документы: <a href="/aps-expert/examples/orfo.pdf">Техническое задание ОРФО AI</a> · <a href="/aps-expert/examples/puzzlelib.pdf">Техническое задание PuzzleLib</a></p><a href="/aps-expert/examples/portfolio-samples.zip">Скачать все пять примеров ZIP</a></div>
   </section>
 
   <ToolsTechnologies />
