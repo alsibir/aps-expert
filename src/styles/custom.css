@@ -425,3 +425,6 @@ a:hover { text-decoration-thickness: 2px; }
 .aps-related-grid .aps-card h3 { margin-top: 0; }
 .aps-related-grid .aps-card img { aspect-ratio: 16 / 11; object-fit: contain; }
 @media (max-width: 800px) { .aps-related-grid { grid-template-columns: 1fr; } }
+
+/* Keep the professional role within the single semantic heading. */
+.aps-home-hero h1 .aps-hero-role {font-size:clamp(1.25rem,2.4vw,1.95rem);line-height:1.3;letter-spacing:0;margin-top:.65rem;font-weight:600;overflow-wrap:anywhere;}

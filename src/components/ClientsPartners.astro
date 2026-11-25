@@ -29,6 +29,7 @@ const rows = [
     <h2 id="clients-partners-title">Клиенты и партнеры</h2>
     <button class="aps-partners-pause" type="button" aria-pressed="false" aria-controls="clients-partners-rows" hidden>Приостановить движение</button>
   </div>
+  <p>Организации, с проектами которых связан профессиональный опыт автора. Представление логотипов не означает наличия прямых договорных отношений или официального одобрения сайта.</p>
   <div class="aps-partners-panel" id="clients-partners-rows">
     {rows.map(row => (
       <div class:list={['aps-partners-row', `aps-partners-row-${row.direction}`]}>
@@ -37,7 +38,7 @@ const rows = [
             <ul class="aps-partners-group" aria-label={duplicate ? undefined : row.label} aria-hidden={duplicate ? 'true' : undefined} role="list">
               {row.logos.map(([file, name]) => (
                 <li class="aps-partners-cell">
-                  <img src={`${base}/images/partners/${file}.${['MSU_logo', 'Gazprom_neft_logo'].includes(file) ? 'svg' : 'png'}`} alt={duplicate ? '' : name} width="640" height="240" loading="eager" decoding="async" />
+                  <img src={`${base}/images/partners/${file}.${['MSU_logo', 'Gazprom_neft_logo'].includes(file) ? 'svg' : 'png'}`} alt={duplicate ? '' : name} width="640" height="240" loading="lazy" decoding="async" />
                 </li>
               ))}
             </ul>
@@ -64,7 +65,7 @@ const rows = [
   .aps-partners-panel .aps-partners-cell { display: flex; flex: 0 0 var(--partner-pitch); align-items: center; justify-content: center; width: var(--partner-pitch); height: 96px; padding: 0; margin: 0; }
   .aps-partners-panel img { display: block; width: 220px; max-width: 100%; height: 76px; object-fit: contain; border: 0; border-radius: 0; margin: 0; filter: none; mix-blend-mode: normal; }
   .aps-partners-panel:hover .aps-partners-track,
-  .aps-partners[data-paused] .aps-partners-track { animation-play-state: paused; }
+  .aps-partners[data-offscreen] .aps-partners-track, .aps-partners[data-paused] .aps-partners-track { animation-play-state: paused; }
   @keyframes aps-partners-scroll { from { transform: translateX(0); } to { transform: translateX(calc(-1 * var(--cycle-width, 50%))); } }
   @media (max-width: 640px) {
     .aps-partners { --partner-pitch: 196px; }
@@ -148,6 +149,7 @@ const rows = [
       refreshRows();
       const observer = new ResizeObserver(refreshRows);
       observer.observe(section.querySelector('.aps-partners-panel') ?? section);
+      if ('IntersectionObserver' in window) { new IntersectionObserver(([entry]) => section.toggleAttribute('data-offscreen', !entry.isIntersecting)).observe(section); }
       button.hidden = false;
       button.addEventListener('click', () => {
         const paused = section.toggleAttribute('data-paused');

@@ -7,7 +7,7 @@ const rows = [{"direction": "left", "label": "Документация, анал
     <h2 id="clients-tools-title">Инструменты и технологии</h2>
     <button class="aps-tools-pause" type="button" aria-pressed="false" aria-controls="clients-tools-rows" hidden>Приостановить движение</button>
   </div>
-  <p>Средства подготовки документации, анализа систем, моделирования и управления требованиями.</p>
+  <p>Инструменты анализа систем, моделирования, управления требованиями и подготовки документации.</p>
   <div class="aps-tools-panel" id="clients-tools-rows">
     {rows.map(row => (
       <div class:list={['aps-tools-row', `aps-tools-row-${row.direction}`]} tabindex="0" role="region" aria-label={row.label}>
@@ -16,7 +16,7 @@ const rows = [{"direction": "left", "label": "Документация, анал
             <ul class="aps-tools-group" aria-label={duplicate ? undefined : row.label} aria-hidden={duplicate ? 'true' : undefined} role="list">
               {row.logos.map(([file, name]) => (
                 <li class="aps-tools-cell">
-                  <img src={`${base}/images/tools/${file}.svg`} alt="" width="64" height="64" loading="eager" decoding="async" />
+                  <img src={`${base}/images/tools/${file}.svg`} alt="" width="64" height="64" loading="lazy" decoding="async" />
                 <span>{name}</span>
                 </li>
               ))}
@@ -48,7 +48,7 @@ const rows = [{"direction": "left", "label": "Документация, анал
   .aps-tools-panel img { display: block; width: 64px; max-width: 100%; height: 64px; padding: 8px; box-sizing: border-box; background: #fff; object-fit: contain; border: 0; border-radius: 10px; margin: 0; filter: none; mix-blend-mode: normal; }
   .aps-tools-panel:hover .aps-tools-track,
   .aps-tools-panel:focus-within .aps-tools-track,
-  .aps-tools[data-paused] .aps-tools-track { animation-play-state: paused; }
+  .aps-tools[data-offscreen] .aps-tools-track, .aps-tools[data-paused] .aps-tools-track { animation-play-state: paused; }
   @keyframes aps-tools-scroll { from { transform: translateX(0); } to { transform: translateX(calc(-1 * var(--cycle-width, 50%))); } }
   @media (max-width: 640px) {
     .aps-tools { --partner-pitch: 144px; }
@@ -124,6 +124,7 @@ const rows = [{"direction": "left", "label": "Документация, анал
       refreshRows();
       const observer = new ResizeObserver(refreshRows);
       observer.observe(section.querySelector('.aps-tools-panel') ?? section);
+      if ('IntersectionObserver' in window) { new IntersectionObserver(([entry]) => section.toggleAttribute('data-offscreen', !entry.isIntersecting)).observe(section); }
       button.hidden = false;
       button.addEventListener('click', () => {
         const paused = section.toggleAttribute('data-paused');

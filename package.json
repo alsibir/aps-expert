@@ -11,7 +11,8 @@
     "serve:static": "python3 scripts/preview-static.py",
     "diagrams:render": "node scripts/render-diagrams.mjs",
     "graphdemo:render": "node scripts/render-graphdemo.mjs",
-    "test:pdf": "node --test scripts/test-pdf-links.mjs && python3 scripts/audit-pdf-viewer.py"
+    "test:pdf": "node --test scripts/test-pdf-links.mjs && python3 scripts/audit-pdf-viewer.py",
+    "audit:all": "npm run build && python3 scripts/audit.py && python3 scripts/audit-anchors.py && npm run test:pdf && python3 scripts/audit-seo.py"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.42.6",

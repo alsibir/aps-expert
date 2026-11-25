@@ -1,35 +1,56 @@
 ---
-// Keep one authoritative set of sharing metadata on every Starlight route.
-const description = 'Техническая документация, системный анализ, ГОСТ 19/34/21, портфолио и практические материалы';
-const siteName = 'А.Сибиряков — Аналитик и технический писатель';
-const managedProperties = new Set(['og:title', 'og:description', 'og:site_name', 'og:image', 'og:image:width', 'og:image:height', 'og:image:alt', 'og:image:type']);
-const managedNames = new Set(['twitter:card', 'twitter:title', 'twitter:description', 'twitter:image', 'twitter:image:alt']);
-const head = Astro.locals.starlightRoute.head.filter(({ attrs }) =>
-  !managedProperties.has(String(attrs?.property ?? '')) &&
-  !managedNames.has(String(attrs?.name ?? ''))
-);
-const title=Astro.locals.starlightRoute.entry.data.title;
-const image='https://alsibir.github.io/aps-expert/images/og-site.png?v=20261103';
+const route = Astro.locals.starlightRoute;
+const entry = route.entry;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const home = new URL(base, Astro.site ?? Astro.url);
+const page = new URL(Astro.url.pathname, home);
+const relative = page.pathname.slice(base.length).replace(/\/$/, '');
+const isHome = !relative;
+const isProfile = isHome || relative === 'wiki/pages/about';
+const isArticle = relative.startsWith('blog/') && !relative.includes('/tags/') && relative !== 'blog';
+const isWork = relative.startsWith('wiki/portfolio/');
+const title = entry.data.title;
+const fallback = 'Системный анализ, техническая документация по ГОСТ 19/34/21, портфолио и практические материалы';
+const description = entry.data.description || route.head.find(({attrs}) => attrs?.name === 'description')?.attrs?.content || fallback;
+const siteName = 'АПС — системный аналитик и технический писатель';
+const body = typeof entry.body === 'string' ? entry.body : '';
+const collage = body.match(/<img\b[^>]*class=["'][^"']*aps-article-collage[^"']*["'][^>]*src=["']([^"']+)["']/i)?.[1];
+const image = new URL(collage || base + 'images/og-site.png?v=20261103', home).href;
+const imageAlt = collage ? 'Иллюстрация к материалу: ' + title : 'Александр Сибиряков — системный аналитик и технический писатель';
+const managedProperties = new Set(['og:title','og:description','og:site_name','og:image','og:image:width','og:image:height','og:image:alt','og:image:type','og:url','og:type','og:locale']);
+const managedNames = new Set(['description','twitter:card','twitter:title','twitter:description','twitter:image','twitter:image:alt']);
+const head = route.head.filter(({attrs}) => !managedProperties.has(String(attrs?.property ?? '')) && !managedNames.has(String(attrs?.name ?? '')));
+const canonical = head.find(({attrs}) => attrs?.rel === 'canonical')?.attrs?.href;
+const personId = new URL('#person', home).href;
+const websiteId = new URL('#website', home).href;
+const person = {'@type':'Person','@id':personId,name:'Александр Сибиряков',jobTitle:'Системный аналитик и технический писатель',url:home.href,knowsAbout:['Системный анализ','Управление требованиями','ГОСТ 19','ГОСТ 34','ГОСТ 21','ЕСКД','UML','BPMN','PlantUML','Mermaid','OpenAPI','Функциональное тестирование','Автоматизация документации'],sameAs:['https://github.com/alsibir']};
+const type = isProfile ? 'ProfilePage' : isArticle ? 'TechArticle' : isWork ? 'CreativeWork' : relative === 'wiki/pages/contact' ? 'ContactPage' : ['publications','wiki/pages/portfolio'].includes(relative) ? 'CollectionPage' : 'WebPage';
+const graph = [
+  person,
+  {'@type':'WebSite','@id':websiteId,url:home.href,name:siteName,inLanguage:'ru',publisher:{'@id':personId}},
+  {'@type':type,'@id':page.href+'#page',url:page.href,name:title,description:String(description),inLanguage:'ru',isPartOf:{'@id':websiteId},...(isProfile?{mainEntity:{'@id':personId}}:isArticle||isWork?{author:{'@id':personId},image}: {})},
+];
+const jsonLd = JSON.stringify({'@context':'https://schema.org','@graph':graph}).replace(/</g,'\\u003c');
 ---
-{head.map(({ tag: Tag, attrs, content }) => <Tag {...attrs} set:html={content} />)}
+{head.map(({tag: Tag,attrs,content}) => <Tag {...attrs} set:html={content}/>)}
+{!canonical && <link rel="canonical" href={page.href}/>}
+<meta name="description" content={String(description)}/>
 <meta property="og:title" content={title}/>
-<meta property="og:description" content={description}/>
+<meta property="og:description" content={String(description)}/>
 <meta property="og:site_name" content={siteName}/>
-<meta property="og:image:type" content="image/png"/>
+<meta property="og:type" content={isArticle ? 'article' : 'website'}/>
+<meta property="og:url" content={page.href}/>
+<meta property="og:locale" content="ru_RU"/>
+<meta property="og:image" content={image}/>
+<meta property="og:image:alt" content={imageAlt}/>
+{!collage && <><meta property="og:image:type" content="image/png"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/></>}
+<meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content={title}/>
-<meta name="twitter:description" content={description}/>
-<meta name="twitter:image:alt" content="Александр Сибиряков — аналитик и технический писатель"/>
-<link rel="apple-touch-icon" href="/aps-expert/img/icon-180.png"/><link rel="manifest" href="/aps-expert/img/site.webmanifest"/><meta property="og:image" content={image}/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="Александр Сибиряков — аналитик и технический писатель"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:image" content={image}/><meta name="theme-color" content="#f5f7fa" media="(prefers-color-scheme: light)"/><meta name="theme-color" content="#111923" media="(prefers-color-scheme: dark)"/>
-<!-- Yandex.Metrika counter -->
-    <script is:inline type="text/javascript">
-        (function(m,e,t,r,i,k,a){
-            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();
-            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=113951982', 'ym');
-
-        ym(113951982, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
-    </script>
-    <!-- /Yandex.Metrika counter -->
-
+<meta name="twitter:description" content={String(description)}/>
+<meta name="twitter:image" content={image}/>
+<meta name="twitter:image:alt" content={imageAlt}/>
+<link rel="apple-touch-icon" href={base+'img/icon-180.png'}/>
+<link rel="manifest" href={base+'img/site.webmanifest'}/>
+<meta name="theme-color" content="#f5f7fa" media="(prefers-color-scheme: light)"/>
+<meta name="theme-color" content="#111923" media="(prefers-color-scheme: dark)"/>
+<script type="application/ld+json" set:html={jsonLd} is:inline />

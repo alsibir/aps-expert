@@ -44,6 +44,7 @@ export default defineConfig({
         { label: 'Справка и навигация', collapsed: true, items: [
           { label: 'Вопросы и ответы', slug: 'wiki/pages/faq' },
           { label: 'Карта сайта', slug: 'wiki/pages/sitemap' },
+          { label: 'Архитектура и контроль качества', slug: 'wiki/pages/site-quality' },
           { label: 'О разделе публикаций', slug: 'blog/welcome' },
         ] },
       ],
